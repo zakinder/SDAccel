@@ -10,9 +10,11 @@ while maintaining and reusing their OpenCL, C, and C++ code in a familiar workfl
 * UG1023: SDACCEL DEVELOPMENT ENVIRONMENT USER GUIDE
 * UG1238: SDX ENVIRONMENTS RELEASE NOTES, INSTALLATION, AND LICENSING GUIDE
 * UG1234: SDACCEL PLATFORM REFERENCE DESIGN USER GUIDE DEVELOPER BOARD FOR ACCELERATION WITH KU115
+* UG902 : VIVADO DESIGN SUITE USER GUIDE: HIGH-LEVEL SYNTHESIS
 * UG909 : VIVADO DESIGN SUITE USER GUIDE: PARTIAL RECONFIGURATION
 * UG899 : VIVADO DESIGN SUITE USER GUIDE: I/O AND CLOCK PLANNING
 * UG906 : VIVADO DESIGN SUITE USER GUIDE: DESIGN ANALYSIS AND CLOSURE TECHNIQUES
+
 
 ## Nimbix HPC Cloud-based SDAccel Environment:
 * https://www.nimbix.net/xilinx/
@@ -166,10 +168,20 @@ configure the static and programmable regions, configure the device interfaces, 
 constraints to implement and validate the hardware platform, and test it with a sample kernel.
 
 
-## HAL DRIVER API
+## OPENCL HARDWARE ABSTRACTION LAYER XCL HAL DRIVER API
+Xilinx OpenCL Hardware Abstraction Layer or XCL HAL Driver API is required by the OpenCL runtime to
+communicate with the hardware platform. It is used for downloading Xilinx FPGA bitstreams,
+allocating/de-allocating OpenCL buffers, migrating OpenCL buffers between host memory and
+hardware platform memory, and communicating with the OpenCL kernel on its control port.
+The API supports address spaces which may be used for accessing device peripherals with their own
+specific memory mapped ranges. A hardware platform may optionally have a flat memory space which
+can be used to address all peripherals on the card.
+
+### SOURCE FILES
 The HAL Driver API is comprised of C-header and source files which are delivered with the SDx
 installation. The files are located in <install>/ SDx/2016.3/data/sdaccel/pcie/src/ in the xclhal.zip
-file
+file.
+
 ### Device Access Operations
 * unsigned xclProbe()
 xclProbe should return a count of physical devices present in system that are supported by the HAL
@@ -207,3 +219,35 @@ by another user xclLockDevice will return non-zero status.
 *targetFreqMHz);
 xclReClock2 is used to change the frequency of the clocks driving the OCL region (up to two clocks
 is supported)
+
+## OPENCL KERNEL EXECUTION STEPS
+1. Initialize runtime.
+2. OpenCL application downloads bitstream to the device.
+3. OpenCL application allocates OpenCL buffers in host memory.
+4. Runtime effects PCIe DMA transfer to send the buffer from host memory to device memory.
+5. Runtime signals the kernel to start via the AXI Slave port.
+6. Runtime starts polling the device to monitor for done signal.
+7. Kernel executes and loads/stores data from device memory.
+8. When kernel is finished running, it changes the status to done.
+9. Runtime effects PCIe DMA transfer to read updated buffers from device memory to host memory.
+10. OpenCL application reads the buffer received from memory.
+
+
+## XILINX DELIVERED DEBUG TOOLS
+* Xilinx Board Swiss Army Knife (xbsak)
+* The SDx system check utility (sdxsyschk)
+
+
+## XILINX BOARD SWISS ARMY KNIFE (XBSAK)
+Xilinx Board Swiss Army Knife (xbsak) utility is a standalone command line tool that can perform the
+following board administration and debug tasks independent of SDx runtime library:
+* Board administration tasks
+o Flash PROM
+o Reboot boards without rebooting the host
+o Reset hung boards
+o Query board status, sensors and PCIe AER registers
+o Setting clock frequency feature for kernel
+* Debug operations
+o Download SDAccel binary (.xclbin) to FPGA
+o DMA test for PCIe bandwidth
+o Show status of compute units
