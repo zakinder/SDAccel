@@ -4,16 +4,16 @@
 Architecture to enable CPU/GPU developers to easily migrate their applications to FPGAs 
 while maintaining and reusing their OpenCL, C, and C++ code in a familiar workflow. 
 ```
-## XILINX SDAccel Related Recources
+## XILINX SDAccel RELATED RECOURCES
 * UG1164: SDACCEL-PLATFORM-DEVELOPMENT
 * UG1023: SDACCEL DEVELOPMENT ENVIRONMENT USER GUIDE
 * UG1238: SDX ENVIRONMENTS RELEASE NOTES, INSTALLATION, AND LICENSING GUIDE
 * UG1234: SDACCEL PLATFORM REFERENCE DESIGN USER GUIDE DEVELOPER BOARD FOR ACCELERATION WITH KU115
-* UG909 : Vivado Design Suite User Guide: Partial Reconfiguration
+* UG909 : VIVADO DESIGN SUITE USER GUIDE: PARTIAL RECONFIGURATION
 ## Nimbix HPC Cloud-based SDAccel Environment:
 * https://www.nimbix.net/xilinx/
 
-KEY ABBREVIATIONS
+KEY ABBREVIATIONS RELATED TO SDAccel DEVICE
 * PL  : Programmable Logic
 * PS  : Processing System
 * PR  : Partial Reconfiguration
@@ -21,9 +21,9 @@ KEY ABBREVIATIONS
 * ICAP: Internal Configuration Access Port
 * MCAP: Media Configuration Access Port
 
-
-
-
+NOTE:Difference between XPR and PR 
+* PR IMPLEMENT KERNEL(PACKEGED RTL IP) LOGIC ONLY IN PARTIAL BIT
+* XPR IMPLEMENT KERNEL(PACKEGED RTL IP),DDR,INTERNAL INTERFACE ALL TOGETHER IN PARTIAL BIT
 
 ## SYSTEM REQUIREMENTS
 Board | Device Name | Software Version
