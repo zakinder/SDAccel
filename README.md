@@ -9,9 +9,21 @@ while maintaining and reusing their OpenCL, C, and C++ code in a familiar workfl
 * UG1023: SDACCEL DEVELOPMENT ENVIRONMENT USER GUIDE
 * UG1238: SDX ENVIRONMENTS RELEASE NOTES, INSTALLATION, AND LICENSING GUIDE
 * UG1234: SDACCEL PLATFORM REFERENCE DESIGN USER GUIDE DEVELOPER BOARD FOR ACCELERATION WITH KU115
-
+* UG909 : Vivado Design Suite User Guide: Partial Reconfiguration
 ## Nimbix HPC Cloud-based SDAccel Environment:
 * https://www.nimbix.net/xilinx/
+
+KEY ABBREVIATIONS
+* PL  : Programmable Logic
+* PS  : Processing System
+* PR  : Partial Reconfiguration
+* XPR : Expanded Partial Reconfiguration
+* ICAP: Internal Configuration Access Port
+* MCAP: Media Configuration Access Port
+
+
+
+
 
 ## SYSTEM REQUIREMENTS
 Board | Device Name | Software Version
@@ -24,7 +36,18 @@ Board | Device Name | Software Version
 PCIE-7V3 | Product Description
 ----------------|---------------------
 Application |Data Center,Network Accelerator,High Performance Computing (HPC),Data Processing,System Modelling ,Market Analysis
-Features | Board Format : Half-Length, low profile x8 PCIe form factor,Host I/F-PCI Express® Gen3 x8,Target Device-Xilinx® Virtex® 7 : XC7VX690T-2 - FFG1157C,ECC-SODIMM : Two 8GB ECC-SODIMM for memory speeds up to 1333MT/s,FLASH-1GBit of BPI x 16 configuration flash,Front IO-Dual SFP+ cages for high speed optical communication including 10Gigabit Ethernet.,Other IO-Dual SATA Interfaces
+Features | Board Format : Half-Length,low profile x8 PCIe form factor,Host I/F-PCI Express® Gen3 x8,Target Device-Xilinx® Virtex® 7 : XC7VX690T-2 - FFG1157C,ECC-SODIMM : Two 8GB ECC-SODIMM for memory speeds up to 1333MT/s,FLASH-1GBit of BPI x 16 configuration flash,Front IO-Dual SFP+ cages for high speed optical communication including 10Gigabit Ethernet.,Other IO-Dual SATA Interfaces
+
+KU115 | Product Description
+----------------|---------------------
+Application | Intensive applications,specifically targeting the fast-growing markets for live video transcoding,data analytics,and artificial intelligence (AI) applications using machine learning
+Features | Delivers 10-30x performance acceleration over traditional CPUs with a card designed to support 75W
+
+
+PCIE-KU3 | Product Description
+----------------|---------------------
+Application |Data Center,Network Accelerator,High Performance Computing (HPC),Data Processing,System Modelling ,Market Analysis
+Features | Board Format : Half-Length,low profile x8 PCIe form factor,Host I/F-PCI Express® Gen3 x8,Target Device-Xilinx® Virtex® 7 : XC7VX690T-2 - FFG1157C,ECC-SODIMM : Two 8GB ECC-SODIMM for memory speeds up to 1333MT/s,FLASH-1GBit of BPI x 16 configuration flash,Front IO-Dual SFP+ cages for high speed optical communication including 10Gigabit Ethernet.,Other IO-Dual SATA Interfaces
 
 ## HARDWARE PLATFORM
 * SDACCEL XILINX
@@ -103,3 +126,23 @@ Contains all of the design and metadata needed for an SDAccel
 hardware function to interact with the physical design. It is the output product of the hardware
 platform design process described in this guide.
 ```
+
+## PARTIAL RECONFIGURATION
+The partial reconfiguration flow requires the use of a decoupler IP core to hold the design in a safe state
+while the device is partially reconfigured with the hardware function.
+The partial reconfiguration flow also requires several modifications to the design including
+floorplanning and partition pin placement constraints to lock down the interconnect route points of the
+interface signals
+
+
+
+
+
+
+
+
+
+
+
+
+
