@@ -164,3 +164,46 @@ this document.
 Using the Vivado IP Integrator environment, you can model the hardware platform, define and
 configure the static and programmable regions, configure the device interfaces, define physical
 constraints to implement and validate the hardware platform, and test it with a sample kernel.
+
+
+## HAL DRIVER API
+The HAL Driver API is comprised of C-header and source files which are delivered with the SDx
+installation. The files are located in <install>/ SDx/2016.3/data/sdaccel/pcie/src/ in the xclhal.zip
+file
+### Device Access Operations
+* unsigned xclProbe()
+xclProbe should return a count of physical devices present in system that are supported by the HAL
+driver. The same driver may optionally support devices of different kinds.
+* xclDeviceHandle xclOpen(unsigned deviceIndex, const char *logFileName,
+xclVerbosityLevel level)
+xclOpen opens the device specified by deviceIndex. If logFileName is not NULL then HAL driver is
+supposed to log messages into the log file. The verbosity of messages is specified by level. The API
+returns a device handle that should be used for all other API operations. If the open fails, the driver
+should return nullptr. Note that once a device is opened the driver should lock the device so that
+if another process tries to open the same device it should get a nullptr back. xclVerbosityLevel
+can have the following values:
+* **XCL_QUIET** - Do not log any messages
+* **XCL_INFO** - Log all info, warning and error messages
+* **XCL_WARN** - Only Log warning and error messages
+* **XCL_ERROR** - Only log error messages
+* void xclClose(xclDeviceHandle handle)
+xclClose is used to close the device which was previously opened. The driver should ensure that if
+any OpenCL Compute Units are still running when the device is closed, then OCL Region is reset.
+* int xclResetDevice(xclDeviceHandle handle, xclResetKind kind)
+xclResetDevice is used to reset the device. Possible kinds of reset are:
+XCL_RESET_KERNEL: Performs a soft reset which resets the OCL Region. This stops any running
+kernels. Buffers allocated on the device are released.
+XCL_RESET_FULL: Resets the full device including the Memory Controller and the DMA controller.
+This is typically done via PCIe hot reset, and may be useful if the device seems hung.
+int xclGetDeviceInfo2(xclDeviceHandle handle, xclDeviceInfo2 *info)
+xclGetDeviceInfo2 is used to get information about the device. Caller provides a struct which is
+populated by the API. For details of the struct see the xclhal.h in the xclhal.zip. This supersedes
+the xclGetDeviceInfo, which will be deprecated in a future release.
+* int xclLockDevice(xclDeviceHandle handle)
+xclLockDevice is used to get exclusive ownership of the device. The lock is necessary before
+performing buffer migration, register access or bitstream downloads. If the device is already locked
+by another user xclLockDevice will return non-zero status.
+* int xclReClock2(xclDeviceHandle handle, unsigned short region, const unsigned short
+*targetFreqMHz);
+xclReClock2 is used to change the frequency of the clocks driving the OCL region (up to two clocks
+is supported)
