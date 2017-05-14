@@ -1,5 +1,6 @@
 # Xilinx SDAccel Development Environment
 [NOTES FROM UG1164](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2016_3/ug1164-sdaccel-platform-development.pdf)
+![SDAccel](https://github.com/sakinder/SDAccel/blob/master/SDAccelBD_INTERNAL_BLOCKS_001.png "SDAccel")
 ```
 Architecture to enable CPU/GPU developers to easily migrate their applications to FPGAs 
 while maintaining and reusing their OpenCL, C, and C++ code in a familiar workflow. 
@@ -155,10 +156,3 @@ this document.
 Using the Vivado IP Integrator environment, you can model the hardware platform, define and
 configure the static and programmable regions, configure the device interfaces, define physical
 constraints to implement and validate the hardware platform, and test it with a sample kernel.
-
-
-
-
-
-
-
