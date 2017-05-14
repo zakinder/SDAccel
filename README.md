@@ -16,9 +16,15 @@ while maintaining and reusing their OpenCL, C, and C++ code in a familiar workfl
 ## SYSTEM REQUIREMENTS
 Board | Device Name | Software Version
 ------|-------------|-----------------
-Alpha Data ADM-PCIE-7V3|xilinx:adm-pcie-7v3:1ddr|SDAccel 2016.4
-Xilinx KU115|xilinx:xil-accel-rd-ku115:4ddr-xpr|SDAccel 2016.4
-Alpha Data ADM-PCIE-KU3|xilinx:adm-pcie-ku3:2ddr-xpr|SDAccel 2016.4
+[Alpha Data ADM-PCIE-7V3](http://www.alpha-data.com/dcp/products.php?product=adm-pcie-7v3)|xilinx:adm-pcie-7v3:1ddr|[SDAccel 2016.4](https://www.xilinx.com/products/design-tools/software-zone/sdaccel.html)
+[Xilinx KU115](https://www.xilinx.com/products/boards-and-kits/xcku115-2flvb2104e.html)|xilinx:xil-accel-rd-ku115:4ddr-xpr|[SDAccel 2016.4](https://www.xilinx.com/products/design-tools/software-zone/sdaccel.html)
+[Alpha Data ADM-PCIE-KU3](http://www.alpha-data.com/dcp/products.php?product=adm-pcie-ku3)|xilinx:adm-pcie-ku3:2ddr-xpr|[SDAccel 2016.4](https://www.xilinx.com/products/design-tools/software-zone/sdaccel.html)
+
+## Boards
+PCIE-7V3 | Product Description
+----------------|---------------------
+Application |Data Center,Network Accelerator,High Performance Computing (HPC),Data Processing,System Modelling ,Market Analysis
+Features | Board Format : Half-Length, low profile x8 PCIe form factor,Host I/F-PCI Express® Gen3 x8,Target Device-Xilinx® Virtex® 7 : XC7VX690T-2 - FFG1157C,ECC-SODIMM : Two 8GB ECC-SODIMM for memory speeds up to 1333MT/s,FLASH-1GBit of BPI x 16 configuration flash,Front IO-Dual SFP+ cages for high speed optical communication including 10Gigabit Ethernet.,Other IO-Dual SATA Interfaces
 
 ## HARDWARE PLATFORM
 * SDACCEL XILINX
