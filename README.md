@@ -21,9 +21,9 @@ KEY ABBREVIATIONS RELATED TO SDAccel DEVICE
 * ICAP: Internal Configuration Access Port
 * MCAP: Media Configuration Access Port
 
-NOTE:Difference between XPR and PR 
-* PR IMPLEMENT KERNEL(PACKEGED RTL IP) LOGIC ONLY IN PARTIAL BIT
-* XPR IMPLEMENT KERNEL(PACKEGED RTL IP),DDR,INTERNAL INTERFACE ALL TOGETHER IN PARTIAL BIT
+NOTE : Difference between XPR and PR 
+* PR IMPLEMENT KERNEL (PACKEGED RTL IP) LOGIC ONLY IN PARTIAL BIT FROM THE SDACCEL DEVELOPMENT ENVIRONMENT
+* XPR IMPLEMENT KERNEL (PACKEGED RTL IP),DDR,INTERNAL INTERFACE ALL TOGETHER IN PARTIAL BIT FROM THE SDACCEL DEVELOPMENT ENVIRONMENT
 
 ## SYSTEM REQUIREMENTS
 Board | Device Name | Software Version
@@ -66,11 +66,10 @@ SUPPORTS KERNELS EXPRESSED IN
 * RTL (SYSTEMVERILOG, VERILOG OR VHDL)
 
 ## PROGRAMMABLE DEVICE LOGIC PARTITION
-ACCEPTS THE SOFTWARE KERNEL FROM THE SDACCEL DEVELOPMENT ENVIRONMENT.
+* ACCEPTS THE SOFTWARE KERNEL FROM THE SDACCEL DEVELOPMENT ENVIRONMENT.
 
 ## SDX SOFTWARE
-* COMPATIBLE VERSION OF VIVADO NEEDED TO CREATE OR MODIFY THE
-* HARDWARE PLATFORM DESIGN.
+* COMPATIBLE VERSION OF VIVADO NEEDED TO CREATE OR MODIFY THE HARDWARE PLATFORM DESIGN.
 
 ## XILINX PCIE HARDWARE DEVICE CONSISTS OF TWO REGIONS
 * STATIC REGION
@@ -127,17 +126,32 @@ hardware function to interact with the physical design. It is the output product
 platform design process described in this guide.
 ```
 
-## PARTIAL RECONFIGURATION
+## PARTIAL RECONFIGURATION (PR)
 The partial reconfiguration flow requires the use of a decoupler IP core to hold the design in a safe state
 while the device is partially reconfigured with the hardware function.
 The partial reconfiguration flow also requires several modifications to the design including
 floorplanning and partition pin placement constraints to lock down the interconnect route points of the
 interface signals
 
+## EXPANDED PARTIAL RECONFIGURATION (XPR)
+XPR method includes board interface logic and DDR
+memory that are a part of the hardware platform design as part of the reconfigurable module.
+The smaller static region contains the minimum logic needed to keep the hardware platform online and
+connected while waiting to be reconfigured with the hardware function of the programmable region.
+Typically with the XPR method, only the Xilinx DMA Subsystem for PCI Express, basic control interfaces,
+and clock sources are contained within the “static region”. This region is floorplanned to use as little of
+the device area as possible in order to maximize the available area for kernel resources. The logic
+hierarchy must be designed to separate the static region logic from the expanded programmable
+region, in the Vivado IP Integrator block design. 
+The XPR flow expands the contents of the reconfigurable module to encompass the programmable
+region as well as a large portion of the hardware platform design. The XPR
+method is used to maximize the available device resources to improve results, and is also used with SSI
+devices. Better performance can be achieved with the XPR flow by allowing the implementation tools
+greater flexibility when placing the kernel and interface logic onto the programmable device. Both the
+standard PR and XPR methods are described in the following sections and are referred to throughout
+this document.
 
-
-
-
+## HARDWARE PLATFORM DESIGN FLOW
 
 
 
