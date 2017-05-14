@@ -13,6 +13,13 @@ while maintaining and reusing their OpenCL, C, and C++ code in a familiar workfl
 ## Nimbix HPC Cloud-based SDAccel Environment:
 * https://www.nimbix.net/xilinx/
 
+## SYSTEM REQUIREMENTS
+Board | Device Name | Software Version
+------|-------------|-----------------
+Alpha Data ADM-PCIE-7V3|xilinx:adm-pcie-7v3:1ddr|SDAccel 2016.4
+Xilinx KU115|xilinx:xil-accel-rd-ku115:4ddr-xpr|SDAccel 2016.4
+Alpha Data ADM-PCIE-KU3|xilinx:adm-pcie-ku3:2ddr-xpr|SDAccel 2016.4
+
 ## HARDWARE PLATFORM
 * SDACCEL XILINX
 * OPEN CODE COMPILER (XOCC), 
