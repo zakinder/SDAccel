@@ -11,6 +11,9 @@ while maintaining and reusing their OpenCL, C, and C++ code in a familiar workfl
 * UG1238: SDX ENVIRONMENTS RELEASE NOTES, INSTALLATION, AND LICENSING GUIDE
 * UG1234: SDACCEL PLATFORM REFERENCE DESIGN USER GUIDE DEVELOPER BOARD FOR ACCELERATION WITH KU115
 * UG909 : VIVADO DESIGN SUITE USER GUIDE: PARTIAL RECONFIGURATION
+* UG899 : VIVADO DESIGN SUITE USER GUIDE: I/O AND CLOCK PLANNING
+* UG906 : VIVADO DESIGN SUITE USER GUIDE: DESIGN ANALYSIS AND CLOSURE TECHNIQUES
+
 ## Nimbix HPC Cloud-based SDAccel Environment:
 * https://www.nimbix.net/xilinx/
 
@@ -21,6 +24,11 @@ KEY ABBREVIATIONS RELATED TO SDAccel DEVICE
 * XPR : Expanded Partial Reconfiguration
 * ICAP: Internal Configuration Access Port
 * MCAP: Media Configuration Access Port
+* SLR : Super-Logic Region
+* SSI : Stacked Silicon Interconnect
+* XDMA: Xilinx DMA
+* APM : AXI Performance Monitor
+* XCL HAL: Abstraction Layer OpenCL Hardware
 
 NOTE : Difference between XPR and PR 
 * PR IMPLEMENT KERNEL (PACKEGED RTL IP) LOGIC ONLY IN PARTIAL BIT FROM THE SDACCEL DEVELOPMENT ENVIRONMENT
