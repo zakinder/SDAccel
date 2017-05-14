@@ -152,7 +152,9 @@ standard PR and XPR methods are described in the following sections and are refe
 this document.
 
 ## HARDWARE PLATFORM DESIGN FLOW
-
+Using the Vivado IP Integrator environment, you can model the hardware platform, define and
+configure the static and programmable regions, configure the device interfaces, define physical
+constraints to implement and validate the hardware platform, and test it with a sample kernel.
 
 
 
