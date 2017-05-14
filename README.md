@@ -1,10 +1,8 @@
-# SDAccel
+# Xilinx SDAccel Development Environment 
 Architecture to enable CPU/GPU developers to easily migrate their applications to FPGAs 
 while maintaining and reusing their OpenCL, C, and C++ code in a familiar workflow. 
 
-The Xilinx® SDAccel™ Development Environment 
-compile OpenCL™ C, C and C++ programs
-
+XILINX SDAccel Related Recources
 UG1164:
 SDACCEL-PLATFORM-DEVELOPMENT
 
