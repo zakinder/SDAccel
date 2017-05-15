@@ -1,118 +1,46 @@
 *************************************************************************
-   ____  ____
-  /   /\/   /
- /___/  \  /
- \   \   \/    © Copyright 2016 Xilinx, Inc. All rights reserved.
-  \   \        This file contains confidential and proprietary
-  /   /        information of Xilinx, Inc. and is protected under U.S.
- /___/   /\    and international copyright and other intellectual
- \   \  /  \   property laws.
-  \___\/\___\
-
-*************************************************************************
-
 Vendor: Xilinx
 Current readme.txt Version: 1.0.0
 Date Last Modified: 30NOV2016
 Date Created: 30NOV2016
-
 Associated Filename: ug1234-ref-design-dev-board-accel-ku115.zip
 Associated Document: UG1234, SDAccel Platform Reference Design User Guide
-   Developer Board for Acceleration with KU115
-
+Developer Board for Acceleration with KU115
 Supported Device(s): Kintex UltraScale KU115
-
-*************************************************************************
-
-Disclaimer:
-
-      This disclaimer is not a license and does not grant any rights to
-      the materials distributed herewith. Except as otherwise provided in
-      a valid license issued to you by Xilinx, and to the maximum extent
-      permitted by applicable law: (1) THESE MATERIALS ARE MADE AVAILABLE
-      "AS IS" AND WITH ALL FAULTS, AND XILINX HEREBY DISCLAIMS ALL
-      WARRANTIES AND CONDITIONS, EXPRESS, IMPLIED, OR STATUTORY,
-      INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY,
-      NON-INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE; and
-      (2) Xilinx shall not be liable (whether in contract or tort,
-      including negligence, or under any other theory of liability) for
-      any loss or damage of any kind or nature related to, arising under
-      or in connection with these materials, including for any direct, or
-      any indirect, special, incidental, or consequential loss or damage
-      (including loss of data, profits, goodwill, or any type of loss or
-      damage suffered as a result of any action brought by a third party)
-      even if such damage or loss was reasonably foreseeable or Xilinx
-      had been advised of the possibility of the same.
-
-Critical Applications:
-
-      Xilinx products are not designed or intended to be fail-safe, or
-      for use in any application requiring fail-safe performance, such as
-      life-support or safety devices or systems, Class III medical
-      devices, nuclear facilities, applications related to the deployment
-      of airbags, or any other applications that could lead to death,
-      personal injury, or severe property or environmental damage
-      (individually and collectively, "Critical Applications"). Customer
-      assumes the sole risk and liability of any use of Xilinx products
-      in Critical Applications, subject only to applicable laws and
-      regulations governing limitations on product liability.
-
-THIS COPYRIGHT NOTICE AND DISCLAIMER MUST BE RETAINED AS PART OF THIS
-FILE AT ALL TIMES.
-
-*************************************************************************
-
 This readme file contains these sections:
-
 1. REVISION HISTORY
 2. OVERVIEW
 3. SOFTWARE TOOLS AND SYSTEM REQUIREMENTS
 4. DESIGN FILE HIERARCHY
 5. INSTALLATION AND OPERATING INSTRUCTIONS
 6. SUPPORT
-
-
 1. REVISION HISTORY
-
             Readme
 Date        Version      Revision Description
 =========================================================================
 30NOV2016   1.0          Initial Xilinx release.
 =========================================================================
-
-
 2. OVERVIEW
-
 This readme describes how to use the files that come with UG1234,
 SDAccel Platform Reference Design User Guide: Developer Board for
 Acceleration with KU115.
-
 As described in UG1234, the zip file
 ug1234-ref-design-dev-board-accel-ku115.zip contains the platform
 reference design for the Xilinx Developer Board for Acceleration with
 KU115, as well as the bring-up tests to run with the built DSA. This
 readme describes how to build both.
-
-
 3. SOFTWARE TOOLS AND SYSTEM REQUIREMENTS
-
 The platform can only be successfully built using the version of Vivado
 included with your SDx 2016.3 installation. Please note that this
 required Vivado version is different than the standard Vivado 2016.3
 release, which is not supported for building the platform.
-
 A computer with at least 16 GB RAM is recommended to build the platform
 in the version of Vivado included with your SDx 2016.3 installation.
-
 A Linux OS installation supported by SDx 2016.3 tools and the SDAccel
 Environment is required to compile and run the bring-up tests. Refer to
 SDx 2016.3 installation documentation for compatibility requirements.
-
-
 4. DESIGN FILE HIERARCHY
-
 The directory structure underneath this top-level directory is:
-
 \bringup_tests
  |   This directory contains the simple bring-up kernel tests which can
  |   be compiled for the built DSA. Refer to section 5 below for details.
