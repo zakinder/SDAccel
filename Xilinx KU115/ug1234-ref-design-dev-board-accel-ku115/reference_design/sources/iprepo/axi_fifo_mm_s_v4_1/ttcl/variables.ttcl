@@ -1,0 +1,25 @@
+<: ;#----------------------------------------------------- :>
+<: ;#Language specific parameters for common files :>
+<: ;#----------------------------------------------------- :>
+<: set is_verilog [isVerilogOutputRequired] :>
+<: set is_vhdl [isVHDLOutputRequired] :>
+<: set command "" :>
+<: set ext "" :>
+<: set comment "" :>
+<: set glbl_arg "" :>
+<: set library "" :>
+<: set library_sim "" :>
+<: if { $is_verilog } { :>
+<: set command "verilog" :>
+<: set ext "v" :>
+<: set comment "//" :>
+<: set glbl_arg "work.glbl" :>
+<: set library "unisims_ver" :>
+<: set library_sim "simprims_ver" :>
+<: } else { :>
+<: set command "vhdl" :>
+<: set ext "vhd" :>
+<: set comment "--" :>
+<: set library "unisim" :>
+<: set library_sim "simprim" :>
+<: } :>

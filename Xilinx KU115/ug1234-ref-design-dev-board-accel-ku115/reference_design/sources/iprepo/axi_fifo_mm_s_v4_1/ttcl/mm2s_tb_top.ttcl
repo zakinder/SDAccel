@@ -1,0 +1,114 @@
+<: set ComponentName [getComponentNameString] :>
+<: setFileName [ttcl_string_concat $ComponentName "_tb"] :>
+<: setFileExtension ".vhd" :>
+<: setOutputDirectory [ttcl_string_concat "./" $ComponentName "/simulation"] :>
+--------------------------------------------------------------------------------
+--
+-- axi_fifo_mm_s Core - core top file for simulation
+--
+--------------------------------------------------------------------------------
+--
+<#: ttcl/variables.ttcl :>
+<: set comment "--" :>
+<#: ttcl/disclaimer.ttcl :>
+--------------------------------------------------------------------------------
+--
+-- Filename: <=: ComponentName :>_tb.vhd
+--
+-- Description:
+--   This is the axi_fifo_mm_s core simulation top file
+--
+--------------------------------------------------------------------------------
+-- Library Declarations
+--------------------------------------------------------------------------------
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_misc.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+ENTITY <=: ComponentName :>_tb IS
+END ENTITY;
+
+
+architecture arch_<=: ComponentName :>_tb of <=: ComponentName :>_tb is
+
+ SIGNAL  aclk   	     : STD_LOGIC;
+ SIGNAL  aresetn 	     : STD_LOGIC;
+ SIGNAL  done                : STD_LOGIC;
+ SIGNAL  test_status         : STD_LOGIC_VECTOR(2 DOWNTO 0);
+ CONSTANT clk_period_by_2    : TIME := 50 ns;
+
+COMPONENT <=: ComponentName :>_exdes IS
+  PORT(
+    SIGNAL  aclk   	 : IN STD_LOGIC;
+    SIGNAL  aresetn 	 : IN STD_LOGIC;
+    SIGNAL  done         : OUT STD_LOGIC;
+    SIGNAL  test_status  : OUT STD_LOGIC_VECTOR(2 DOWNTO 0)
+  );
+END COMPONENT;
+
+ 
+BEGIN
+  
+  -- Generation of clock
+
+  PROCESS BEGIN
+      aclk <= '0'; WAIT FOR clk_period_by_2;
+      aclk <= '1'; WAIT FOR clk_period_by_2;
+  END PROCESS;
+
+  -- Generation of Reset
+  
+  PROCESS BEGIN
+     aresetn <= '0' after 12 ns; WAIT FOR 20*clk_period_by_2;
+     aresetn <= '1' after 12 ns; WAIT;
+  END PROCESS;
+
+  -- Test status
+
+  PROCESS BEGIN
+      wait until done = '1';
+      wait for 10*clk_period_by_2;
+
+      -- Failure TX only mode
+      assert test_status(0) /= '1'
+      report "ERROR: Data mismatch on TX stream data"
+      severity failure;  
+      
+     -- Failure ATG
+      assert test_status(2 DOWNTO 1) /= "10"
+      report "ERROR: Data mismatch in ATG Read"
+      severity failure;  
+     
+     -- Failure ATG
+      assert test_status(2 DOWNTO 1) /= "11"
+      report "ERROR: ATG Hang status"
+      severity failure;  
+
+      -- Pass
+      assert test_status /= "010"
+      report "Test Completed Successfully"
+      severity failure;
+  END PROCESS;
+
+  -- Test timeout
+
+  PROCESS BEGIN
+    wait for 400 ms;
+    assert false
+    report "ERROR: Test bench timed out"
+    severity failure;
+  END PROCESS;
+
+  <=: ComponentName :>_exdes_inst : <=: ComponentName :>_exdes 
+    PORT MAP (
+    aclk   	=> aclk, 
+    aresetn 	=> aresetn, 
+    done        => done,
+    test_status => test_status
+  );
+
+end arch_<=: ComponentName :>_tb;
