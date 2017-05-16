@@ -2127,3 +2127,40 @@ Phase 3.4 Pipeline Register Optimization
 Phase 3.4 Pipeline Register Optimization | Checksum: 120ded6d5
 
 Time (s): cpu = 00:29:12 ; elapsed = 00:22:09 . Memory (MB): peak = 6262.672 ; gain = 1287.367
+
+Phase 3.5 IO Cut Optimizer
+Phase 3.5 IO Cut Optimizer | Checksum: 1840ad7d4
+
+Time (s): cpu = 00:29:41 ; elapsed = 00:22:31 . Memory (MB): peak = 6262.672 ; gain = 1287.367
+
+Phase 3.6 Timing Path Optimizer
+Phase 3.6 Timing Path Optimizer | Checksum: 1840ad7d4
+
+Time (s): cpu = 00:29:42 ; elapsed = 00:22:32 . Memory (MB): peak = 6262.672 ; gain = 1287.367
+
+Phase 3.7 Fast Optimization
+Phase 3.7 Fast Optimization | Checksum: dc1f3eab
+
+Time (s): cpu = 00:30:04 ; elapsed = 00:22:51 . Memory (MB): peak = 6262.672 ; gain = 1287.367
+
+Phase 3.8 Small Shape Detail Placement
+
+Phase 3.8.1 Place Remaining
+Phase 3.8.1 Place Remaining | Checksum: 1f54cfbd6
+
+Time (s): cpu = 00:41:49 ; elapsed = 00:31:04 . Memory (MB): peak = 6384.582 ; gain = 1409.277
+Phase 3.8 Small Shape Detail Placement | Checksum: 1f54cfbd6
+
+Time (s): cpu = 00:41:57 ; elapsed = 00:31:09 . Memory (MB): peak = 6384.582 ; gain = 1409.277
+
+Phase 3.9 Re-assign LUT pins
+Phase 3.9 Re-assign LUT pins | Checksum: 19cf1c7bc
+
+Time (s): cpu = 00:42:14 ; elapsed = 00:31:26 . Memory (MB): peak = 6384.582 ; gain = 1409.277
+
+Phase 3.10 Pipeline Register Optimization
+Phase 3.10 Pipeline Register Optimization | Checksum: 19cf1c7bc
+
+Time (s): cpu = 00:42:34 ; elapsed = 00:31:43 . Memory (MB): peak = 6384.582 ; gain = 1409.277
+
+Phase 3.11 Fast Optimization

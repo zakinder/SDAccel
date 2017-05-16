@@ -83,134 +83,197 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_axi_i2c_0/xcl_design_axi_i2c_0.xci">
-          <Proxy FileSetName="xcl_design_axi_i2c_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_buf_refclk_bufg_0/xcl_design_buf_refclk_bufg_0.xci">
-          <Proxy FileSetName="xcl_design_buf_refclk_bufg_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_buf_refclk_ibuf_0/xcl_design_buf_refclk_ibuf_0.xci">
-          <Proxy FileSetName="xcl_design_buf_refclk_ibuf_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_clkwiz_kernel_0/xcl_design_clkwiz_kernel_0.xci">
-          <Proxy FileSetName="xcl_design_clkwiz_kernel_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_clkwiz_kernel2_0/xcl_design_clkwiz_kernel2_0.xci">
-          <Proxy FileSetName="xcl_design_clkwiz_kernel2_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_clkwiz_sysclks_0/xcl_design_clkwiz_sysclks_0.xci">
-          <Proxy FileSetName="xcl_design_clkwiz_sysclks_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_ctrlclk_0/xcl_design_psreset_ctrlclk_0.xci">
-          <Proxy FileSetName="xcl_design_psreset_ctrlclk_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_const_vcc_1_0/xcl_design_const_vcc_1_0.xci">
-          <Proxy FileSetName="xcl_design_const_vcc_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_const_gnd_1_0/xcl_design_const_gnd_1_0.xci">
-          <Proxy FileSetName="xcl_design_const_gnd_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_const_gnd_3_0/xcl_design_const_gnd_3_0.xci">
-          <Proxy FileSetName="xcl_design_const_gnd_3_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_dma_pcie_0/xcl_design_dma_pcie_0.xci">
-          <Proxy FileSetName="xcl_design_dma_pcie_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_ddr_calib_status_0/xcl_design_ddr_calib_status_0.xci">
-          <Proxy FileSetName="xcl_design_ddr_calib_status_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_const_featureid_low_0/xcl_design_const_featureid_low_0.xci">
-          <Proxy FileSetName="xcl_design_const_featureid_low_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_gpio_featureid_0/xcl_design_gpio_featureid_0.xci">
-          <Proxy FileSetName="xcl_design_gpio_featureid_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_const_featureid_high_0/xcl_design_const_featureid_high_0.xci">
-          <Proxy FileSetName="xcl_design_const_featureid_high_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_gate_pr_0/xcl_design_gate_pr_0.xci">
-          <Proxy FileSetName="xcl_design_gate_pr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_interconnect_axilite_static_0/xcl_design_interconnect_axilite_static_0.xci"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_xbar_0/xcl_design_xbar_0.xci">
-          <Proxy FileSetName="xcl_design_xbar_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_xilmonitor_apm_0/xcl_design_xilmonitor_apm_0.xci">
-          <Proxy FileSetName="xcl_design_xilmonitor_apm_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_iob_static_0/xcl_design_iob_static_0.xci">
+          <Proxy FileSetName="xcl_design_iob_static_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_regslice_data_0/xcl_design_regslice_data_0.xci">
           <Proxy FileSetName="xcl_design_regslice_data_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_startup_primitive_0.xml"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_startup_primitive_0/xcl_design_startup_primitive_0.xci">
-          <Proxy FileSetName="xcl_design_startup_primitive_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_logic_reset_op_0/xcl_design_logic_reset_op_0.xci">
+          <Proxy FileSetName="xcl_design_logic_reset_op_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_iob_static_0.xml"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_iob_static_0/xcl_design_iob_static_0.xci">
-          <Proxy FileSetName="xcl_design_iob_static_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_ddr_calib_status_0/xcl_design_ddr_calib_status_0.xci">
+          <Proxy FileSetName="xcl_design_ddr_calib_status_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_sys_mgmt_wiz_0/xcl_design_sys_mgmt_wiz_0.xci">
-          <Proxy FileSetName="xcl_design_sys_mgmt_wiz_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_gpio_featureid_0/xcl_design_gpio_featureid_0.xci">
+          <Proxy FileSetName="xcl_design_gpio_featureid_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_regslice_data_pr_0/xcl_design_psreset_regslice_data_pr_0.xci">
-          <Proxy FileSetName="xcl_design_psreset_regslice_data_pr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_regslice_ctrl_pr_0/xcl_design_psreset_regslice_ctrl_pr_0.xci">
-          <Proxy FileSetName="xcl_design_psreset_regslice_ctrl_pr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_regslice_control_0/xcl_design_regslice_control_0.xci">
-          <Proxy FileSetName="xcl_design_regslice_control_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_regslice_fifo_b_0/xcl_design_regslice_fifo_b_0.xci">
-          <Proxy FileSetName="xcl_design_regslice_fifo_b_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_slice_reset_kernel_pr_0/xcl_design_slice_reset_kernel_pr_0.xci">
-          <Proxy FileSetName="xcl_design_slice_reset_kernel_pr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_slice_reset_system_pr_0/xcl_design_slice_reset_system_pr_0.xci">
-          <Proxy FileSetName="xcl_design_slice_reset_system_pr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_regslice_fifo_a_0/xcl_design_regslice_fifo_a_0.xci">
-          <Proxy FileSetName="xcl_design_regslice_fifo_a_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_const_featureid_low_0/xcl_design_const_featureid_low_0.xci">
+          <Proxy FileSetName="xcl_design_const_featureid_low_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_regslice_apm_b_0/xcl_design_regslice_apm_b_0.xci">
           <Proxy FileSetName="xcl_design_regslice_apm_b_0"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_interconnect_axilite_static_0/xcl_design_interconnect_axilite_static_0.xci"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_gate_pr_0/xcl_design_gate_pr_0.xci">
+          <Proxy FileSetName="xcl_design_gate_pr_0"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_regslice_apm_a_0/xcl_design_regslice_apm_a_0.xci">
           <Proxy FileSetName="xcl_design_regslice_apm_a_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_gate_pr_kernel_0/xcl_design_psreset_gate_pr_kernel_0.xci">
-          <Proxy FileSetName="xcl_design_psreset_gate_pr_kernel_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_sys_mgmt_wiz_0/xcl_design_sys_mgmt_wiz_0.xci">
+          <Proxy FileSetName="xcl_design_sys_mgmt_wiz_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_const_featureid_high_0/xcl_design_const_featureid_high_0.xci">
+          <Proxy FileSetName="xcl_design_const_featureid_high_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_const_gnd_1_0/xcl_design_const_gnd_1_0.xci">
+          <Proxy FileSetName="xcl_design_const_gnd_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_clkwiz_sysclks_0/xcl_design_clkwiz_sysclks_0.xci">
+          <Proxy FileSetName="xcl_design_clkwiz_sysclks_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_clkwiz_kernel_0/xcl_design_clkwiz_kernel_0.xci">
+          <Proxy FileSetName="xcl_design_clkwiz_kernel_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_buf_refclk_ibuf_0/xcl_design_buf_refclk_ibuf_0.xci">
+          <Proxy FileSetName="xcl_design_buf_refclk_ibuf_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_axi_i2c_0/xcl_design_axi_i2c_0.xci">
+          <Proxy FileSetName="xcl_design_axi_i2c_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_const_gnd_3_0/xcl_design_const_gnd_3_0.xci">
+          <Proxy FileSetName="xcl_design_const_gnd_3_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_m00_regslice_0/xcl_design_m00_regslice_0.xci">
+          <Proxy FileSetName="xcl_design_m00_regslice_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_s00_regslice_0/xcl_design_s00_regslice_0.xci">
+          <Proxy FileSetName="xcl_design_s00_regslice_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_u_ocl_region_0/xcl_design_u_ocl_region_0.xci">
+          <Proxy FileSetName="xcl_design_u_ocl_region_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_slice_ss_1_0/xcl_design_slice_ss_1_0.xci">
+          <Proxy FileSetName="xcl_design_slice_ss_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_slice_ss_0_0/xcl_design_slice_ss_0_0.xci">
+          <Proxy FileSetName="xcl_design_slice_ss_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_debug_bridge_xsdbm_0/xcl_design_debug_bridge_xsdbm_0.xci">
+          <Proxy FileSetName="xcl_design_debug_bridge_xsdbm_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_concat_flash_dq_o_0/xcl_design_concat_flash_dq_o_0.xci">
+          <Proxy FileSetName="xcl_design_concat_flash_dq_o_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_logic_ddrcalib_op_0/xcl_design_logic_ddrcalib_op_0.xci">
+          <Proxy FileSetName="xcl_design_logic_ddrcalib_op_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_ddrmem_3_0/xcl_design_ddrmem_3_0.xci">
+          <Proxy FileSetName="xcl_design_ddrmem_3_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_ddrmem_1_0/xcl_design_ddrmem_1_0.xci">
+          <Proxy FileSetName="xcl_design_ddrmem_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_ddrmem_0_0/xcl_design_ddrmem_0_0.xci">
+          <Proxy FileSetName="xcl_design_ddrmem_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_axicc_ddrmem_2_ctrl_0/xcl_design_axicc_ddrmem_2_ctrl_0.xci">
+          <Proxy FileSetName="xcl_design_axicc_ddrmem_2_ctrl_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_xbar_1/xcl_design_xbar_1.xci">
           <Proxy FileSetName="xcl_design_xbar_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_xilmonitor_fifo0_0/xcl_design_xilmonitor_fifo0_0.xci">
-          <Proxy FileSetName="xcl_design_xilmonitor_fifo0_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_ctrlclk_0/xcl_design_psreset_ctrlclk_0.xci">
+          <Proxy FileSetName="xcl_design_psreset_ctrlclk_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_ddrmem_n_4_0/xcl_design_psreset_ddrmem_n_4_0.xci">
-          <Proxy FileSetName="xcl_design_psreset_ddrmem_n_4_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_m06_regslice_0/xcl_design_m06_regslice_0.xci">
+          <Proxy FileSetName="xcl_design_m06_regslice_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_xilmonitor_subset0_0/xcl_design_xilmonitor_subset0_0.xci">
-          <Proxy FileSetName="xcl_design_xilmonitor_subset0_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_m05_regslice_0/xcl_design_m05_regslice_0.xci">
+          <Proxy FileSetName="xcl_design_m05_regslice_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_m04_regslice_0/xcl_design_m04_regslice_0.xci">
+          <Proxy FileSetName="xcl_design_m04_regslice_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_m03_regslice_0/xcl_design_m03_regslice_0.xci">
+          <Proxy FileSetName="xcl_design_m03_regslice_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_m02_regslice_0/xcl_design_m02_regslice_0.xci">
+          <Proxy FileSetName="xcl_design_m02_regslice_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_m01_regslice_0/xcl_design_m01_regslice_0.xci">
+          <Proxy FileSetName="xcl_design_m01_regslice_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_s00_regslice_1/xcl_design_s00_regslice_1.xci">
+          <Proxy FileSetName="xcl_design_s00_regslice_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_flash_programmer_0/xcl_design_flash_programmer_0.xci">
+          <Proxy FileSetName="xcl_design_flash_programmer_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_concat_flash_tri_0/xcl_design_concat_flash_tri_0.xci">
+          <Proxy FileSetName="xcl_design_concat_flash_tri_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_ddrmem_2_0/xcl_design_ddrmem_2_0.xci">
+          <Proxy FileSetName="xcl_design_ddrmem_2_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_concat_ddrcalib_0/xcl_design_concat_ddrcalib_0.xci">
+          <Proxy FileSetName="xcl_design_concat_ddrcalib_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_axicc_ddrmem_3_ctrl_0/xcl_design_axicc_ddrmem_3_ctrl_0.xci">
+          <Proxy FileSetName="xcl_design_axicc_ddrmem_3_ctrl_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_startup_primitive_0/xcl_design_startup_primitive_0.xci">
+          <Proxy FileSetName="xcl_design_startup_primitive_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_buf_refclk_bufg_0/xcl_design_buf_refclk_bufg_0.xci">
+          <Proxy FileSetName="xcl_design_buf_refclk_bufg_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_dma_pcie_0/xcl_design_dma_pcie_0.xci">
+          <Proxy FileSetName="xcl_design_dma_pcie_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_const_vcc_1_0/xcl_design_const_vcc_1_0.xci">
+          <Proxy FileSetName="xcl_design_const_vcc_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="hdl/xcl_design.hwdef"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="hw_handoff/xcl_design.hwh"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="hdl/xcl_design.v"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_auto_cc_2/xcl_design_auto_cc_2.xci">
+          <Proxy FileSetName="xcl_design_auto_cc_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_auto_cc_1/xcl_design_auto_cc_1.xci">
+          <Proxy FileSetName="xcl_design_auto_cc_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_auto_cc_0/xcl_design_auto_cc_0.xci">
+          <Proxy FileSetName="xcl_design_auto_cc_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_clkwiz_kernel2_0/xcl_design_clkwiz_kernel2_0.xci">
+          <Proxy FileSetName="xcl_design_clkwiz_kernel2_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="hw_handoff/xcl_design_bd.tcl"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_ooc.xdc"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_xilmonitor_apm_0/xcl_design_xilmonitor_apm_0.xci">
+          <Proxy FileSetName="xcl_design_xilmonitor_apm_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_ddrmem_n_2_0/xcl_design_psreset_ddrmem_n_2_0.xci">
+          <Proxy FileSetName="xcl_design_psreset_ddrmem_n_2_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_gate_pr_control_0/xcl_design_psreset_gate_pr_control_0.xci">
+          <Proxy FileSetName="xcl_design_psreset_gate_pr_control_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_gate_pr_apmclk_0/xcl_design_psreset_gate_pr_apmclk_0.xci">
           <Proxy FileSetName="xcl_design_psreset_gate_pr_apmclk_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_logic_reset_op_0/xcl_design_logic_reset_op_0.xci">
-          <Proxy FileSetName="xcl_design_logic_reset_op_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_ddrmem_n_4_0/xcl_design_psreset_ddrmem_n_4_0.xci">
+          <Proxy FileSetName="xcl_design_psreset_ddrmem_n_4_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_ddrmem_n_3_0/xcl_design_psreset_ddrmem_n_3_0.xci">
+          <Proxy FileSetName="xcl_design_psreset_ddrmem_n_3_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_regslice_fifo_a_0/xcl_design_regslice_fifo_a_0.xci">
+          <Proxy FileSetName="xcl_design_regslice_fifo_a_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_ddrmem_n_0/xcl_design_psreset_ddrmem_n_0.xci">
           <Proxy FileSetName="xcl_design_psreset_ddrmem_n_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_interconnect_aximm_ddrmem1_0/xcl_design_interconnect_aximm_ddrmem1_0.xci">
-          <Proxy FileSetName="xcl_design_interconnect_aximm_ddrmem1_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_slice_reset_system_pr_0/xcl_design_slice_reset_system_pr_0.xci">
+          <Proxy FileSetName="xcl_design_slice_reset_system_pr_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_gate_pr_kernel2_0/xcl_design_psreset_gate_pr_kernel2_0.xci">
-          <Proxy FileSetName="xcl_design_psreset_gate_pr_kernel2_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_slice_reset_kernel_pr_0/xcl_design_slice_reset_kernel_pr_0.xci">
+          <Proxy FileSetName="xcl_design_slice_reset_kernel_pr_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_ddrmem_n_2_0/xcl_design_psreset_ddrmem_n_2_0.xci">
-          <Proxy FileSetName="xcl_design_psreset_ddrmem_n_2_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_interconnect_aximm_host_0/xcl_design_interconnect_aximm_host_0.xci">
+          <Proxy FileSetName="xcl_design_interconnect_aximm_host_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_interconnect_aximm_ddrmem2_0/xcl_design_interconnect_aximm_ddrmem2_0.xci">
           <Proxy FileSetName="xcl_design_interconnect_aximm_ddrmem2_0"/>
@@ -218,14 +281,11 @@
         <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_interconnect_aximm_ddrmem0_0/xcl_design_interconnect_aximm_ddrmem0_0.xci">
           <Proxy FileSetName="xcl_design_interconnect_aximm_ddrmem0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_ddrmem_n_3_0/xcl_design_psreset_ddrmem_n_3_0.xci">
-          <Proxy FileSetName="xcl_design_psreset_ddrmem_n_3_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_gate_pr_kernel2_0/xcl_design_psreset_gate_pr_kernel2_0.xci">
+          <Proxy FileSetName="xcl_design_psreset_gate_pr_kernel2_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_gate_pr_control_0/xcl_design_psreset_gate_pr_control_0.xci">
-          <Proxy FileSetName="xcl_design_psreset_gate_pr_control_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_interconnect_aximm_host_0/xcl_design_interconnect_aximm_host_0.xci">
-          <Proxy FileSetName="xcl_design_interconnect_aximm_host_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_gate_pr_kernel_0/xcl_design_psreset_gate_pr_kernel_0.xci">
+          <Proxy FileSetName="xcl_design_psreset_gate_pr_kernel_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_gate_pr_data_0/xcl_design_psreset_gate_pr_data_0.xci">
           <Proxy FileSetName="xcl_design_psreset_gate_pr_data_0"/>
@@ -234,80 +294,90 @@
         <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_interconnect_aximm_ddrmem3_0/xcl_design_interconnect_aximm_ddrmem3_0.xci">
           <Proxy FileSetName="xcl_design_interconnect_aximm_ddrmem3_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_m02_regslice_0/xcl_design_m02_regslice_0.xci">
-          <Proxy FileSetName="xcl_design_m02_regslice_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_interconnect_aximm_ddrmem1_0/xcl_design_interconnect_aximm_ddrmem1_0.xci">
+          <Proxy FileSetName="xcl_design_interconnect_aximm_ddrmem1_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_m03_regslice_0/xcl_design_m03_regslice_0.xci">
-          <Proxy FileSetName="xcl_design_m03_regslice_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_regslice_fifo_b_0/xcl_design_regslice_fifo_b_0.xci">
+          <Proxy FileSetName="xcl_design_regslice_fifo_b_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_auto_cc_1/xcl_design_auto_cc_1.xci">
-          <Proxy FileSetName="xcl_design_auto_cc_1"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_regslice_data_pr_0/xcl_design_psreset_regslice_data_pr_0.xci">
+          <Proxy FileSetName="xcl_design_psreset_regslice_data_pr_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_m01_regslice_0/xcl_design_m01_regslice_0.xci">
-          <Proxy FileSetName="xcl_design_m01_regslice_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_xilmonitor_fifo0_0/xcl_design_xilmonitor_fifo0_0.xci">
+          <Proxy FileSetName="xcl_design_xilmonitor_fifo0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_m00_regslice_0/xcl_design_m00_regslice_0.xci">
-          <Proxy FileSetName="xcl_design_m00_regslice_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_xilmonitor_subset0_0/xcl_design_xilmonitor_subset0_0.xci">
+          <Proxy FileSetName="xcl_design_xilmonitor_subset0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_s00_regslice_1/xcl_design_s00_regslice_1.xci">
-          <Proxy FileSetName="xcl_design_s00_regslice_1"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_psreset_regslice_ctrl_pr_0/xcl_design_psreset_regslice_ctrl_pr_0.xci">
+          <Proxy FileSetName="xcl_design_psreset_regslice_ctrl_pr_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_13/bd_2fd7_m03_regslice_0.xci">
-          <Proxy FileSetName="bd_2fd7_m03_regslice_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_regslice_control_0/xcl_design_regslice_control_0.xci">
+          <Proxy FileSetName="xcl_design_regslice_control_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_axicc_ddrmem_3_ctrl_0/xcl_design_axicc_ddrmem_3_ctrl_0.xci">
-          <Proxy FileSetName="xcl_design_axicc_ddrmem_3_ctrl_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_xbar_0/xcl_design_xbar_0.xci">
+          <Proxy FileSetName="xcl_design_xbar_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_axicc_ddrmem_2_ctrl_0/xcl_design_axicc_ddrmem_2_ctrl_0.xci">
-          <Proxy FileSetName="xcl_design_axicc_ddrmem_2_ctrl_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_1/bd_2fd7_s00_regslice_0.xci">
-          <Proxy FileSetName="bd_2fd7_s00_regslice_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_concat_ddrcalib_0/xcl_design_concat_ddrcalib_0.xci">
-          <Proxy FileSetName="xcl_design_concat_ddrcalib_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_ddrmem_0_0/xcl_design_ddrmem_0_0.xci">
-          <Proxy FileSetName="xcl_design_ddrmem_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_ddrmem_1_0/xcl_design_ddrmem_1_0.xci">
-          <Proxy FileSetName="xcl_design_ddrmem_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_ddrmem_2_0/xcl_design_ddrmem_2_0.xci">
-          <Proxy FileSetName="xcl_design_ddrmem_2_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_ddrmem_3_0/xcl_design_ddrmem_3_0.xci">
-          <Proxy FileSetName="xcl_design_ddrmem_3_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_concat_flash_dq_o_0/xcl_design_concat_flash_dq_o_0.xci">
-          <Proxy FileSetName="xcl_design_concat_flash_dq_o_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_logic_ddrcalib_op_0/xcl_design_logic_ddrcalib_op_0.xci">
-          <Proxy FileSetName="xcl_design_logic_ddrcalib_op_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_concat_flash_tri_0/xcl_design_concat_flash_tri_0.xci">
-          <Proxy FileSetName="xcl_design_concat_flash_tri_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_debug_bridge_xsdbm_0/xcl_design_debug_bridge_xsdbm_0.xci">
-          <Proxy FileSetName="xcl_design_debug_bridge_xsdbm_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_startup_primitive_0.xml"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="sim/xcl_design_startup_primitive_0.v"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="synth/xcl_design_startup_primitive_0.v"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_startup_primitive_0_sim_netlist.vhdl"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_startup_primitive_0_sim_netlist.v"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_startup_primitive_0_stub.vhdl"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_startup_primitive_0_stub.v"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_startup_primitive_0.dcp"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="sim/xcl_design_iob_static_0.v"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_iob_static_0_sim_netlist.vhdl"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_iob_static_0_sim_netlist.v"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_iob_static_0_stub.vhdl"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_iob_static_0_stub.v"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_iob_static_0.dcp"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="synth/xcl_design_iob_static_0.v"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_iob_static_0.xml"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_1/bd_6ad6_lut_buffer_0.xci">
+          <Proxy FileSetName="bd_6ad6_lut_buffer_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_0/bd_6ad6_xsdbm_0.xci">
           <Proxy FileSetName="bd_6ad6_xsdbm_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_1/bd_6ad6_lut_buffer_0.xci">
-          <Proxy FileSetName="bd_6ad6_lut_buffer_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_17/bd_2fd7_kernel_1_0.xci">
+          <Proxy FileSetName="bd_2fd7_kernel_1_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_flash_programmer_0/xcl_design_flash_programmer_0.xci">
-          <Proxy FileSetName="xcl_design_flash_programmer_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_16/bd_2fd7_kernel_0_0.xci">
+          <Proxy FileSetName="bd_2fd7_kernel_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_slice_ss_0_0/xcl_design_slice_ss_0_0.xci">
-          <Proxy FileSetName="xcl_design_slice_ss_0_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_15/bd_2fd7_control_sys_reset_0.xci">
+          <Proxy FileSetName="bd_2fd7_control_sys_reset_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_slice_ss_1_0/xcl_design_slice_ss_1_0.xci">
-          <Proxy FileSetName="xcl_design_slice_ss_1_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_19/bd_2fd7_kernel_3_0.xci">
+          <Proxy FileSetName="bd_2fd7_kernel_3_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_u_ocl_region_0/xcl_design_u_ocl_region_0.xci">
-          <Proxy FileSetName="xcl_design_u_ocl_region_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_18/bd_2fd7_kernel_2_0.xci">
+          <Proxy FileSetName="bd_2fd7_kernel_2_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_20/bd_2fd7_slave_bridge_0.xci">
+          <Proxy FileSetName="bd_2fd7_slave_bridge_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_27/bd_2fd7_auto_cc_2.xci">
+          <Proxy FileSetName="bd_2fd7_auto_cc_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_26/bd_2fd7_auto_cc_1.xci">
+          <Proxy FileSetName="bd_2fd7_auto_cc_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_25/bd_2fd7_auto_cc_0.xci">
+          <Proxy FileSetName="bd_2fd7_auto_cc_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_13/bd_2fd7_m03_regslice_0.xci">
+          <Proxy FileSetName="bd_2fd7_m03_regslice_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_12/bd_2fd7_m02_regslice_0.xci">
+          <Proxy FileSetName="bd_2fd7_m02_regslice_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_11/bd_2fd7_m01_regslice_0.xci">
+          <Proxy FileSetName="bd_2fd7_m01_regslice_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_10/bd_2fd7_m00_regslice_0.xci">
+          <Proxy FileSetName="bd_2fd7_m00_regslice_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_7/bd_2fd7_s00_regslice_3.xci">
           <Proxy FileSetName="bd_2fd7_s00_regslice_3"/>
@@ -318,96 +388,30 @@
         <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_3/bd_2fd7_s00_regslice_1.xci">
           <Proxy FileSetName="bd_2fd7_s00_regslice_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_m05_regslice_0/xcl_design_m05_regslice_0.xci">
-          <Proxy FileSetName="xcl_design_m05_regslice_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_9/bd_2fd7_xbar_0.xci">
-          <Proxy FileSetName="bd_2fd7_xbar_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_10/bd_2fd7_m00_regslice_0.xci">
-          <Proxy FileSetName="bd_2fd7_m00_regslice_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_14/bd_2fd7_data_sys_reset_0.xci">
-          <Proxy FileSetName="bd_2fd7_data_sys_reset_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_11/bd_2fd7_m01_regslice_0.xci">
-          <Proxy FileSetName="bd_2fd7_m01_regslice_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_18/bd_2fd7_kernel_2_0.xci">
-          <Proxy FileSetName="bd_2fd7_kernel_2_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_19/bd_2fd7_kernel_3_0.xci">
-          <Proxy FileSetName="bd_2fd7_kernel_3_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_16/bd_2fd7_kernel_0_0.xci">
-          <Proxy FileSetName="bd_2fd7_kernel_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_15/bd_2fd7_control_sys_reset_0.xci">
-          <Proxy FileSetName="bd_2fd7_control_sys_reset_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_s00_regslice_0/xcl_design_s00_regslice_0.xci">
-          <Proxy FileSetName="xcl_design_s00_regslice_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_20/bd_2fd7_slave_bridge_0.xci">
-          <Proxy FileSetName="bd_2fd7_slave_bridge_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_22/bd_2fd7_master_bridge_1_0.xci">
-          <Proxy FileSetName="bd_2fd7_master_bridge_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_17/bd_2fd7_kernel_1_0.xci">
-          <Proxy FileSetName="bd_2fd7_kernel_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_m06_regslice_0/xcl_design_m06_regslice_0.xci">
-          <Proxy FileSetName="xcl_design_m06_regslice_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_1/bd_2fd7_s00_regslice_0.xci">
+          <Proxy FileSetName="bd_2fd7_s00_regslice_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_24/bd_2fd7_master_bridge_3_0.xci">
           <Proxy FileSetName="bd_2fd7_master_bridge_3_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_21/bd_2fd7_master_bridge_0_0.xci">
-          <Proxy FileSetName="bd_2fd7_master_bridge_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_23/bd_2fd7_master_bridge_2_0.xci">
           <Proxy FileSetName="bd_2fd7_master_bridge_2_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_m04_regslice_0/xcl_design_m04_regslice_0.xci">
-          <Proxy FileSetName="xcl_design_m04_regslice_0"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_22/bd_2fd7_master_bridge_1_0.xci">
+          <Proxy FileSetName="bd_2fd7_master_bridge_1_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_12/bd_2fd7_m02_regslice_0.xci">
-          <Proxy FileSetName="bd_2fd7_m02_regslice_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_auto_cc_0/xcl_design_auto_cc_0.xci">
-          <Proxy FileSetName="xcl_design_auto_cc_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/xcl_design_auto_cc_2/xcl_design_auto_cc_2.xci">
-          <Proxy FileSetName="xcl_design_auto_cc_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_25/bd_2fd7_auto_cc_0.xci">
-          <Proxy FileSetName="bd_2fd7_auto_cc_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_26/bd_2fd7_auto_cc_1.xci">
-          <Proxy FileSetName="bd_2fd7_auto_cc_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_27/bd_2fd7_auto_cc_2.xci">
-          <Proxy FileSetName="bd_2fd7_auto_cc_2"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_21/bd_2fd7_master_bridge_0_0.xci">
+          <Proxy FileSetName="bd_2fd7_master_bridge_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_28/bd_2fd7_auto_cc_3.xci">
           <Proxy FileSetName="bd_2fd7_auto_cc_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_ooc.xdc"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="hdl/xcl_design.v"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_startup_primitive_0_stub.v"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_startup_primitive_0.dcp"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_startup_primitive_0_stub.vhdl"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_iob_static_0_stub.v"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_iob_static_0.dcp"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="xcl_design_iob_static_0_stub.vhdl"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="synth/xcl_design_iob_static_0.v"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="sim/xcl_design_iob_static_0.v"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="sim/xcl_design_startup_primitive_0.v"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="synth/xcl_design_startup_primitive_0.v"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="hdl/xcl_design.hwdef"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="hw_handoff/xcl_design_bd.tcl"/>
-        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="hw_handoff/xcl_design.hwh"/>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_14/bd_2fd7_data_sys_reset_0.xci">
+          <Proxy FileSetName="bd_2fd7_data_sys_reset_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="xcl_design.bd" FileRelPathName="ip/ip_9/bd_2fd7_xbar_0.xci">
+          <Proxy FileSetName="bd_2fd7_xbar_0"/>
+        </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/xcl_design/hdl/xcl_design_wrapper.v">
         <FileInfo>
@@ -437,6 +441,7 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="xcl_design_wrapper"/>
@@ -1081,9 +1086,7 @@
   <Runs Version="1" Minor="10">
     <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xcku115-flvb2104-2-e" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1091,9 +1094,7 @@
     </Run>
     <Run Id="xcl_design_axi_i2c_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_axi_i2c_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_axi_i2c_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_axi_i2c_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1101,9 +1102,7 @@
     </Run>
     <Run Id="xcl_design_buf_refclk_bufg_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_buf_refclk_bufg_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_buf_refclk_bufg_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_buf_refclk_bufg_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1111,9 +1110,7 @@
     </Run>
     <Run Id="xcl_design_buf_refclk_ibuf_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_buf_refclk_ibuf_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_buf_refclk_ibuf_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_buf_refclk_ibuf_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1121,9 +1118,7 @@
     </Run>
     <Run Id="xcl_design_clkwiz_kernel_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_clkwiz_kernel_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_clkwiz_kernel_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_clkwiz_kernel_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1131,9 +1126,7 @@
     </Run>
     <Run Id="xcl_design_clkwiz_kernel2_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_clkwiz_kernel2_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_clkwiz_kernel2_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_clkwiz_kernel2_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1141,9 +1134,7 @@
     </Run>
     <Run Id="xcl_design_clkwiz_sysclks_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_clkwiz_sysclks_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_clkwiz_sysclks_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_clkwiz_sysclks_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1151,9 +1142,7 @@
     </Run>
     <Run Id="xcl_design_psreset_ctrlclk_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_psreset_ctrlclk_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_ctrlclk_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_psreset_ctrlclk_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1161,9 +1150,7 @@
     </Run>
     <Run Id="xcl_design_const_vcc_1_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_const_vcc_1_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_const_vcc_1_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_const_vcc_1_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1171,9 +1158,7 @@
     </Run>
     <Run Id="xcl_design_const_gnd_1_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_const_gnd_1_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_const_gnd_1_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_const_gnd_1_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1181,9 +1166,7 @@
     </Run>
     <Run Id="xcl_design_const_gnd_3_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_const_gnd_3_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_const_gnd_3_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_const_gnd_3_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1191,9 +1174,7 @@
     </Run>
     <Run Id="xcl_design_dma_pcie_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_dma_pcie_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_dma_pcie_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_dma_pcie_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1201,9 +1182,7 @@
     </Run>
     <Run Id="xcl_design_ddr_calib_status_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_ddr_calib_status_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_ddr_calib_status_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_ddr_calib_status_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1211,9 +1190,7 @@
     </Run>
     <Run Id="xcl_design_const_featureid_low_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_const_featureid_low_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_const_featureid_low_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_const_featureid_low_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1221,9 +1198,7 @@
     </Run>
     <Run Id="xcl_design_gpio_featureid_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_gpio_featureid_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_gpio_featureid_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_gpio_featureid_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1231,9 +1206,7 @@
     </Run>
     <Run Id="xcl_design_const_featureid_high_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_const_featureid_high_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_const_featureid_high_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_const_featureid_high_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1241,9 +1214,7 @@
     </Run>
     <Run Id="xcl_design_gate_pr_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_gate_pr_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_gate_pr_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_gate_pr_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1251,9 +1222,7 @@
     </Run>
     <Run Id="xcl_design_xbar_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_xbar_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_xbar_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_xbar_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1261,9 +1230,7 @@
     </Run>
     <Run Id="xcl_design_xilmonitor_apm_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_xilmonitor_apm_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_xilmonitor_apm_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_xilmonitor_apm_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1271,9 +1238,7 @@
     </Run>
     <Run Id="xcl_design_regslice_data_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_regslice_data_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_regslice_data_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_regslice_data_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1281,9 +1246,7 @@
     </Run>
     <Run Id="xcl_design_startup_primitive_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_startup_primitive_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_startup_primitive_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_startup_primitive_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1291,9 +1254,7 @@
     </Run>
     <Run Id="xcl_design_iob_static_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_iob_static_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_iob_static_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_iob_static_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1301,9 +1262,7 @@
     </Run>
     <Run Id="xcl_design_sys_mgmt_wiz_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_sys_mgmt_wiz_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_sys_mgmt_wiz_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_sys_mgmt_wiz_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1311,9 +1270,7 @@
     </Run>
     <Run Id="xcl_design_psreset_regslice_data_pr_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_psreset_regslice_data_pr_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_regslice_data_pr_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_psreset_regslice_data_pr_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1321,9 +1278,7 @@
     </Run>
     <Run Id="xcl_design_psreset_regslice_ctrl_pr_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_psreset_regslice_ctrl_pr_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_regslice_ctrl_pr_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_psreset_regslice_ctrl_pr_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1331,9 +1286,7 @@
     </Run>
     <Run Id="xcl_design_regslice_control_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_regslice_control_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_regslice_control_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_regslice_control_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1341,9 +1294,7 @@
     </Run>
     <Run Id="xcl_design_regslice_fifo_b_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_regslice_fifo_b_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_regslice_fifo_b_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_regslice_fifo_b_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1351,9 +1302,7 @@
     </Run>
     <Run Id="xcl_design_slice_reset_kernel_pr_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_slice_reset_kernel_pr_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_slice_reset_kernel_pr_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_slice_reset_kernel_pr_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1361,9 +1310,7 @@
     </Run>
     <Run Id="xcl_design_slice_reset_system_pr_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_slice_reset_system_pr_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_slice_reset_system_pr_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_slice_reset_system_pr_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1371,9 +1318,7 @@
     </Run>
     <Run Id="xcl_design_regslice_fifo_a_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_regslice_fifo_a_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_regslice_fifo_a_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_regslice_fifo_a_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1381,9 +1326,7 @@
     </Run>
     <Run Id="xcl_design_regslice_apm_b_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_regslice_apm_b_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_regslice_apm_b_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_regslice_apm_b_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1391,9 +1334,7 @@
     </Run>
     <Run Id="xcl_design_regslice_apm_a_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_regslice_apm_a_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_regslice_apm_a_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_regslice_apm_a_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1401,9 +1342,7 @@
     </Run>
     <Run Id="xcl_design_psreset_gate_pr_kernel_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_psreset_gate_pr_kernel_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_gate_pr_kernel_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_psreset_gate_pr_kernel_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1411,9 +1350,7 @@
     </Run>
     <Run Id="xcl_design_xbar_1_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_xbar_1" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_xbar_1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_xbar_1_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1421,9 +1358,7 @@
     </Run>
     <Run Id="xcl_design_xilmonitor_fifo0_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_xilmonitor_fifo0_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_xilmonitor_fifo0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_xilmonitor_fifo0_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1431,9 +1366,7 @@
     </Run>
     <Run Id="xcl_design_psreset_ddrmem_n_4_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_psreset_ddrmem_n_4_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_ddrmem_n_4_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_psreset_ddrmem_n_4_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1441,9 +1374,7 @@
     </Run>
     <Run Id="xcl_design_xilmonitor_subset0_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_xilmonitor_subset0_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_xilmonitor_subset0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_xilmonitor_subset0_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1451,9 +1382,7 @@
     </Run>
     <Run Id="xcl_design_psreset_gate_pr_apmclk_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_psreset_gate_pr_apmclk_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_gate_pr_apmclk_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_psreset_gate_pr_apmclk_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1461,9 +1390,7 @@
     </Run>
     <Run Id="xcl_design_logic_reset_op_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_logic_reset_op_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_logic_reset_op_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_logic_reset_op_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1471,9 +1398,7 @@
     </Run>
     <Run Id="xcl_design_psreset_ddrmem_n_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_psreset_ddrmem_n_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_ddrmem_n_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_psreset_ddrmem_n_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1481,9 +1406,7 @@
     </Run>
     <Run Id="xcl_design_interconnect_aximm_ddrmem1_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_interconnect_aximm_ddrmem1_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_interconnect_aximm_ddrmem1_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_interconnect_aximm_ddrmem1_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1491,9 +1414,7 @@
     </Run>
     <Run Id="xcl_design_psreset_gate_pr_kernel2_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_psreset_gate_pr_kernel2_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_gate_pr_kernel2_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_psreset_gate_pr_kernel2_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1501,9 +1422,7 @@
     </Run>
     <Run Id="xcl_design_psreset_ddrmem_n_2_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_psreset_ddrmem_n_2_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_ddrmem_n_2_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_psreset_ddrmem_n_2_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1511,9 +1430,7 @@
     </Run>
     <Run Id="xcl_design_interconnect_aximm_ddrmem2_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_interconnect_aximm_ddrmem2_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_interconnect_aximm_ddrmem2_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_interconnect_aximm_ddrmem2_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1521,9 +1438,7 @@
     </Run>
     <Run Id="xcl_design_interconnect_aximm_ddrmem0_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_interconnect_aximm_ddrmem0_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_interconnect_aximm_ddrmem0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_interconnect_aximm_ddrmem0_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1531,9 +1446,7 @@
     </Run>
     <Run Id="xcl_design_psreset_ddrmem_n_3_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_psreset_ddrmem_n_3_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_ddrmem_n_3_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_psreset_ddrmem_n_3_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1541,9 +1454,7 @@
     </Run>
     <Run Id="xcl_design_psreset_gate_pr_control_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_psreset_gate_pr_control_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_gate_pr_control_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_psreset_gate_pr_control_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1551,9 +1462,7 @@
     </Run>
     <Run Id="xcl_design_interconnect_aximm_host_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_interconnect_aximm_host_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_interconnect_aximm_host_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_interconnect_aximm_host_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1561,9 +1470,7 @@
     </Run>
     <Run Id="xcl_design_psreset_gate_pr_data_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_psreset_gate_pr_data_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_gate_pr_data_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_psreset_gate_pr_data_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1571,9 +1478,7 @@
     </Run>
     <Run Id="xcl_design_interconnect_aximm_ddrmem3_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_interconnect_aximm_ddrmem3_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_interconnect_aximm_ddrmem3_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_interconnect_aximm_ddrmem3_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1581,9 +1486,7 @@
     </Run>
     <Run Id="xcl_design_m02_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_m02_regslice_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_m02_regslice_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_m02_regslice_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1591,9 +1494,7 @@
     </Run>
     <Run Id="xcl_design_m03_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_m03_regslice_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_m03_regslice_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_m03_regslice_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1601,9 +1502,7 @@
     </Run>
     <Run Id="xcl_design_auto_cc_1_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_auto_cc_1" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_auto_cc_1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_auto_cc_1_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1611,9 +1510,7 @@
     </Run>
     <Run Id="xcl_design_m01_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_m01_regslice_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_m01_regslice_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_m01_regslice_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1621,9 +1518,7 @@
     </Run>
     <Run Id="xcl_design_m00_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_m00_regslice_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_m00_regslice_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_m00_regslice_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1631,9 +1526,7 @@
     </Run>
     <Run Id="xcl_design_s00_regslice_1_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_s00_regslice_1" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_s00_regslice_1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_s00_regslice_1_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1641,9 +1534,7 @@
     </Run>
     <Run Id="bd_2fd7_m03_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_m03_regslice_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_m03_regslice_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_m03_regslice_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1651,9 +1542,7 @@
     </Run>
     <Run Id="xcl_design_axicc_ddrmem_3_ctrl_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_axicc_ddrmem_3_ctrl_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_axicc_ddrmem_3_ctrl_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_axicc_ddrmem_3_ctrl_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1661,9 +1550,7 @@
     </Run>
     <Run Id="xcl_design_axicc_ddrmem_2_ctrl_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_axicc_ddrmem_2_ctrl_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_axicc_ddrmem_2_ctrl_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_axicc_ddrmem_2_ctrl_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1671,9 +1558,7 @@
     </Run>
     <Run Id="bd_2fd7_s00_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_s00_regslice_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_s00_regslice_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_s00_regslice_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1681,9 +1566,7 @@
     </Run>
     <Run Id="xcl_design_concat_ddrcalib_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_concat_ddrcalib_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_concat_ddrcalib_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_concat_ddrcalib_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1691,9 +1574,7 @@
     </Run>
     <Run Id="xcl_design_ddrmem_0_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_ddrmem_0_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_ddrmem_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_ddrmem_0_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1701,9 +1582,7 @@
     </Run>
     <Run Id="xcl_design_ddrmem_1_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_ddrmem_1_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_ddrmem_1_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_ddrmem_1_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1711,9 +1590,7 @@
     </Run>
     <Run Id="xcl_design_ddrmem_2_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_ddrmem_2_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_ddrmem_2_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_ddrmem_2_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1721,9 +1598,7 @@
     </Run>
     <Run Id="xcl_design_ddrmem_3_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_ddrmem_3_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_ddrmem_3_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_ddrmem_3_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1731,9 +1606,7 @@
     </Run>
     <Run Id="xcl_design_concat_flash_dq_o_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_concat_flash_dq_o_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_concat_flash_dq_o_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_concat_flash_dq_o_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1741,9 +1614,7 @@
     </Run>
     <Run Id="xcl_design_logic_ddrcalib_op_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_logic_ddrcalib_op_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_logic_ddrcalib_op_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_logic_ddrcalib_op_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1751,9 +1622,7 @@
     </Run>
     <Run Id="xcl_design_concat_flash_tri_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_concat_flash_tri_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_concat_flash_tri_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_concat_flash_tri_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1761,9 +1630,7 @@
     </Run>
     <Run Id="xcl_design_debug_bridge_xsdbm_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_debug_bridge_xsdbm_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_debug_bridge_xsdbm_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_debug_bridge_xsdbm_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1771,9 +1638,7 @@
     </Run>
     <Run Id="bd_6ad6_xsdbm_0_synth_1" Type="Ft3:Synth" SrcSet="bd_6ad6_xsdbm_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_6ad6_xsdbm_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_6ad6_xsdbm_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1781,9 +1646,7 @@
     </Run>
     <Run Id="bd_6ad6_lut_buffer_0_synth_1" Type="Ft3:Synth" SrcSet="bd_6ad6_lut_buffer_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_6ad6_lut_buffer_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_6ad6_lut_buffer_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1791,9 +1654,7 @@
     </Run>
     <Run Id="xcl_design_flash_programmer_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_flash_programmer_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_flash_programmer_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_flash_programmer_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1801,9 +1662,7 @@
     </Run>
     <Run Id="xcl_design_slice_ss_0_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_slice_ss_0_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_slice_ss_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_slice_ss_0_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1811,9 +1670,7 @@
     </Run>
     <Run Id="xcl_design_slice_ss_1_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_slice_ss_1_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_slice_ss_1_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_slice_ss_1_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1821,9 +1678,7 @@
     </Run>
     <Run Id="xcl_design_u_ocl_region_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_u_ocl_region_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_u_ocl_region_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_u_ocl_region_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1831,9 +1686,7 @@
     </Run>
     <Run Id="bd_2fd7_s00_regslice_3_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_s00_regslice_3" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_s00_regslice_3" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_s00_regslice_3_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1841,9 +1694,7 @@
     </Run>
     <Run Id="bd_2fd7_s00_regslice_2_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_s00_regslice_2" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_s00_regslice_2" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_s00_regslice_2_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1851,9 +1702,7 @@
     </Run>
     <Run Id="bd_2fd7_s00_regslice_1_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_s00_regslice_1" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_s00_regslice_1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_s00_regslice_1_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1861,9 +1710,7 @@
     </Run>
     <Run Id="xcl_design_m05_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_m05_regslice_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_m05_regslice_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_m05_regslice_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1871,9 +1718,7 @@
     </Run>
     <Run Id="bd_2fd7_xbar_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_xbar_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_xbar_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_xbar_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1881,9 +1726,7 @@
     </Run>
     <Run Id="bd_2fd7_m00_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_m00_regslice_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_m00_regslice_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_m00_regslice_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1891,9 +1734,7 @@
     </Run>
     <Run Id="bd_2fd7_data_sys_reset_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_data_sys_reset_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_data_sys_reset_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_data_sys_reset_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1901,9 +1742,7 @@
     </Run>
     <Run Id="bd_2fd7_m01_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_m01_regslice_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_m01_regslice_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_m01_regslice_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1911,9 +1750,7 @@
     </Run>
     <Run Id="bd_2fd7_kernel_2_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_kernel_2_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_kernel_2_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_kernel_2_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1921,9 +1758,7 @@
     </Run>
     <Run Id="bd_2fd7_kernel_3_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_kernel_3_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_kernel_3_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_kernel_3_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1931,9 +1766,7 @@
     </Run>
     <Run Id="bd_2fd7_kernel_0_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_kernel_0_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_kernel_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_kernel_0_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1941,9 +1774,7 @@
     </Run>
     <Run Id="bd_2fd7_control_sys_reset_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_control_sys_reset_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_control_sys_reset_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_control_sys_reset_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1951,9 +1782,7 @@
     </Run>
     <Run Id="xcl_design_s00_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_s00_regslice_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_s00_regslice_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_s00_regslice_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1961,9 +1790,7 @@
     </Run>
     <Run Id="bd_2fd7_slave_bridge_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_slave_bridge_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_slave_bridge_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_slave_bridge_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1971,9 +1798,7 @@
     </Run>
     <Run Id="bd_2fd7_master_bridge_1_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_master_bridge_1_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_master_bridge_1_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_master_bridge_1_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1981,9 +1806,7 @@
     </Run>
     <Run Id="bd_2fd7_kernel_1_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_kernel_1_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_kernel_1_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_kernel_1_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -1991,9 +1814,7 @@
     </Run>
     <Run Id="xcl_design_m06_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_m06_regslice_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_m06_regslice_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_m06_regslice_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -2001,9 +1822,7 @@
     </Run>
     <Run Id="bd_2fd7_master_bridge_3_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_master_bridge_3_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_master_bridge_3_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_master_bridge_3_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -2011,9 +1830,7 @@
     </Run>
     <Run Id="bd_2fd7_master_bridge_0_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_master_bridge_0_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_master_bridge_0_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_master_bridge_0_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -2021,9 +1838,7 @@
     </Run>
     <Run Id="bd_2fd7_master_bridge_2_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_master_bridge_2_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_master_bridge_2_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_master_bridge_2_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -2031,9 +1846,7 @@
     </Run>
     <Run Id="xcl_design_m04_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_m04_regslice_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_m04_regslice_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_m04_regslice_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -2041,9 +1854,7 @@
     </Run>
     <Run Id="bd_2fd7_m02_regslice_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_m02_regslice_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_m02_regslice_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_m02_regslice_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -2051,9 +1862,7 @@
     </Run>
     <Run Id="xcl_design_auto_cc_0_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_auto_cc_0" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_auto_cc_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_auto_cc_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -2061,9 +1870,7 @@
     </Run>
     <Run Id="xcl_design_auto_cc_2_synth_1" Type="Ft3:Synth" SrcSet="xcl_design_auto_cc_2" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_auto_cc_2" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/xcl_design_auto_cc_2_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -2071,9 +1878,7 @@
     </Run>
     <Run Id="bd_2fd7_auto_cc_0_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_auto_cc_0" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_auto_cc_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_auto_cc_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -2081,9 +1886,7 @@
     </Run>
     <Run Id="bd_2fd7_auto_cc_1_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_auto_cc_1" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_auto_cc_1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_auto_cc_1_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -2091,9 +1894,7 @@
     </Run>
     <Run Id="bd_2fd7_auto_cc_2_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_auto_cc_2" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_auto_cc_2" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_auto_cc_2_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -2101,9 +1902,7 @@
     </Run>
     <Run Id="bd_2fd7_auto_cc_3_synth_1" Type="Ft3:Synth" SrcSet="bd_2fd7_auto_cc_3" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_auto_cc_3" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bd_2fd7_auto_cc_3_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -2111,9 +1910,7 @@
     </Run>
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="constrs_1" Description="Default settings for Implementation." State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design" PreStepTclHook="$PPRDIR/../sources/misc/xpr_preopt.tcl" PostStepTclHook="$PPRDIR/../sources/misc/xpr_postopt.tcl"/>
         <Step Id="power_opt_design"/>
@@ -2129,9 +1926,7 @@
     </Run>
     <Run Id="xcl_design_axi_i2c_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_axi_i2c_0" Description="Default settings for Implementation." SynthRun="xcl_design_axi_i2c_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2146,9 +1941,7 @@
     </Run>
     <Run Id="xcl_design_buf_refclk_bufg_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_buf_refclk_bufg_0" Description="Default settings for Implementation." SynthRun="xcl_design_buf_refclk_bufg_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2163,9 +1956,7 @@
     </Run>
     <Run Id="xcl_design_buf_refclk_ibuf_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_buf_refclk_ibuf_0" Description="Default settings for Implementation." SynthRun="xcl_design_buf_refclk_ibuf_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2180,9 +1971,7 @@
     </Run>
     <Run Id="xcl_design_clkwiz_kernel_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_clkwiz_kernel_0" Description="Default settings for Implementation." SynthRun="xcl_design_clkwiz_kernel_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2197,9 +1986,7 @@
     </Run>
     <Run Id="xcl_design_clkwiz_kernel2_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_clkwiz_kernel2_0" Description="Default settings for Implementation." SynthRun="xcl_design_clkwiz_kernel2_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2214,9 +2001,7 @@
     </Run>
     <Run Id="xcl_design_clkwiz_sysclks_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_clkwiz_sysclks_0" Description="Default settings for Implementation." SynthRun="xcl_design_clkwiz_sysclks_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2231,9 +2016,7 @@
     </Run>
     <Run Id="xcl_design_psreset_ctrlclk_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_ctrlclk_0" Description="Default settings for Implementation." SynthRun="xcl_design_psreset_ctrlclk_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2248,9 +2031,7 @@
     </Run>
     <Run Id="xcl_design_const_vcc_1_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_const_vcc_1_0" Description="Default settings for Implementation." SynthRun="xcl_design_const_vcc_1_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2265,9 +2046,7 @@
     </Run>
     <Run Id="xcl_design_const_gnd_1_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_const_gnd_1_0" Description="Default settings for Implementation." SynthRun="xcl_design_const_gnd_1_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2282,9 +2061,7 @@
     </Run>
     <Run Id="xcl_design_const_gnd_3_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_const_gnd_3_0" Description="Default settings for Implementation." SynthRun="xcl_design_const_gnd_3_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2299,9 +2076,7 @@
     </Run>
     <Run Id="xcl_design_dma_pcie_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_dma_pcie_0" Description="Default settings for Implementation." SynthRun="xcl_design_dma_pcie_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2316,9 +2091,7 @@
     </Run>
     <Run Id="xcl_design_ddr_calib_status_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_ddr_calib_status_0" Description="Default settings for Implementation." SynthRun="xcl_design_ddr_calib_status_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2333,9 +2106,7 @@
     </Run>
     <Run Id="xcl_design_const_featureid_low_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_const_featureid_low_0" Description="Default settings for Implementation." SynthRun="xcl_design_const_featureid_low_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2350,9 +2121,7 @@
     </Run>
     <Run Id="xcl_design_gpio_featureid_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_gpio_featureid_0" Description="Default settings for Implementation." SynthRun="xcl_design_gpio_featureid_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2367,9 +2136,7 @@
     </Run>
     <Run Id="xcl_design_const_featureid_high_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_const_featureid_high_0" Description="Default settings for Implementation." SynthRun="xcl_design_const_featureid_high_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2384,9 +2151,7 @@
     </Run>
     <Run Id="xcl_design_gate_pr_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_gate_pr_0" Description="Default settings for Implementation." SynthRun="xcl_design_gate_pr_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2401,9 +2166,7 @@
     </Run>
     <Run Id="xcl_design_xbar_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_xbar_0" Description="Default settings for Implementation." SynthRun="xcl_design_xbar_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2418,9 +2181,7 @@
     </Run>
     <Run Id="xcl_design_xilmonitor_apm_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_xilmonitor_apm_0" Description="Default settings for Implementation." SynthRun="xcl_design_xilmonitor_apm_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2435,9 +2196,7 @@
     </Run>
     <Run Id="xcl_design_regslice_data_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_regslice_data_0" Description="Default settings for Implementation." SynthRun="xcl_design_regslice_data_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2452,9 +2211,7 @@
     </Run>
     <Run Id="xcl_design_startup_primitive_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_startup_primitive_0" Description="Default settings for Implementation." SynthRun="xcl_design_startup_primitive_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2469,9 +2226,7 @@
     </Run>
     <Run Id="xcl_design_iob_static_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_iob_static_0" Description="Default settings for Implementation." SynthRun="xcl_design_iob_static_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2486,9 +2241,7 @@
     </Run>
     <Run Id="xcl_design_sys_mgmt_wiz_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_sys_mgmt_wiz_0" Description="Default settings for Implementation." SynthRun="xcl_design_sys_mgmt_wiz_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2503,9 +2256,7 @@
     </Run>
     <Run Id="xcl_design_psreset_regslice_data_pr_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_regslice_data_pr_0" Description="Default settings for Implementation." SynthRun="xcl_design_psreset_regslice_data_pr_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2520,9 +2271,7 @@
     </Run>
     <Run Id="xcl_design_psreset_regslice_ctrl_pr_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_regslice_ctrl_pr_0" Description="Default settings for Implementation." SynthRun="xcl_design_psreset_regslice_ctrl_pr_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2537,9 +2286,7 @@
     </Run>
     <Run Id="xcl_design_regslice_control_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_regslice_control_0" Description="Default settings for Implementation." SynthRun="xcl_design_regslice_control_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2554,9 +2301,7 @@
     </Run>
     <Run Id="xcl_design_regslice_fifo_b_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_regslice_fifo_b_0" Description="Default settings for Implementation." SynthRun="xcl_design_regslice_fifo_b_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2571,9 +2316,7 @@
     </Run>
     <Run Id="xcl_design_slice_reset_kernel_pr_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_slice_reset_kernel_pr_0" Description="Default settings for Implementation." SynthRun="xcl_design_slice_reset_kernel_pr_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2588,9 +2331,7 @@
     </Run>
     <Run Id="xcl_design_slice_reset_system_pr_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_slice_reset_system_pr_0" Description="Default settings for Implementation." SynthRun="xcl_design_slice_reset_system_pr_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2605,9 +2346,7 @@
     </Run>
     <Run Id="xcl_design_regslice_fifo_a_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_regslice_fifo_a_0" Description="Default settings for Implementation." SynthRun="xcl_design_regslice_fifo_a_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2622,9 +2361,7 @@
     </Run>
     <Run Id="xcl_design_regslice_apm_b_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_regslice_apm_b_0" Description="Default settings for Implementation." SynthRun="xcl_design_regslice_apm_b_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2639,9 +2376,7 @@
     </Run>
     <Run Id="xcl_design_regslice_apm_a_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_regslice_apm_a_0" Description="Default settings for Implementation." SynthRun="xcl_design_regslice_apm_a_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2656,9 +2391,7 @@
     </Run>
     <Run Id="xcl_design_psreset_gate_pr_kernel_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_gate_pr_kernel_0" Description="Default settings for Implementation." SynthRun="xcl_design_psreset_gate_pr_kernel_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2673,9 +2406,7 @@
     </Run>
     <Run Id="xcl_design_xbar_1_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_xbar_1" Description="Default settings for Implementation." SynthRun="xcl_design_xbar_1_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2690,9 +2421,7 @@
     </Run>
     <Run Id="xcl_design_xilmonitor_fifo0_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_xilmonitor_fifo0_0" Description="Default settings for Implementation." SynthRun="xcl_design_xilmonitor_fifo0_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2707,9 +2436,7 @@
     </Run>
     <Run Id="xcl_design_psreset_ddrmem_n_4_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_ddrmem_n_4_0" Description="Default settings for Implementation." SynthRun="xcl_design_psreset_ddrmem_n_4_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2724,9 +2451,7 @@
     </Run>
     <Run Id="xcl_design_xilmonitor_subset0_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_xilmonitor_subset0_0" Description="Default settings for Implementation." SynthRun="xcl_design_xilmonitor_subset0_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2741,9 +2466,7 @@
     </Run>
     <Run Id="xcl_design_psreset_gate_pr_apmclk_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_gate_pr_apmclk_0" Description="Default settings for Implementation." SynthRun="xcl_design_psreset_gate_pr_apmclk_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2758,9 +2481,7 @@
     </Run>
     <Run Id="xcl_design_logic_reset_op_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_logic_reset_op_0" Description="Default settings for Implementation." SynthRun="xcl_design_logic_reset_op_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2775,9 +2496,7 @@
     </Run>
     <Run Id="xcl_design_psreset_ddrmem_n_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_ddrmem_n_0" Description="Default settings for Implementation." SynthRun="xcl_design_psreset_ddrmem_n_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2792,9 +2511,7 @@
     </Run>
     <Run Id="xcl_design_interconnect_aximm_ddrmem1_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_interconnect_aximm_ddrmem1_0" Description="Default settings for Implementation." SynthRun="xcl_design_interconnect_aximm_ddrmem1_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2809,9 +2526,7 @@
     </Run>
     <Run Id="xcl_design_psreset_gate_pr_kernel2_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_gate_pr_kernel2_0" Description="Default settings for Implementation." SynthRun="xcl_design_psreset_gate_pr_kernel2_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2826,9 +2541,7 @@
     </Run>
     <Run Id="xcl_design_psreset_ddrmem_n_2_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_ddrmem_n_2_0" Description="Default settings for Implementation." SynthRun="xcl_design_psreset_ddrmem_n_2_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2843,9 +2556,7 @@
     </Run>
     <Run Id="xcl_design_interconnect_aximm_ddrmem2_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_interconnect_aximm_ddrmem2_0" Description="Default settings for Implementation." SynthRun="xcl_design_interconnect_aximm_ddrmem2_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2860,9 +2571,7 @@
     </Run>
     <Run Id="xcl_design_interconnect_aximm_ddrmem0_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_interconnect_aximm_ddrmem0_0" Description="Default settings for Implementation." SynthRun="xcl_design_interconnect_aximm_ddrmem0_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2877,9 +2586,7 @@
     </Run>
     <Run Id="xcl_design_psreset_ddrmem_n_3_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_ddrmem_n_3_0" Description="Default settings for Implementation." SynthRun="xcl_design_psreset_ddrmem_n_3_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2894,9 +2601,7 @@
     </Run>
     <Run Id="xcl_design_psreset_gate_pr_control_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_gate_pr_control_0" Description="Default settings for Implementation." SynthRun="xcl_design_psreset_gate_pr_control_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2911,9 +2616,7 @@
     </Run>
     <Run Id="xcl_design_interconnect_aximm_host_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_interconnect_aximm_host_0" Description="Default settings for Implementation." SynthRun="xcl_design_interconnect_aximm_host_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2928,9 +2631,7 @@
     </Run>
     <Run Id="xcl_design_psreset_gate_pr_data_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_psreset_gate_pr_data_0" Description="Default settings for Implementation." SynthRun="xcl_design_psreset_gate_pr_data_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2945,9 +2646,7 @@
     </Run>
     <Run Id="xcl_design_interconnect_aximm_ddrmem3_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_interconnect_aximm_ddrmem3_0" Description="Default settings for Implementation." SynthRun="xcl_design_interconnect_aximm_ddrmem3_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2962,9 +2661,7 @@
     </Run>
     <Run Id="xcl_design_m02_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_m02_regslice_0" Description="Default settings for Implementation." SynthRun="xcl_design_m02_regslice_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2979,9 +2676,7 @@
     </Run>
     <Run Id="xcl_design_m03_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_m03_regslice_0" Description="Default settings for Implementation." SynthRun="xcl_design_m03_regslice_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -2996,9 +2691,7 @@
     </Run>
     <Run Id="xcl_design_auto_cc_1_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_auto_cc_1" Description="Default settings for Implementation." SynthRun="xcl_design_auto_cc_1_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3013,9 +2706,7 @@
     </Run>
     <Run Id="xcl_design_m01_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_m01_regslice_0" Description="Default settings for Implementation." SynthRun="xcl_design_m01_regslice_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3030,9 +2721,7 @@
     </Run>
     <Run Id="xcl_design_m00_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_m00_regslice_0" Description="Default settings for Implementation." SynthRun="xcl_design_m00_regslice_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3047,9 +2736,7 @@
     </Run>
     <Run Id="xcl_design_s00_regslice_1_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_s00_regslice_1" Description="Default settings for Implementation." SynthRun="xcl_design_s00_regslice_1_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3064,9 +2751,7 @@
     </Run>
     <Run Id="bd_2fd7_m03_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_m03_regslice_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_m03_regslice_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3081,9 +2766,7 @@
     </Run>
     <Run Id="xcl_design_axicc_ddrmem_3_ctrl_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_axicc_ddrmem_3_ctrl_0" Description="Default settings for Implementation." SynthRun="xcl_design_axicc_ddrmem_3_ctrl_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3098,9 +2781,7 @@
     </Run>
     <Run Id="xcl_design_axicc_ddrmem_2_ctrl_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_axicc_ddrmem_2_ctrl_0" Description="Default settings for Implementation." SynthRun="xcl_design_axicc_ddrmem_2_ctrl_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3115,9 +2796,7 @@
     </Run>
     <Run Id="bd_2fd7_s00_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_s00_regslice_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_s00_regslice_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3132,9 +2811,7 @@
     </Run>
     <Run Id="xcl_design_concat_ddrcalib_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_concat_ddrcalib_0" Description="Default settings for Implementation." SynthRun="xcl_design_concat_ddrcalib_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3149,9 +2826,7 @@
     </Run>
     <Run Id="xcl_design_ddrmem_0_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_ddrmem_0_0" Description="Default settings for Implementation." SynthRun="xcl_design_ddrmem_0_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3166,9 +2841,7 @@
     </Run>
     <Run Id="xcl_design_ddrmem_1_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_ddrmem_1_0" Description="Default settings for Implementation." SynthRun="xcl_design_ddrmem_1_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3183,9 +2856,7 @@
     </Run>
     <Run Id="xcl_design_ddrmem_2_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_ddrmem_2_0" Description="Default settings for Implementation." SynthRun="xcl_design_ddrmem_2_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3200,9 +2871,7 @@
     </Run>
     <Run Id="xcl_design_ddrmem_3_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_ddrmem_3_0" Description="Default settings for Implementation." SynthRun="xcl_design_ddrmem_3_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3217,9 +2886,7 @@
     </Run>
     <Run Id="xcl_design_concat_flash_dq_o_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_concat_flash_dq_o_0" Description="Default settings for Implementation." SynthRun="xcl_design_concat_flash_dq_o_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3234,9 +2901,7 @@
     </Run>
     <Run Id="xcl_design_logic_ddrcalib_op_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_logic_ddrcalib_op_0" Description="Default settings for Implementation." SynthRun="xcl_design_logic_ddrcalib_op_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3251,9 +2916,7 @@
     </Run>
     <Run Id="xcl_design_concat_flash_tri_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_concat_flash_tri_0" Description="Default settings for Implementation." SynthRun="xcl_design_concat_flash_tri_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3268,9 +2931,7 @@
     </Run>
     <Run Id="xcl_design_debug_bridge_xsdbm_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_debug_bridge_xsdbm_0" Description="Default settings for Implementation." SynthRun="xcl_design_debug_bridge_xsdbm_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3285,9 +2946,7 @@
     </Run>
     <Run Id="bd_6ad6_xsdbm_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_6ad6_xsdbm_0" Description="Default settings for Implementation." SynthRun="bd_6ad6_xsdbm_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3302,9 +2961,7 @@
     </Run>
     <Run Id="bd_6ad6_lut_buffer_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_6ad6_lut_buffer_0" Description="Default settings for Implementation." SynthRun="bd_6ad6_lut_buffer_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3319,9 +2976,7 @@
     </Run>
     <Run Id="xcl_design_flash_programmer_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_flash_programmer_0" Description="Default settings for Implementation." SynthRun="xcl_design_flash_programmer_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3336,9 +2991,7 @@
     </Run>
     <Run Id="xcl_design_slice_ss_0_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_slice_ss_0_0" Description="Default settings for Implementation." SynthRun="xcl_design_slice_ss_0_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3353,9 +3006,7 @@
     </Run>
     <Run Id="xcl_design_slice_ss_1_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_slice_ss_1_0" Description="Default settings for Implementation." SynthRun="xcl_design_slice_ss_1_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3370,9 +3021,7 @@
     </Run>
     <Run Id="xcl_design_u_ocl_region_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_u_ocl_region_0" Description="Default settings for Implementation." SynthRun="xcl_design_u_ocl_region_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3387,9 +3036,7 @@
     </Run>
     <Run Id="bd_2fd7_s00_regslice_3_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_s00_regslice_3" Description="Default settings for Implementation." SynthRun="bd_2fd7_s00_regslice_3_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3404,9 +3051,7 @@
     </Run>
     <Run Id="bd_2fd7_s00_regslice_2_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_s00_regslice_2" Description="Default settings for Implementation." SynthRun="bd_2fd7_s00_regslice_2_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3421,9 +3066,7 @@
     </Run>
     <Run Id="bd_2fd7_s00_regslice_1_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_s00_regslice_1" Description="Default settings for Implementation." SynthRun="bd_2fd7_s00_regslice_1_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3438,9 +3081,7 @@
     </Run>
     <Run Id="xcl_design_m05_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_m05_regslice_0" Description="Default settings for Implementation." SynthRun="xcl_design_m05_regslice_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3455,9 +3096,7 @@
     </Run>
     <Run Id="bd_2fd7_xbar_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_xbar_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_xbar_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3472,9 +3111,7 @@
     </Run>
     <Run Id="bd_2fd7_m00_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_m00_regslice_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_m00_regslice_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3489,9 +3126,7 @@
     </Run>
     <Run Id="bd_2fd7_data_sys_reset_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_data_sys_reset_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_data_sys_reset_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3506,9 +3141,7 @@
     </Run>
     <Run Id="bd_2fd7_m01_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_m01_regslice_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_m01_regslice_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3523,9 +3156,7 @@
     </Run>
     <Run Id="bd_2fd7_kernel_2_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_kernel_2_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_kernel_2_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3540,9 +3171,7 @@
     </Run>
     <Run Id="bd_2fd7_kernel_3_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_kernel_3_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_kernel_3_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3557,9 +3186,7 @@
     </Run>
     <Run Id="bd_2fd7_kernel_0_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_kernel_0_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_kernel_0_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3574,9 +3201,7 @@
     </Run>
     <Run Id="bd_2fd7_control_sys_reset_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_control_sys_reset_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_control_sys_reset_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3591,9 +3216,7 @@
     </Run>
     <Run Id="xcl_design_s00_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_s00_regslice_0" Description="Default settings for Implementation." SynthRun="xcl_design_s00_regslice_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3608,9 +3231,7 @@
     </Run>
     <Run Id="bd_2fd7_slave_bridge_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_slave_bridge_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_slave_bridge_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3625,9 +3246,7 @@
     </Run>
     <Run Id="bd_2fd7_master_bridge_1_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_master_bridge_1_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_master_bridge_1_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3642,9 +3261,7 @@
     </Run>
     <Run Id="bd_2fd7_kernel_1_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_kernel_1_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_kernel_1_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3659,9 +3276,7 @@
     </Run>
     <Run Id="xcl_design_m06_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_m06_regslice_0" Description="Default settings for Implementation." SynthRun="xcl_design_m06_regslice_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3676,9 +3291,7 @@
     </Run>
     <Run Id="bd_2fd7_master_bridge_3_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_master_bridge_3_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_master_bridge_3_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3693,9 +3306,7 @@
     </Run>
     <Run Id="bd_2fd7_master_bridge_0_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_master_bridge_0_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_master_bridge_0_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3710,9 +3321,7 @@
     </Run>
     <Run Id="bd_2fd7_master_bridge_2_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_master_bridge_2_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_master_bridge_2_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3727,9 +3336,7 @@
     </Run>
     <Run Id="xcl_design_m04_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_m04_regslice_0" Description="Default settings for Implementation." SynthRun="xcl_design_m04_regslice_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3744,9 +3351,7 @@
     </Run>
     <Run Id="bd_2fd7_m02_regslice_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_m02_regslice_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_m02_regslice_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3761,9 +3366,7 @@
     </Run>
     <Run Id="xcl_design_auto_cc_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_auto_cc_0" Description="Default settings for Implementation." SynthRun="xcl_design_auto_cc_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3778,9 +3381,7 @@
     </Run>
     <Run Id="xcl_design_auto_cc_2_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="xcl_design_auto_cc_2" Description="Default settings for Implementation." SynthRun="xcl_design_auto_cc_2_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3795,9 +3396,7 @@
     </Run>
     <Run Id="bd_2fd7_auto_cc_0_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_auto_cc_0" Description="Default settings for Implementation." SynthRun="bd_2fd7_auto_cc_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3812,9 +3411,7 @@
     </Run>
     <Run Id="bd_2fd7_auto_cc_1_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_auto_cc_1" Description="Default settings for Implementation." SynthRun="bd_2fd7_auto_cc_1_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3829,9 +3426,7 @@
     </Run>
     <Run Id="bd_2fd7_auto_cc_2_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_auto_cc_2" Description="Default settings for Implementation." SynthRun="bd_2fd7_auto_cc_2_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -3846,9 +3441,7 @@
     </Run>
     <Run Id="bd_2fd7_auto_cc_3_impl_1" Type="Ft2:EntireDesign" Part="xcku115-flvb2104-2-e" ConstrsSet="bd_2fd7_auto_cc_3" Description="Default settings for Implementation." SynthRun="bd_2fd7_auto_cc_3_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
