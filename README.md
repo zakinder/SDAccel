@@ -254,6 +254,6 @@ o DMA test for PCIe bandwidth
 o Show status of compute units
 
 ![BUS](https://github.com/sakinder/SDAccel/blob/master/PNG/VERSION_A/10.PNG "BUS")
-![CARD](https://github.com/sakinder/SDAccel/blob/master/PNG/VERSION_A/16.png "CARD")
+![CARD](https://github.com/sakinder/SDAccel/blob/master/PNG/VERSION_A/16.jpg "CARD")
 ![BLOCK](https://github.com/sakinder/SDAccel/blob/master/PNG/VERSION_A/09.png "BLOCK")
 ![KERNEL](https://github.com/sakinder/SDAccel/blob/master/PNG/VERSION_A/08.png "KERNEL")
