@@ -1,0 +1,24 @@
+{
+    "runtime": ["OpenCL"],
+    "example": "Burst Read/Write",
+    "overview": [
+        "This is simple example of using AXI4-master interface for burst read and write"
+    ],
+    "key_concepts": [ "burst access"],
+    "keywords": ["NA"],
+    "em_cmd": "./host",
+    "hw_cmd": "../../../utility/nimbix/nimbix-run.py -- ./host",
+    "contributors" : [
+        {
+            "group": "Xilinx",
+            "url" : "http://www.xilinx.com"
+        }
+    ],
+    "revision" : [
+        {
+            "date" : "DEC2016",
+            "version": "1.0",
+            "description": "Initial Xilinx Release"
+        }
+    ]
+}

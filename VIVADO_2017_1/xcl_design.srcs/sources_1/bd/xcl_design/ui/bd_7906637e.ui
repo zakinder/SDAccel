@@ -1,0 +1,154 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port tms -pg 1 -y 1790 -defaultsOSRD
+preplace port clkwiz_sysclks_clk_out2 -pg 1 -y 150 -defaultsOSRD
+preplace port clkwiz_kernel2_locked -pg 1 -y 70 -defaultsOSRD
+preplace port shift -pg 1 -y 1730 -defaultsOSRD
+preplace port flash_programmer_ss_t -pg 1 -y 1700 -defaultsOSRD
+preplace port tdi -pg 1 -y 1770 -defaultsOSRD
+preplace port dma_pcie_axi_aclk -pg 1 -y 350 -defaultsOSRD
+preplace port clkwiz_kernel2_clk_out1 -pg 1 -y 50 -defaultsOSRD
+preplace port tck -pg 1 -y 1750 -defaultsOSRD
+preplace port flash_programmer_io3_o -pg 1 -y 1640 -defaultsOSRD
+preplace port clkwiz_kernel_clk_out1 -pg 1 -y 90 -defaultsOSRD
+preplace port flash_programmer_sck_o -pg 1 -y 1680 -defaultsOSRD
+preplace port flash_programmer_io2_t -pg 1 -y 1620 -defaultsOSRD
+preplace port drck -pg 1 -y 1530 -defaultsOSRD
+preplace port dma_pcie_user_lnk_up -pg 1 -y 370 -defaultsOSRD
+preplace port ddrmem_1_C0_DDR4 -pg 1 -y 660 -defaultsOSRD
+preplace port iob_static_io3_i -pg 1 -y 1630 -defaultsOSRD
+preplace port flash_programmer_io1_o -pg 1 -y 1560 -defaultsOSRD
+preplace port clkwiz_kernel_locked -pg 1 -y 110 -defaultsOSRD
+preplace port c3_sys -pg 1 -y 800 -defaultsOSRD
+preplace port update -pg 1 -y 1510 -defaultsOSRD
+preplace port iob_static_emc_clk_out -pg 1 -y 1550 -defaultsOSRD
+preplace port flash_programmer_io0_o -pg 1 -y 1520 -defaultsOSRD
+preplace port iob_static_io2_i -pg 1 -y 1610 -defaultsOSRD
+preplace port c0_sys -pg 1 -y 520 -defaultsOSRD
+preplace port tdo -pg 1 -y 1320 -defaultsOSRD
+preplace port logic_ddrcalib_op_Res -pg 1 -y 880 -defaultsOSRD
+preplace port flash_programmer_io3_t -pg 1 -y 1660 -defaultsOSRD
+preplace port clkwiz_sysclks_locked -pg 1 -y 170 -defaultsOSRD
+preplace port runtest -pg 1 -y 1690 -defaultsOSRD
+preplace port flash_programmer_io1_t -pg 1 -y 1580 -defaultsOSRD
+preplace port capture -pg 1 -y 1450 -defaultsOSRD
+preplace port regslice_data_M_AXI -pg 1 -y 1310 -defaultsOSRD
+preplace port ddrmem_2_C0_DDR4 -pg 1 -y 680 -defaultsOSRD
+preplace port c1_sys -pg 1 -y 540 -defaultsOSRD
+preplace port iob_static_perst_n_out -pg 1 -y 390 -defaultsOSRD
+preplace port iob_static_io0_i -pg 1 -y 1570 -defaultsOSRD
+preplace port flash_programmer_io0_t -pg 1 -y 1540 -defaultsOSRD
+preplace port regslice_control_M_AXI -pg 1 -y 880 -defaultsOSRD
+preplace port sel -pg 1 -y 1710 -defaultsOSRD
+preplace port reset -pg 1 -y 1670 -defaultsOSRD
+preplace port iob_static_io1_i -pg 1 -y 1590 -defaultsOSRD
+preplace port flash_programmer_io2_o -pg 1 -y 1600 -defaultsOSRD
+preplace port clkwiz_sysclks_clk_out1 -pg 1 -y 130 -defaultsOSRD
+preplace port ddrmem_3_C0_DDR4 -pg 1 -y 700 -defaultsOSRD
+preplace port ddrmem_0_C0_DDR4 -pg 1 -y 640 -defaultsOSRD
+preplace port c2_sys -pg 1 -y 780 -defaultsOSRD
+preplace portBus bscanid -pg 1 -y 1300 -defaultsOSRD
+preplace portBus concat_flash_dq_o_dout -pg 1 -y 1500 -defaultsOSRD
+preplace portBus slice_ss_1_Dout -pg 1 -y 1740 -defaultsOSRD
+preplace portBus concat_flash_tri_dout -pg 1 -y 1480 -defaultsOSRD
+preplace portBus slice_ss_0_Dout -pg 1 -y 1720 -defaultsOSRD
+preplace portBus slice_reset_kernel_pr_Dout -pg 1 -y 410 -defaultsOSRD
+preplace inst pr_support_expanded -pg 1 -lvl 5 -y 1610 -defaultsOSRD
+preplace inst interconnect_axilite -pg 1 -lvl 2 -y 1060 -defaultsOSRD
+preplace inst interconnect -pg 1 -lvl 4 -y 830 -defaultsOSRD
+preplace inst u_ocl_region -pg 1 -lvl 3 -y 660 -defaultsOSRD
+preplace inst expanded_resets -pg 1 -lvl 1 -y 230 -defaultsOSRD
+preplace inst apm_sys -pg 1 -lvl 5 -y 1190 -defaultsOSRD
+preplace inst memc -pg 1 -lvl 5 -y 760 -defaultsOSRD
+preplace netloc pr_support_expanded_io1_t 1 5 1 NJ
+preplace netloc pr_support_expanded_Dout2 1 5 1 NJ
+preplace netloc pr_support_expanded_ss_t 1 5 1 NJ
+preplace netloc M03_ARESETN_1 1 1 4 740 410 NJ 410 NJ 410 2720
+preplace netloc S00_AXI1_1 1 0 5 NJ 1310 NJ 1310 1230J 1100 1880 1100 NJ
+preplace netloc pr_support_expanded_dout 1 5 1 NJ
+preplace netloc update_1 1 0 5 NJ 1510 NJ 1510 NJ 1510 NJ 1510 NJ
+preplace netloc u_ocl_region_M00_AXI 1 3 2 1890 620 2630J
+preplace netloc dcm_locked_1 1 0 1 NJ
+preplace netloc u_ocl_region_M01_AXI 1 3 2 1900 630 2610J
+preplace netloc runtest_1 1 0 5 NJ 1690 NJ 1690 NJ 1690 NJ 1690 NJ
+preplace netloc expanded_resets_interconnect_aresetn1 1 1 4 720 520 1230 520 NJ 520 2570
+preplace netloc dcm_locked_2 1 0 1 NJ
+preplace netloc expanded_resets_interconnect_aresetn2 1 1 2 NJ 300 1210
+preplace netloc dcm_locked_3 1 0 1 NJ
+preplace netloc pr_support_expanded_tdo 1 5 1 3430
+preplace netloc logic_reset_op_Res_1 1 0 1 NJ
+preplace netloc expanded_resets_interconnect_aresetn3 1 1 4 NJ 160 NJ 160 NJ 160 2780
+preplace netloc pr_support_expanded_bscanid 1 5 1 3390
+preplace netloc u_ocl_region_M03_AXI 1 3 2 1920 650 2560J
+preplace netloc drck_1 1 0 5 NJ 1530 NJ 1530 NJ 1530 NJ 1530 NJ
+preplace netloc expanded_resets_interconnect_aresetn4 1 1 4 NJ 180 NJ 180 NJ 180 2770
+preplace netloc interconnect_M00_AXI1 1 4 1 2520
+preplace netloc M01_ACLK_1 1 0 5 60 510 NJ 510 1240 510 1830 420 2680J
+preplace netloc expanded_resets_interconnect_aresetn5 1 1 4 NJ 200 NJ 200 NJ 200 2750
+preplace netloc interconnect_M00_AXI2 1 4 1 2700
+preplace netloc shift_1 1 0 5 NJ 1730 NJ 1730 NJ 1730 NJ 1730 NJ
+preplace netloc pr_support_expanded_sck_o 1 5 1 NJ
+preplace netloc s_axi_aresetn_1 1 1 4 730 1300 1240J 1280 NJ 1280 NJ
+preplace netloc interconnect_M00_AXI3 1 4 1 2710
+preplace netloc Op1_1 1 0 1 NJ
+preplace netloc pr_support_expanded_dout3 1 5 1 NJ
+preplace netloc pr_support_expanded_io3_o 1 5 1 NJ
+preplace netloc sel_1 1 0 5 NJ 1710 NJ 1710 NJ 1710 NJ 1710 NJ
+preplace netloc pr_support_expanded_io0_o 1 5 1 NJ
+preplace netloc interconnect_axilite_M03_AXI 1 2 3 1120J 430 NJ 430 2760
+preplace netloc pr_support_expanded_io3_t 1 5 1 NJ
+preplace netloc ext_spi_clk_1 1 0 5 NJ 1550 NJ 1550 NJ 1550 NJ 1550 NJ
+preplace netloc ext_reset_in_1 1 0 1 NJ
+preplace netloc interconnect_axilite_M02_AXI 1 2 3 NJ 1040 1760J 1050 2550
+preplace netloc interconnect_axilite_M01_AXI 1 2 3 NJ 1020 1770J 1040 N
+preplace netloc pr_support_expanded_io0_t 1 5 1 NJ
+preplace netloc memory_c0_ddr4_ui_clk_sync_rst 1 0 6 80 710 NJ 710 1170J 800 1770J 530 NJ 530 3370
+preplace netloc interconnect_axilite_M00_AXI 1 2 3 NJ 1000 NJ 1000 2530
+preplace netloc interconnect_M04_AXI 1 4 1 2600
+preplace netloc memory_c0_ddr4_ui_clk 1 0 6 70 810 770 810 NJ 810 1810 580 2690 520 3380
+preplace netloc M01_ARESETN_1 1 1 4 NJ 320 1220 400 NJ 400 2660J
+preplace netloc tck_1 1 0 5 NJ 1750 NJ 1750 NJ 1750 NJ 1750 NJ
+preplace netloc interconnect_axilite_M06_AXI 1 2 1 1190
+preplace netloc memory_c0_ddr4_ui_clk1 1 0 6 90 690 NJ 690 1180J 820 1870 540 2650J 470 3410
+preplace netloc interconnect_axilite_M04_AXI 1 2 3 1140 440 NJ 440 2740J
+preplace netloc memory_c0_ddr4_ui_clk2 1 0 6 100 740 NJ 740 1130J 840 1850 510 NJ 510 3390
+preplace netloc capture_1 1 0 5 NJ 1450 NJ 1450 NJ 1450 NJ 1450 NJ
+preplace netloc memory_c0_ddr4_ui_clk3 1 0 6 110 750 NJ 750 1110J 850 1790 550 2640J 460 3440
+preplace netloc pr_support_expanded_io2_o 1 5 1 NJ
+preplace netloc io3_i_1 1 0 5 NJ 1630 NJ 1630 NJ 1630 NJ 1630 NJ
+preplace netloc u_ocl_region_M02_AXI 1 3 2 1910 640 2590J
+preplace netloc interconnect_M00_AXI 1 4 1 2670
+preplace netloc io2_i_1 1 0 5 NJ 1610 NJ 1610 NJ 1610 NJ 1610 NJ
+preplace netloc io0_i_1 1 0 5 NJ 1570 NJ 1570 NJ 1570 NJ 1570 NJ
+preplace netloc slowest_sync_clk_1 1 0 5 40 660 750 660 1200 530 1760J 560 2580
+preplace netloc memory_Res 1 5 1 NJ
+preplace netloc tms_1 1 0 5 NJ 1790 NJ 1790 NJ 1790 NJ 1790 NJ
+preplace netloc Conn1 1 0 5 NJ 540 NJ 540 NJ 540 1860J 570 2730J
+preplace netloc slowest_sync_clk_2 1 0 5 20 820 760 820 1100J 830 1820 590 2620J
+preplace netloc pr_support_expanded_io2_t 1 5 1 NJ
+preplace netloc Conn2 1 5 1 NJ
+preplace netloc slowest_sync_clk_3 1 0 3 50 700 NJ 700 NJ
+preplace netloc memory_c0_ddr4_ui_clk_sync_rst1 1 0 6 120 480 NJ 480 NJ 480 NJ 480 NJ 480 3400
+preplace netloc Conn3 1 0 5 30J 460 NJ 460 NJ 460 NJ 460 2630J
+preplace netloc tdi_1 1 0 5 NJ 1770 NJ 1770 NJ 1770 NJ 1770 NJ
+preplace netloc memory_c0_ddr4_ui_clk_sync_rst2 1 0 6 130 490 NJ 490 NJ 490 NJ 490 NJ 490 3420
+preplace netloc Conn4 1 5 1 NJ
+preplace netloc Conn5 1 0 5 NJ 780 NJ 780 NJ 780 1800J 600 2710J
+preplace netloc expanded_resets_Res 1 1 4 NJ 140 NJ 140 NJ 140 2790
+preplace netloc memory_c0_ddr4_ui_clk_sync_rst3 1 0 6 140 500 NJ 500 NJ 500 NJ 500 NJ 500 3430
+preplace netloc pr_support_expanded_io1_o 1 5 1 NJ
+preplace netloc interconnect_axilite_M05_AXI 1 2 3 1160 470 NJ 470 2520J
+preplace netloc Conn6 1 5 1 NJ
+preplace netloc Conn7 1 0 5 0J 770 NJ 770 1150J 790 1840J 610 2700J
+preplace netloc Conn8 1 5 1 NJ
+preplace netloc reset_1 1 0 5 NJ 1670 NJ 1670 NJ 1670 NJ 1670 NJ
+preplace netloc S00_AXI_1 1 0 2 NJ 880 NJ
+preplace netloc S00_ACLK_1 1 0 5 10 800 NJ 800 1090J 860 1760 1010 2540J
+preplace netloc pr_support_expanded_Dout1 1 5 1 NJ
+preplace netloc expanded_resets_interconnect_aresetn 1 1 4 NJ 280 NJ 280 1780 1020 2520J
+preplace netloc io1_i_1 1 0 5 NJ 1590 NJ 1590 NJ 1590 NJ 1590 NJ
+levelinfo -pg 1 -20 430 940 1500 2220 3080 3460 -top -10 -bot 1840
+",
+}
+

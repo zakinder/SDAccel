@@ -1,0 +1,62 @@
+{
+    "runtime": ["OpenCL"],
+    "example": "Watermarking",
+    "overview": [
+        "This is an optimized implementation of a watermarking application to add watermarking to images targeting execution on an SDAccel supported FPGA acceleration card."
+    ],
+    "nboards": ["xilinx:adm-pcie-7v3:1ddr"],
+    "cmd_args": "PROJECT/data/inputImage.bmp PROJECT/data/golden.bmp",
+    "em_cmd": "./watermark data/inputImage.bmp ./data/golden.bmp",
+    "hw_cmd": "../../utility/nimbix/nimbix-run.py -- ./watermark data/inputImage.bmp ./data/golden.bmp",
+    "libs": [
+        "xcl", 
+        "bitmap"
+    ], 
+    "accelerators": [
+        {
+            "name": "apply_watermark", 
+            "location": "src/krnl_watermarking.cl"
+        }
+    ],
+    "perf_fields": ["Board", "Image Size", "Frames / Second"],
+    "performance": [
+        {
+            "system": "xilinx:adm-pcie-ku3:2ddr-xpr",
+            "constraint": "1024 x 768",
+            "metric": "2,658"
+        },
+        {
+            "system": "xilinx:xil-accel-rd-ku115:4ddr-xpr",
+            "constraint": "1024 x 768",
+            "metric": "3526"
+        }
+    ],
+    "contributors": [
+        {
+            "group": "Xilinx",
+            "url": "http://www.xilinx.com"
+        }
+    ],
+    "revision": [
+        {
+            "date": "FEB2016",
+            "version": "1.0",
+            "description": "Initial Xilinx Release"
+        },
+        {
+            "date": "JUL2016",
+            "version": "2.0",
+            "description": "Conversion to Makefile based compilation"
+        },
+        {
+            "date": "DEC2016",
+            "version": "3.0",
+            "description": "Update for SDAccel 2016.3"
+        },
+        {
+            "date": "MAR2017",
+            "version": "4.0",
+            "description": "Optimized Kernel using uint16 datawidth. Updated Host code to use xcl_wrapper APIs"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "runtime": ["OpenCL"],
+    "example": "Shift Register",
+    "overview": [
+        "This example demonstrates how to shift values in registers in each clock cycle"
+    ],
+    "key_concepts": [ "Kernel Optimization", "Shift Register", "FIR"],
+    "keywords": [ "#pragma HLS ARRAY_PARTITION" ],
+    "nboards": ["xilinx:xil-accel-rd-ku115:4ddr-xpr"],
+    "em_cmd": "./host",
+    "hw_cmd": "../../utility/nimbix/nimbix-run.py -- ./host",
+    "contributors" : [
+        {
+            "group": "Xilinx",
+            "url" : "http://www.xilinx.com"
+        }
+    ],
+    "revision" : [
+        {
+            "date" : "DEC2016",
+            "version": "1.0",
+            "description": "Initial Xilinx Release"
+        }
+    ]
+}

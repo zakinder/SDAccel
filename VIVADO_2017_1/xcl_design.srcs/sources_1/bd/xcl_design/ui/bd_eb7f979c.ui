@@ -1,0 +1,33 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port ref_clk -pg 1 -y 170 -defaultsOSRD
+preplace port c3_sys -pg 1 -y 250 -defaultsOSRD
+preplace port c0_sys -pg 1 -y 50 -defaultsOSRD
+preplace port c1_ddr4 -pg 1 -y 120 -defaultsOSRD
+preplace port c3_ddr4 -pg 1 -y 180 -defaultsOSRD
+preplace port c0_ddr4 -pg 1 -y 140 -defaultsOSRD
+preplace port c2_ddr4 -pg 1 -y 160 -defaultsOSRD
+preplace port c1_sys -pg 1 -y 70 -defaultsOSRD
+preplace port pcie_7x_mgt -pg 1 -y 40 -defaultsOSRD
+preplace port iic -pg 1 -y 20 -defaultsOSRD
+preplace port c2_sys -pg 1 -y 90 -defaultsOSRD
+preplace inst base_region -pg 1 -lvl 1 -y 170 -defaultsOSRD
+preplace inst expanded_region -pg 1 -lvl 2 -y 150 -defaultsOSRD
+preplace netloc expanded_region_C0_DDR6 1 2 1 NJ
+preplace netloc c3_sys_1 1 0 2 NJ 250 360J
+preplace netloc expanded_region_C0_DDR7 1 2 1 NJ
+preplace netloc ref_clk_1 1 0 1 NJ
+preplace netloc c0_sys_1 1 0 2 NJ 50 360J
+preplace netloc base_region_IIC 1 1 2 320J 20 NJ
+preplace netloc base_region_M_AXI1 1 1 1 N
+preplace netloc base_region_M_AXI 1 1 1 N
+preplace netloc c1_sys_1 1 0 2 NJ 70 340J
+preplace netloc base_region_pcie_mgt 1 1 2 350J 40 NJ
+preplace netloc expanded_region_C0_DDR4 1 2 1 NJ
+preplace netloc expanded_region_C0_DDR5 1 2 1 NJ
+preplace netloc c2_sys_1 1 0 2 20J 80 330J
+levelinfo -pg 1 0 170 550 760 -top 0 -bot 270
+",
+}
+0

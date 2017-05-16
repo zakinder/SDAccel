@@ -1,0 +1,24 @@
+{
+    "runtime": ["OpenCL"],
+    "example": "Loops Dataflow Using HLS Stream",
+    "overview": [
+        "This is simple example of vector addition to demonstrate Loops Dataflow functionality of HLS. HLS Dataflow allows user to schedule multiple sequential loops concurrently to achieve higher throughput."
+    ],
+    "key_concepts": [ "Loop Dataflow"],
+    "keywords": [ "dataflow" , "hls::stream<>"],
+    "em_cmd": "./host",
+    "hw_cmd": "../../../utility/nimbix/nimbix-run.py -- ./host",
+    "contributors" : [
+        {
+            "group": "Xilinx",
+            "url" : "http://www.xilinx.com"
+        }
+    ],
+    "revision" : [
+        {
+            "date" : "DEC2016",
+            "version": "1.0",
+            "description": "Initial Xilinx Release"
+        }
+    ]
+}
