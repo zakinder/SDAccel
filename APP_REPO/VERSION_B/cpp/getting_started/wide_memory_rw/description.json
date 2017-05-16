@@ -1,0 +1,38 @@
+{
+    "example": "Wide Memory Read/Write",
+    "overview": [
+        "This is a simple example of vector addition to demonstrate Wide Memory Access using ap_uint<128> data type. Based on input argument type, sds++ compiler will figure out the memory bandwidth between DDR and PL." 
+    ],
+    "key_concepts": [ "Accelerator to Memory Access", "wide memory access", "burst read and write"],
+    "keywords": ["ap_uint<DATAWIDTH>", "ap_int.h"],
+    "board": ["zc706", "zcu102", "zcu102_es2"],
+    "contributors" : [
+        {
+            "group": "Xilinx",
+            "url" : "http://www.xilinx.com"
+        }
+    ],
+    "revision" : [
+        {
+            "date" : "MAR2017",
+            "version": "1.0",
+            "description": "Initial Xilinx Release"
+        }
+    ],
+    "accelerators": [
+       {
+           "name" : "vadd_accel",
+           "location" : "vadd.cpp"
+       }
+    ],
+    "libs": [
+            "sds_utils"
+    ],
+    "source_dir" : "src/*.cpp",
+    "os" : [
+            "linux",
+            "standalone"
+    ],
+    "pass_string" : "TEST PASSED",
+    "fail_string" : "TEST FAILED" 
+}

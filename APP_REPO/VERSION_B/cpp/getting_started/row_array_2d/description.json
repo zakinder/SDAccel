@@ -1,0 +1,38 @@
+{
+    "example": "Read/Write Row of 2D Array",
+    "overview": [
+        "This is a simple example of accessing each row of data from 2D array"
+    ],
+    "key_concepts": [ "Row of 2D data array access"],
+    "keywords": ["hls::stream"],
+    "board": ["zc702", "zc706", "zcu102", "zcu102_es2"],
+    "contributors" : [
+        {
+            "group": "Xilinx",
+            "url" : "http://www.xilinx.com"
+        }
+    ],
+    "revision" : [
+        {
+            "date" : "MAR2017",
+            "version": "1.0",
+            "description": "Initial Xilinx Release"
+        }
+    ],
+    "accelerators": [
+       {
+           "name" : "row_array_2d_accel",
+           "location" : "row_array_2d.cpp"
+       }
+    ],
+    "libs": [
+            "sds_utils"
+    ],
+    "source_dir" : "src/*.cpp",
+    "os" : [
+            "linux",
+            "standalone"
+    ],
+    "pass_string" : "TEST PASSED",
+    "fail_string" : "TEST FAILED" 
+}

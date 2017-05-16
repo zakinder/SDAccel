@@ -1,0 +1,38 @@
+{
+    "example": "Shift Register",
+    "overview": [
+        "This example demonstrates how to shift values in each clock cycle" 
+    ],
+    "key_concepts": [ "Hardware Function Optimization", "Shift Register", "FIR"],
+    "keywords": ["#pragma HLS ARRAY_PARTITION"],
+    "board": ["zc702", "zc706", "zcu102", "zcu102_es2"],
+    "contributors" : [
+        {
+            "group": "Xilinx",
+            "url" : "http://www.xilinx.com"
+        }
+    ],
+    "revision" : [
+        {
+            "date" : "MAR2017",
+            "version": "1.0",
+            "description": "Initial Xilinx Release"
+        }
+    ],
+    "accelerators": [
+       {
+           "name" : "fir_shift_register_accel",
+           "location" : "fir.cpp"
+       }
+    ],
+    "libs": [
+            "sds_utils"
+    ],
+    "source_dir" : "src/*.cpp",
+    "os" : [
+            "linux",
+            "standalone"
+    ],
+    "pass_string" : "TEST PASSED",
+    "fail_string" : "TEST FAILED" 
+}

@@ -1,0 +1,38 @@
+{
+    "example": "Array Partitioning",
+    "overview": [
+        "This example shows how to use array partitioning to improve performance of a hardware function"
+    ],
+    "key_concepts": [ "Hardware Function Optimization", "Array Partitioning"],
+    "keywords": ["#pragma HLS ARRAY_PARTITION", "complete"],
+    "board": ["zc702", "zc706", "zcu102", "zcu102_es2"],
+    "contributors" : [
+        {
+            "group": "Xilinx",
+            "url" : "http://www.xilinx.com"
+        }
+    ],
+    "revision" : [
+        {
+            "date" : "MAR2017",
+            "version": "1.0",
+            "description": "Initial Xilinx Release"
+        }
+    ],
+    "accelerators": [
+       {
+           "name" : "matmul_partition_accel",
+           "location" : "matmul.cpp"
+       }
+    ],
+    "libs": [
+            "sds_utils"
+    ],
+    "source_dir" : "src/*.cpp",
+    "os" : [
+            "linux",
+            "standalone"
+    ],
+    "pass_string" : "TEST PASSED",
+    "fail_string" : "TEST FAILED" 
+}
