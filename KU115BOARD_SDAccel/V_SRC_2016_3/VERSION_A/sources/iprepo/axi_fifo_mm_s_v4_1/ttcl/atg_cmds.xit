@@ -1,0 +1,203 @@
+source_ipfile "ttcl/atg_reg_func.xit"
+set c_base_addr [get_property "MODELPARAM_VALUE.C_BASEADDR" [current_scope]]
+set c_axi4_base_addr [get_property "MODELPARAM_VALUE.C_AXI4_BASEADDR" [current_scope]]
+set c_data_interface_type [get_property "MODELPARAM_VALUE.C_DATA_INTERFACE_TYPE" [current_scope]]
+set c_s_axi4_data_width [get_property "MODELPARAM_VALUE.C_S_AXI4_DATA_WIDTH" [current_scope]]
+set c_use_tx_data [get_property "MODELPARAM_VALUE.C_USE_TX_DATA" [current_scope]]
+set c_use_rx_data [get_property "MODELPARAM_VALUE.C_USE_RX_DATA" [current_scope]]
+
+#--------------------------------------------
+# Subroutines to  simplify write and read register access
+#------------------
+proc write_regl {addr data mask cerr} {
+ variable addr_coe
+ variable data_coe
+ variable mask_coe
+ variable ctrl_coe
+ variable pidx 
+ variable fidx
+ variable c_base_addr
+ variable c_axi4_base_addr
+ variable c_data_interface_type
+
+ set addr 0x$addr
+ set final_addr [format %0x [expr {$c_base_addr+$addr} ]]
+
+ # Use AXI4 Base address for TDFD register if mode is AXI4
+ if {$c_data_interface_type == 1 && $addr == 0x10} {
+  set final_addr [format %0x [expr {$c_axi4_base_addr+0x0} ]]
+ }
+ 
+ [write_reg $addr_coe $data_coe $mask_coe $ctrl_coe $final_addr $data $mask $pidx $fidx $cerr]
+ incr pidx
+ incr fidx
+ return 0
+}
+
+proc read_regl {addr data mask cerr} {
+ variable addr_coe
+ variable data_coe
+ variable mask_coe
+ variable ctrl_coe
+ variable pidx 
+ variable fidx 
+ variable c_base_addr
+ variable c_axi4_base_addr
+ variable c_data_interface_type
+ 
+ set addr 0x$addr
+ set final_addr [format %0x [expr {$c_base_addr+$addr} ]]
+
+ # Use AXI4 Base address for RDFD register if mode is AXI4
+ if {$c_data_interface_type == 1 && $addr == 0x20} {
+  set final_addr [format %0x [expr {$c_axi4_base_addr+0x1000} ]]
+ }
+
+ [read_reg $addr_coe $data_coe $mask_coe $ctrl_coe $final_addr $data $mask $pidx $fidx $cerr]
+ incr pidx
+ incr fidx
+ return 0
+}
+
+#------------------------------------------------------------
+# Start of coe file generation
+#----------
+
+set addr_coe [add_ipfile addr.coe]
+set data_coe [add_ipfile data.coe]
+set mask_coe [add_ipfile mask.coe]
+set ctrl_coe [add_ipfile ctrl.coe]
+
+[start_coe $addr_coe $data_coe $mask_coe $ctrl_coe]
+
+# command pass index 
+set pidx 1
+# command fail index
+set fidx 0 
+# mismatch count as error
+set cerr 1 
+
+#****************************************************
+# ASSUMPTIONS:
+# If these assumptions are not satified checker logic will not work for RX/TX only mode 
+#  1) data gets incremented sequentially starting from 1
+#  2) Fixed packet size of 4 words
+#***************************************************
+   
+
+#Clear ISR Register
+[write_regl 00 FFFFFFFF FFFFFFFF $cerr]
+
+#Enable all bits of IER
+[write_regl 04 FFFFFFFF FFFFFFFF $cerr]
+
+#--------------------------------------
+#  WRITE
+#-------------------------------------
+# Perform write packet operations only if TX path is enabled
+if {$c_use_tx_data == 1} {
+  # write 4 words to TDFD register
+  [write_regl 10 00000001 FFFFFFFF $cerr]
+  [write_regl 10 00000002 FFFFFFFF $cerr]
+  [write_regl 10 00000003 FFFFFFFF $cerr]
+  [write_regl 10 00000004 FFFFFFFF $cerr]
+  
+  # Update TLF register with no of bytes(16 for 32-bit data width,32 for 64-bit data interface etc..)
+  if {$c_data_interface_type == 0 || $c_s_axi4_data_width == 32} {
+    [write_regl 14 00000010 FFFFFFFF $cerr]
+  }
+  if {$c_data_interface_type == 1 && $c_s_axi4_data_width == 64} {
+    [write_regl 14 00000020 FFFFFFFF $cerr]
+  }
+  if {$c_data_interface_type == 1 && $c_s_axi4_data_width == 128} {
+    [write_regl 14 00000040 FFFFFFFF $cerr]
+  }
+  if {$c_data_interface_type == 1 && $c_s_axi4_data_width == 256} {
+    [write_regl 14 00000080 FFFFFFFF $cerr]
+  }
+  if {$c_data_interface_type == 1 && $c_s_axi4_data_width == 512} {
+    [write_regl 14 00000100 FFFFFFFF $cerr]
+  }
+  
+  # write 4 words to TDFD register
+  [write_regl 10 00000005 FFFFFFFF $cerr]
+  [write_regl 10 00000006 FFFFFFFF $cerr]
+  [write_regl 10 00000007 FFFFFFFF $cerr]
+  [write_regl 10 00000008 FFFFFFFF $cerr]
+  
+  # Update TLF register with no of bytes(16 for 32-bit data width,32 for 64-bit data interface etc..)
+  if {$c_data_interface_type == 0 || $c_s_axi4_data_width == 32} {
+    [write_regl 14 00000010 FFFFFFFF $cerr]
+  }
+  if {$c_data_interface_type == 1 && $c_s_axi4_data_width == 64} {
+    [write_regl 14 00000020 FFFFFFFF $cerr]
+  }
+  if {$c_data_interface_type == 1 && $c_s_axi4_data_width == 128} {
+    [write_regl 14 00000040 FFFFFFFF $cerr]
+  }
+  if {$c_data_interface_type == 1 && $c_s_axi4_data_width == 256} {
+    [write_regl 14 00000080 FFFFFFFF $cerr]
+  }
+  if {$c_data_interface_type == 1 && $c_s_axi4_data_width == 512} {
+    [write_regl 14 00000100 FFFFFFFF $cerr]
+  }
+}
+
+#--------------------------------------
+# READ
+#-------------------------------------
+# Perform read packet operations only if TX path is enabled
+if {$c_use_rx_data == 1} {
+  # Read ISR reg for RC interrupt bit, don't count as error for fail(cerr bit 0)
+  [read_regl  00 04000000 04000000 0]
+
+  # Read RLF Reg and compare the length(16 for 32-bit data width,32 for 64-bit data interface etc..)  
+  if {$c_data_interface_type == 0 || $c_s_axi4_data_width == 32} {
+    [read_regl 24 00000010 FFFFFFFF 1]
+  }
+  if {$c_data_interface_type == 1 && $c_s_axi4_data_width == 64} {
+    [read_regl 24 00000020 FFFFFFFF 1]
+  }
+  if {$c_data_interface_type == 1 && $c_s_axi4_data_width == 128} {
+    [read_regl 24 00000040 FFFFFFFF 1]
+  }
+  if {$c_data_interface_type == 1 && $c_s_axi4_data_width == 256} {
+    [read_regl 24 00000080 FFFFFFFF 1]
+  }
+  if {$c_data_interface_type == 1 && $c_s_axi4_data_width == 512} {
+    [read_regl 24 00000100 FFFFFFFF 1]
+  }
+
+  # Read RDFD register and compare data
+  [read_regl 20 00000001 FFFFFFFF 1]
+  [read_regl 20 00000002 FFFFFFFF 1]
+  [read_regl 20 00000003 FFFFFFFF 1]
+  [read_regl 20 00000004 FFFFFFFF 1]
+  
+  # Read RLF Reg and compare the length(16 for 32-bit data width,32 for 64-bit data interface etc..)  
+  if {$c_data_interface_type == 0 || $c_s_axi4_data_width == 32} {
+    [read_regl 24 00000010 FFFFFFFF 1]
+  }
+  if {$c_data_interface_type == 1 && $c_s_axi4_data_width == 64} {
+    [read_regl 24 00000020 FFFFFFFF 1]
+  }
+  if {$c_data_interface_type == 1 && $c_s_axi4_data_width == 128} {
+    [read_regl 24 00000040 FFFFFFFF 1]
+  }
+  if {$c_data_interface_type == 1 && $c_s_axi4_data_width == 256} {
+    [read_regl 24 00000080 FFFFFFFF 1]
+  }
+  if {$c_data_interface_type == 1 && $c_s_axi4_data_width == 512} {
+    [read_regl 24 00000100 FFFFFFFF 1]
+  }
+
+  # Read RDFD register and compare data
+  [read_regl 20 00000005 FFFFFFFF 1]
+  [read_regl 20 00000006 FFFFFFFF 1]
+  [read_regl 20 00000007 FFFFFFFF 1]
+  [read_regl 20 00000008 FFFFFFFF 1]
+}
+
+[end_coe $addr_coe $data_coe $mask_coe $ctrl_coe]
+
+### END 

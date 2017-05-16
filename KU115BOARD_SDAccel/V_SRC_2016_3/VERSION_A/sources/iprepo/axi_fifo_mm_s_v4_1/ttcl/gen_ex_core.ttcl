@@ -1,0 +1,27 @@
+<: ;#Component and file information :>
+<: set ComponentName [getComponentNameString] :>
+<: setOutputDirectory "./" :>
+<: setFileName "gen_ex_core" :>
+<: setFileExtension ".tcl" :>
+<: set wd [ file dirname [ get_property xml_file_name [ current_ipbom ] ] ] :>
+<: set C_BASEADDR [getIntValue "C_BASEADDR"] :>
+<: set C_HIGHADDR [getIntValue "C_HIGHADDR"] :>
+<: set C_AXI4_BASEADDR [getIntValue "C_AXI4_BASEADDR"] :>
+<: set C_AXI4_HIGHADDR [getIntValue "C_AXI4_HIGHADDR"] :>
+<: set C_DATA_INTERFACE_TYPE [getIntValue "C_DATA_INTERFACE_TYPE"] :>
+<: set C_S_AXI4_DATA_WIDTH [getIntValue "C_S_AXI4_DATA_WIDTH"] :>
+<: set C_S_AXI_ID_WIDTH [getIntValue "C_S_AXI_ID_WIDTH"] :>
+
+set addr_coe [lindex [get_property name [get_files *addr.coe]] 0 ]
+set mask_coe [lindex [get_property name [get_files *mask.coe]] 0 ]
+set ctrl_coe [lindex [get_property name [get_files *ctrl.coe]] 0 ]
+set data_coe [lindex [get_property name [get_files *data.coe]] 0 ]
+
+create_ip -name axi_traffic_gen -version 2.0 -vendor xilinx.com -library ip -module_name atg_lite_agent
+<: if {$C_DATA_INTERFACE_TYPE == 0} {  :>
+set_property -dict [list CONFIG.C_ATG_MODE {AXI4-Lite} CONFIG.C_ATG_SYSTEM_INIT_ADDR_MIF $addr_coe CONFIG.C_ATG_SYSTEM_INIT_MASK_MIF $mask_coe CONFIG.C_ATG_SYSTEM_INIT_CTRL_MIF $ctrl_coe CONFIG.C_ATG_SYSTEM_INIT_DATA_MIF $data_coe CONFIG.C_ATG_SYSINIT_MODES {System_Test} CONFIG.C_ATG_SYSTEM_TEST_MAX_CLKS {2147483647} CONFIG.C_ATG_SYSTEM_CMD_MAX_RETRY {256} CONFIG.C_ATG_MIF_DATA_DEPTH {256} CONFIG.C_ATG_SYSTEM_MAX_CHANNELS {1} CONFIG.C_ATG_SYSTEM_CH1_HIGH {<=:C_HIGHADDR:>} CONFIG.C_ATG_SYSTEM_CH1_LOW {<=:C_BASEADDR:>}] [get_ips atg_lite_agent]
+<:} else {:>
+set_property -dict [list CONFIG.C_ATG_MODE {AXI4-Lite} CONFIG.C_ATG_SYSTEM_INIT_ADDR_MIF $addr_coe CONFIG.C_ATG_SYSTEM_INIT_MASK_MIF $mask_coe CONFIG.C_ATG_SYSTEM_INIT_CTRL_MIF $ctrl_coe CONFIG.C_ATG_SYSTEM_INIT_DATA_MIF $data_coe CONFIG.C_ATG_SYSINIT_MODES {System_Test} CONFIG.C_ATG_SYSTEM_TEST_MAX_CLKS {2147483647} CONFIG.C_ATG_SYSTEM_CMD_MAX_RETRY {256} CONFIG.C_ATG_MIF_DATA_DEPTH {256} CONFIG.C_ATG_SYSTEM_MAX_CHANNELS {2} CONFIG.C_ATG_SYSTEM_CH1_HIGH {<=:C_HIGHADDR:>} CONFIG.C_ATG_SYSTEM_CH1_LOW {<=:C_BASEADDR:>} CONFIG.C_ATG_SYSTEM_CH2_LOW {<=:C_AXI4_BASEADDR:>} CONFIG.C_ATG_SYSTEM_CH2_HIGH {<=:C_AXI4_HIGHADDR:>}] [get_ips atg_lite_agent]
+<:}:>
+set_property generate_synth_checkpoint false [get_files atg_lite_agent.xci]
+generate_target all [get_ips atg_lite_agent]

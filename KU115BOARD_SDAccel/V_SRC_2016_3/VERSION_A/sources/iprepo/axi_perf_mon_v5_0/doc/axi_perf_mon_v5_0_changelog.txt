@@ -1,0 +1,165 @@
+2016.3:
+ * Version 5.0 (Rev. 11)
+ * Feature Enhancement: Logic, XDC updated for better Fmax performance
+ * Other: Source HDL files are concatenated into a single file to speed up synthesis and simulation. No changes required by the user
+
+2016.2:
+ * Version 5.0 (Rev. 10)
+ * Clock and reset interface definitions added to external clock and reset
+ * Control register added dynmically on and off trace traffic
+
+2016.1:
+ * Version 5.0 (Rev. 9)
+ * Updated IP RTL to consider narrow read transactions for read byte metric calculations
+
+2015.4.2:
+ * Version 5.0 (Rev. 8)
+ * No changes
+
+2015.4.1:
+ * Version 5.0 (Rev. 8)
+ * No changes
+
+2015.4:
+ * Version 5.0 (Rev. 8)
+ * No changes
+
+2015.3:
+ * Version 5.0 (Rev. 8)
+ * Added upto 64-bit address width support for AXI4 master interface
+ * Example design minor updates. No functional changes
+ * IP revision number added to HDL module, library, and include file names, to support designs with both locked and upgraded IP instances
+
+2015.2.1:
+ * Version 5.0 (Rev. 7)
+ * No changes
+
+2015.2:
+ * Version 5.0 (Rev. 7)
+ * GUI related updates
+
+2015.1:
+ * Version 5.0 (Rev. 6)
+ * Issue of handling read metric calculation when outstanding transactions is fixed
+ * Trigger and AXI Debug features are added
+ * Enabled out-of-context clock frequency setting by adding FREQ_HZ parameter to clock interfaces
+ * Supported devices and production status are now determined automatically, to simplify support for future devices
+
+2014.4.1:
+ * Version 5.0 (Rev. 5)
+ * No changes
+
+2014.4:
+ * Version 5.0 (Rev. 5)
+ * In profile mode configuration of IP, issue of handling metric calculation when write issuance and address issuance are very close is fixed
+
+2014.3:
+ * Version 5.0 (Rev. 4)
+ * Enhanced support for IP Integrator
+ * Issue of handling metric calculation when write issuance and address issuance are very close is fixed
+ * Added support for asynchronous Reset event and capture events.
+
+2014.2:
+ * Version 5.0 (Rev. 3)
+ * Issue of handling read/write requests at the same clock fixed
+ * Minimum/Maximum Write/Read latency registers are made available in profile mode.
+
+2014.1:
+ * Version 5.0 (Rev. 2)
+ * Repackaged to improve internal automation
+ * AXI4LITE Monitoring support
+ * Internal device family name change
+ * Increased stream FIFO depth options.
+ * Virtex UltraScale Pre-Production support
+
+2013.4:
+ * Version 5.0 (Rev. 1)
+ * Repackaged the IP by adding default values to all the optional input ports and no functional changes
+ * Updated core constraints to accommodate helper core (fifo_generator_v11_0) updates
+ * Kintex UltraScale Pre-Production support
+
+2013.3:
+ * Version 5.0
+ * Renamed the legacy mode of APM operation as Advanced mode
+ * New modes "Profile" and "Trace" added for high level configuration with fixed 6 counter per slot and more static parameters
+ * Added ID based filtering/Masking, Outstanding transaction support in Advanced mode for Throughput, latency measurement
+ * Additional sampling method support added for non-interrupt based system using memory mapped register read
+ * Added example design and demonstration testbench
+ * Reduced warnings in synthesis and simulation
+ * Enhanced support for IP Integrator
+ * Added support for Cadence IES and Synopsys VCS simulators
+ * Updated synchronizers for clock domain crossing to reduce Mean Time Between Failures (MTBF) from metastability
+
+2013.2:
+ * Version 4.0 (Rev. 1)
+ * Enable support for future devices
+ * Using metric counters reset bit in control register to reset sampled metric counters as well
+
+2013.1:
+ * Version 4.0
+ * Lower case ports for Verilog
+ * Added External trigger start and stop support to the event log
+ * Added Minimum Latency and Maximum Latency Metrics in addition to the Average Latency for the configured ID
+ * Updated cross probing to support metric counter ranges to start the event logging
+
+2012.4:
+ * Version 3.00.a
+ * Added support for cross probing
+ * Added support for external trigger start to the event counters
+ * Added logging of external events
+
+2012.3:
+ * Version 2.01.a
+ * Increased the number of external event support to 8
+ * Added support any slot any metrics at a time
+ * Added support to dynamically reduce the Event Log data
+
+2012.2:
+ * Version 2.00.a
+ * First Release in Vivado
+
+(c) Copyright 2012 - 2016 Xilinx, Inc. All rights reserved.
+
+This file contains confidential and proprietary information
+of Xilinx, Inc. and is protected under U.S. and
+international copyright and other intellectual property
+laws.
+
+DISCLAIMER
+This disclaimer is not a license and does not grant any
+rights to the materials distributed herewith. Except as
+otherwise provided in a valid license issued to you by
+Xilinx, and to the maximum extent permitted by applicable
+law: (1) THESE MATERIALS ARE MADE AVAILABLE "AS IS" AND
+WITH ALL FAULTS, AND XILINX HEREBY DISCLAIMS ALL WARRANTIES
+AND CONDITIONS, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
+BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, NON-
+INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE; and
+(2) Xilinx shall not be liable (whether in contract or tort,
+including negligence, or under any other theory of
+liability) for any loss or damage of any kind or nature
+related to, arising under or in connection with these
+materials, including for any direct, or any indirect,
+special, incidental, or consequential loss or damage
+(including loss of data, profits, goodwill, or any type of
+loss or damage suffered as a result of any action brought
+by a third party) even if such damage or loss was
+reasonably foreseeable or Xilinx had been advised of the
+possibility of the same.
+
+CRITICAL APPLICATIONS
+Xilinx products are not designed or intended to be fail-
+safe, or for use in any application requiring fail-safe
+performance, such as life-support or safety devices or
+systems, Class III medical devices, nuclear facilities,
+applications related to the deployment of airbags, or any
+other applications that could lead to death, personal
+injury, or severe property or environmental damage
+(individually and collectively, "Critical
+Applications"). Customer assumes the sole risk and
+liability of any use of Xilinx products in Critical
+Applications, subject only to applicable laws and
+regulations governing limitations on product liability.
+
+THIS COPYRIGHT NOTICE AND DISCLAIMER MUST BE RETAINED AS
+PART OF THIS FILE AT ALL TIMES.

@@ -1,0 +1,783 @@
+<: set ComponentName [getComponentNameString] :>
+<: setFileName [ttcl_string_concat $ComponentName "_exdes"] :>
+<: setFileExtension ".vhd" :>
+<: setOutputDirectory [ttcl_string_concat "./" $ComponentName "/example_design"] :>
+<: set C_S_AXI_ID_WIDTH [getIntValue "C_S_AXI_ID_WIDTH"] :>
+<: set C_HAS_AXI_ID [get_property PARAM_VALUE.C_S_AXI_ID_WIDTH ] :>
+<: set C_S_AXI_ADDR_WIDTH [getIntValue "C_S_AXI_ADDR_WIDTH"] :>
+<: set C_S_AXI_DATA_WIDTH [getIntValue "C_S_AXI_DATA_WIDTH"] :>
+<: set C_S_AXI4_DATA_WIDTH [getIntValue "C_S_AXI4_DATA_WIDTH"] :>
+<: set C_HAS_AXIS_TID [getIntValue "C_HAS_AXIS_TID"] :>
+<: set C_HAS_AXIS_TDEST [getIntValue "C_HAS_AXIS_TDEST"] :>
+<: set C_HAS_AXIS_TUSER [getIntValue "C_HAS_AXIS_TUSER"] :>
+<: set C_HAS_AXIS_TSTRB [getIntValue "C_HAS_AXIS_TSTRB"] :>
+<: set C_HAS_AXIS_TKEEP [getIntValue "C_HAS_AXIS_TKEEP"] :>
+<: set C_AXIS_TID_WIDTH [getIntValue "C_AXIS_TID_WIDTH"] :>
+<: set C_AXIS_TDEST_WIDTH [getIntValue "C_AXIS_TDEST_WIDTH"] :>
+<: set C_AXIS_TUSER_WIDTH [getIntValue "C_AXIS_TUSER_WIDTH"] :>
+<: set C_BASEADDR [getIntValue "C_BASEADDR"] :>
+<: set C_HIGHADDR [getIntValue "C_HIGHADDR"] :>
+<: set C_AXI4_BASEADDR [getIntValue "C_AXI4_BASEADDR"] :>
+<: set C_AXI4_HIGHADDR [getIntValue "C_AXI4_HIGHADDR"] :>
+<: set C_TX_FIFO_DEPTH [getIntValue "C_TX_FIFO_DEPTH"] :>
+<: set C_RX_FIFO_DEPTH [getIntValue "C_RX_FIFO_DEPTH"] :>
+<: set C_TX_FIFO_PF_THRESHOLD [getIntValue "C_TX_FIFO_PF_THRESHOLD"] :>
+<: set C_TX_FIFO_PE_THRESHOLD [getIntValue "C_TX_FIFO_PE_THRESHOLD"] :>
+<: set C_RX_FIFO_PF_THRESHOLD [getIntValue "C_RX_FIFO_PF_THRESHOLD"] :>
+<: set C_RX_FIFO_PE_THRESHOLD [getIntValue "C_RX_FIFO_PE_THRESHOLD"] :>
+<: set C_USE_TX_CUT_THROUGH [getIntValue "C_USE_TX_CUT_THROUGH"] :>
+<: set C_USE_RX_CUT_THROUGH [getIntValue "C_USE_RX_CUT_THROUGH"] :>
+<: set C_DATA_INTERFACE_TYPE [getIntValue "C_DATA_INTERFACE_TYPE"] :>
+<: set C_USE_TX_DATA [getIntValue "C_USE_TX_DATA"] :>
+<: set C_USE_RX_DATA [getIntValue "C_USE_RX_DATA"] :>
+<: set C_USE_TX_CTRL [getIntValue "C_USE_TX_CTRL"] :>
+<: set wd [ file dirname [ get_property xml_file_name [ current_ipbom ] ] ] :>
+--------------------------------------------------------------------------------
+--
+-- axi_fifo_mm_s  Core - Example design
+--
+--------------------------------------------------------------------------------
+--
+<#: ttcl/variables.ttcl :>
+<: set comment "--" :>
+<#: ttcl/disclaimer.ttcl :>
+--------------------------------------------------------------------------------
+--
+-- Filename: <=: ComponentName :>_exdes.vhd
+--
+-- Description:
+--   This is axi_fifo_mm_s core example design using axi traffic generator core.
+--
+--------------------------------------------------------------------------------
+-- Library Declarations
+--------------------------------------------------------------------------------
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+USE ieee.std_logic_misc.all;
+USE ieee.std_logic_arith.all;
+USE ieee.std_logic_unsigned.all;
+
+LIBRARY unisim;
+USE unisim.vcomponents.all;
+
+ENTITY <=: ComponentName :>_exdes IS
+  PORT(
+    SIGNAL  aclk   	 : IN STD_LOGIC;
+    SIGNAL  aresetn 	 : IN STD_LOGIC;
+    SIGNAL  done         : OUT STD_LOGIC;
+    SIGNAL  test_status  : OUT STD_LOGIC_VECTOR(2 DOWNTO 0)
+  );
+END ENTITY;
+
+ARCHITECTURE arch_<=: ComponentName :>_exdes of <=: ComponentName :>_exdes IS
+
+<: if {$C_DATA_INTERFACE_TYPE == 1} {  :>
+ SIGNAL m_axi_awid                          : STD_LOGIC_VECTOR(1 - 1 DOWNTO 0);
+ SIGNAL m_axi_awaddr                        : STD_LOGIC_VECTOR(<=: C_S_AXI_ADDR_WIDTH :> - 1 DOWNTO 0);
+ SIGNAL m_axi_awlen                         : STD_LOGIC_VECTOR(8 - 1 DOWNTO 0);
+ SIGNAL m_axi_awsize                        : STD_LOGIC_VECTOR(3 - 1 DOWNTO 0);
+ SIGNAL m_axi_awburst                       : STD_LOGIC_VECTOR(2 - 1 DOWNTO 0);
+ SIGNAL m_axi_awlock                        : STD_LOGIC_VECTOR(1 - 1 DOWNTO 0);
+ SIGNAL m_axi_awcache                       : STD_LOGIC_VECTOR(4 - 1 DOWNTO 0);
+ SIGNAL m_axi_awprot                        : STD_LOGIC_VECTOR(3 - 1 DOWNTO 0);
+ SIGNAL m_axi_awqos                         : STD_LOGIC_VECTOR(4 - 1 DOWNTO 0);
+ SIGNAL m_axi_awvalid                       : STD_LOGIC;
+ SIGNAL m_axi_awready                       : STD_LOGIC;
+
+ SIGNAL m_axi_wdata                         : STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :> - 1 DOWNTO 0);
+ SIGNAL m_axi_wstrb                         : STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :> / 8 - 1 DOWNTO 0);
+ SIGNAL m_axi_wlast                         : STD_LOGIC;
+ SIGNAL m_axi_wvalid                        : STD_LOGIC;
+ SIGNAL m_axi_wready                        : STD_LOGIC;
+ 
+ SIGNAL m_axi_bid                           : STD_LOGIC_VECTOR(1 - 1 DOWNTO 0);
+ SIGNAL m_axi_bresp                         : STD_LOGIC_VECTOR(2 - 1 DOWNTO 0);
+ SIGNAL m_axi_bvalid                        : STD_LOGIC;
+ SIGNAL m_axi_bready                        : STD_LOGIC;
+ 
+ SIGNAL m_axi_arid                          : STD_LOGIC_VECTOR(1 - 1 DOWNTO 0);
+ SIGNAL m_axi_araddr                        : STD_LOGIC_VECTOR(<=: C_S_AXI_ADDR_WIDTH :> - 1 DOWNTO 0);
+ SIGNAL m_axi_arlen                         : STD_LOGIC_VECTOR(8 - 1 DOWNTO 0);
+ SIGNAL m_axi_arsize                        : STD_LOGIC_VECTOR(3 - 1 DOWNTO 0);
+ SIGNAL m_axi_arburst                       : STD_LOGIC_VECTOR(2 - 1 DOWNTO 0);
+ SIGNAL m_axi_arlock                        : STD_LOGIC_VECTOR(1 - 1 DOWNTO 0);
+ SIGNAL m_axi_arcache                       : STD_LOGIC_VECTOR(4 - 1 DOWNTO 0);
+ SIGNAL m_axi_arprot                        : STD_LOGIC_VECTOR(3 - 1 DOWNTO 0);
+ SIGNAL m_axi_arqos                         : STD_LOGIC_VECTOR(4 - 1 DOWNTO 0);
+ SIGNAL m_axi_arvalid                       : STD_LOGIC;
+ SIGNAL m_axi_arready                       : STD_LOGIC;
+ 
+ SIGNAL m_axi_rid                           : STD_LOGIC_VECTOR(1 - 1 DOWNTO 0);
+ SIGNAL m_axi_rdata                         : STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :> - 1 DOWNTO 0);
+ SIGNAL m_axi_rresp                         : STD_LOGIC_VECTOR(2 - 1 DOWNTO 0);
+ SIGNAL m_axi_rlast                         : STD_LOGIC;
+ SIGNAL m_axi_rvalid                        : STD_LOGIC;
+ SIGNAL m_axi_rready                        : STD_LOGIC;
+ <:}:>
+
+ SIGNAL m_axis_tready                       : STD_LOGIC;
+ SIGNAL m_axis_tvalid                       : STD_LOGIC;
+ SIGNAL m_axis_tlast                        : STD_LOGIC;
+ SIGNAL m_axis_tdata                        : STD_LOGIC_VECTOR(<=:C_S_AXI4_DATA_WIDTH:> - 1 DOWNTO 0);
+ SIGNAL m_axis_tstrb                        : STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :>/8 - 1 DOWNTO 0);
+ SIGNAL m_axis_tkeep                        : STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :>/8 - 1 DOWNTO 0);
+ SIGNAL m_axis_tuser                        : STD_LOGIC_VECTOR(<=:C_AXIS_TUSER_WIDTH:> - 1 DOWNTO 0);
+ SIGNAL m_axis_tid                          : STD_LOGIC_VECTOR(<=: C_AXIS_TID_WIDTH :> - 1 DOWNTO 0);
+ SIGNAL m_axis_tdest                        : STD_LOGIC_VECTOR(<=: C_AXIS_TDEST_WIDTH :> - 1 DOWNTO 0);
+ SIGNAL s_axis_tready                       : STD_LOGIC;
+ SIGNAL s_axis_tvalid                       : STD_LOGIC;
+ SIGNAL s_axis_tlast                        : STD_LOGIC;
+ SIGNAL s_axis_tdata                        : STD_LOGIC_VECTOR(<=:C_S_AXI4_DATA_WIDTH:>-1 DOWNTO 0);
+ SIGNAL s_axis_tstrb                        : STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :>/8 - 1 DOWNTO 0);
+ SIGNAL s_axis_tkeep                        : STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :>/8 - 1 DOWNTO 0);
+ SIGNAL s_axis_tuser                        : STD_LOGIC_VECTOR(<=:C_AXIS_TUSER_WIDTH:> - 1 DOWNTO 0);
+ SIGNAL s_axis_tid                          : STD_LOGIC_VECTOR(<=: C_AXIS_TID_WIDTH :> - 1 DOWNTO 0);
+ SIGNAL s_axis_tdest                        : STD_LOGIC_VECTOR(<=: C_AXIS_TDEST_WIDTH :> - 1 DOWNTO 0);
+ 
+ SIGNAL m_axi_lite_ch1_awaddr               : STD_LOGIC_VECTOR(31 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL m_axi_lite_ch1_awprot               : STD_LOGIC_VECTOR(2 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL m_axi_lite_ch1_awvalid              : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch1_awready              : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch1_wdata                : STD_LOGIC_VECTOR(32-1 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL m_axi_lite_ch1_wstrb                : STD_LOGIC_VECTOR(32/8-1 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL m_axi_lite_ch1_wvalid               : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch1_wready               : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch1_bresp                : STD_LOGIC_VECTOR(1 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL m_axi_lite_ch1_bvalid               : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch1_bready               : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch1_araddr               : STD_LOGIC_VECTOR(31 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL m_axi_lite_ch1_arvalid              : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch1_arready              : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch1_rdata                : STD_LOGIC_VECTOR(32-1 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL m_axi_lite_ch1_rvalid               : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch1_rresp                : STD_LOGIC_VECTOR(1 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL m_axi_lite_ch1_rready               : STD_LOGIC := '0';
+
+<: if {$C_DATA_INTERFACE_TYPE == 1} {  :>
+ SIGNAL m_axi_lite_ch2_awaddr               : STD_LOGIC_VECTOR(31 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL m_axi_lite_ch2_awprot               : STD_LOGIC_VECTOR(2 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL m_axi_lite_ch2_awvalid              : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch2_awready              : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch2_wdata                : STD_LOGIC_VECTOR(32-1 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL m_axi_lite_ch2_wstrb                : STD_LOGIC_VECTOR(32/8-1 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL m_axi_lite_ch2_wvalid               : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch2_wready               : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch2_bresp                : STD_LOGIC_VECTOR(1 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL m_axi_lite_ch2_bvalid               : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch2_bready               : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch2_araddr               : STD_LOGIC_VECTOR(31 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL m_axi_lite_ch2_arvalid              : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch2_arready              : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch2_rdata                : STD_LOGIC_VECTOR(32-1 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL m_axi_lite_ch2_rvalid               : STD_LOGIC := '0';
+ SIGNAL m_axi_lite_ch2_rresp                : STD_LOGIC_VECTOR(1 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL m_axi_lite_ch2_rready               : STD_LOGIC := '0';
+<:}:>
+ SIGNAL lite_gen_status                     : STD_LOGIC_VECTOR(31 DOWNTO 0);
+ SIGNAL stim_status                         : STD_LOGIC_VECTOR(5 DOWNTO 0);
+ SIGNAL data_gen                            : STD_LOGIC_VECTOR(7 DOWNTO 0);
+ SIGNAL last_counter                        : STD_LOGIC_VECTOR(3 DOWNTO 0);
+ SIGNAL next_data                           : STD_LOGIC := '0';
+ SIGNAL data_status                         : STD_LOGIC := '0';
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 64} {  :>
+ SIGNAL wdata_64                            : STD_LOGIC_VECTOR(64-1 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL rdata_64                            : STD_LOGIC_VECTOR(64-1 DOWNTO 0) := (OTHERS => '0');
+<:}:>
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 128} {  :>
+ SIGNAL wdata_128                           : STD_LOGIC_VECTOR(128-1 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL rdata_128                           : STD_LOGIC_VECTOR(128-1 DOWNTO 0) := (OTHERS => '0');
+<:}:>
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 256} {  :>
+ SIGNAL wdata_256                           : STD_LOGIC_VECTOR(256-1 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL rdata_256                           : STD_LOGIC_VECTOR(256-1 DOWNTO 0) := (OTHERS => '0');
+<:}:>
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 512} {  :>
+ SIGNAL wdata_512                           : STD_LOGIC_VECTOR(512-1 DOWNTO 0) := (OTHERS => '0');
+ SIGNAL rdata_512                           : STD_LOGIC_VECTOR(512-1 DOWNTO 0) := (OTHERS => '0');
+<:}:>
+
+ SIGNAL aclk_i 			            : STD_LOGIC;
+-----------------------------------------------------------------------------
+
+  COMPONENT <=: ComponentName :> IS
+  PORT ( 
+  s_axi_aclk                  : IN STD_LOGIC;
+  s_axi_aresetn               : IN STD_LOGIC;
+  
+  --Lite interface
+  ----AW
+  s_axi_awaddr                : IN STD_LOGIC_VECTOR(<=: C_S_AXI_ADDR_WIDTH  :>-1 DOWNTO 0);
+  s_axi_awvalid               : IN STD_LOGIC;
+  s_axi_awready               : OUT STD_LOGIC;
+  ----W
+  s_axi_wdata                 : IN STD_LOGIC_VECTOR(<=: C_S_AXI_DATA_WIDTH  :>-1 DOWNTO 0);
+  s_axi_wstrb                 : IN STD_LOGIC_VECTOR(<=: C_S_AXI_DATA_WIDTH  :>/8-1 DOWNTO 0);
+  s_axi_wvalid                : IN STD_LOGIC;
+  s_axi_wready                : OUT STD_LOGIC;
+  ----B
+  s_axi_bresp                 : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+  s_axi_bvalid                : OUT STD_LOGIC;
+  s_axi_bready                : IN STD_LOGIC;
+  ----AR
+  s_axi_araddr                : IN STD_LOGIC_VECTOR(<=: C_S_AXI_ADDR_WIDTH  :>-1 DOWNTO 0);
+  s_axi_arvalid               : IN STD_LOGIC;
+  s_axi_arready               : OUT STD_LOGIC;
+  ---R
+  s_axi_rdata                 : OUT STD_LOGIC_VECTOR(<=: C_S_AXI_DATA_WIDTH  :>-1 DOWNTO 0);
+  s_axi_rvalid                : OUT STD_LOGIC;
+  s_axi_rready                : IN STD_LOGIC;
+  s_axi_rresp                 : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+  
+<: if {$C_DATA_INTERFACE_TYPE == 1} {  :>
+  --Full interface
+<: if {$C_USE_TX_DATA == 1} {  :>
+  ----AW
+  s_axi4_awaddr               : IN STD_LOGIC_VECTOR(<=: C_S_AXI_ADDR_WIDTH  :>-1 DOWNTO 0);
+  s_axi4_awvalid              : IN STD_LOGIC;
+  s_axi4_awready              : OUT STD_LOGIC;
+<: if {$C_HAS_AXI_ID != 0} {  :>
+  s_axi4_awid                 : IN STD_LOGIC_VECTOR(<=: C_S_AXI_ID_WIDTH    :>-1 DOWNTO 0);
+ <: } :>
+  s_axi4_awlen                : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+  s_axi4_awsize               : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+  s_axi4_awburst              : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+  s_axi4_awlock               : IN STD_LOGIC;
+  s_axi4_awcache              : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+  s_axi4_awprot               : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+  --  s_axi4_awqos            : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+  --  s_axi4_awregion         : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+  ----W
+  s_axi4_wdata                : IN STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :>-1 DOWNTO 0);
+  s_axi4_wstrb                : IN STD_LOGIC_VECTOR(<=:C_S_AXI4_DATA_WIDTH:>/8-1 DOWNTO 0);
+  s_axi4_wvalid               : IN STD_LOGIC;
+  s_axi4_wready               : OUT STD_LOGIC;
+  s_axi4_wlast                : IN STD_LOGIC;
+  ----B
+  s_axi4_bresp                : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+  s_axi4_bvalid               : OUT STD_LOGIC;
+  s_axi4_bready               : IN STD_LOGIC;
+<: if {$C_HAS_AXI_ID != 0} {  :>
+  s_axi4_bid                  : OUT STD_LOGIC_VECTOR(<=: C_S_AXI_ID_WIDTH    :>-1 DOWNTO 0);
+ <: } :>
+ <: } :>
+<: if {$C_USE_RX_DATA == 1} {  :>
+  ----AR
+  s_axi4_araddr               : IN STD_LOGIC_VECTOR(<=: C_S_AXI_ADDR_WIDTH  :>-1 DOWNTO 0);
+  s_axi4_arvalid              : IN STD_LOGIC;
+  s_axi4_arready              : OUT STD_LOGIC;
+<: if {$C_HAS_AXI_ID != 0} {  :>
+  s_axi4_arid                 : IN STD_LOGIC_VECTOR(<=: C_S_AXI_ID_WIDTH    :>-1 DOWNTO 0);
+<: } :>
+  s_axi4_arlen                : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+  s_axi4_arsize               : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+  s_axi4_arburst              : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+  s_axi4_arlock               : IN STD_LOGIC;
+  s_axi4_arcache              : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+  s_axi4_arprot               : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+  --  s_axi4_arqos            : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+  --  s_axi4_arregion         : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+  
+  ---R
+  s_axi4_rdata                : OUT STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :>-1 DOWNTO 0);
+  s_axi4_rresp                : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+  s_axi4_rvalid               : OUT STD_LOGIC;
+  s_axi4_rready               : IN STD_LOGIC;
+  s_axi4_rlast                : OUT STD_LOGIC;
+<: if {$C_HAS_AXI_ID != 0} {  :>
+  s_axi4_rid                  : OUT STD_LOGIC_VECTOR(<=: C_S_AXI_ID_WIDTH    :>-1 DOWNTO 0);
+ <: } :>
+ <: } :>
+ <: } :>
+<: if {$C_USE_TX_DATA == 1} {  :>
+  -- TX AXI Streaming
+  mm2s_prmry_reset_out_n      : OUT STD_LOGIC;
+  axi_str_txd_tvalid          : OUT STD_LOGIC;
+  axi_str_txd_tready          : IN STD_LOGIC;
+  axi_str_txd_tlast           : OUT STD_LOGIC;
+  axi_str_txd_tdata           : OUT STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :>-1 DOWNTO 0);
+<: if {$C_HAS_AXIS_TKEEP == 1} {  :>
+  axi_str_txd_tkeep           : OUT STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :>/8-1 DOWNTO 0);
+<:}:>
+<: if {$C_HAS_AXIS_TDEST == 1} {  :>
+  axi_str_txd_tdest           : OUT STD_LOGIC_VECTOR(<=: C_AXIS_TDEST_WIDTH  :>-1 DOWNTO 0);
+<:}:>
+<: if {$C_HAS_AXIS_TID == 1} {  :>
+  axi_str_txd_tid             : OUT STD_LOGIC_VECTOR(<=: C_AXIS_TID_WIDTH    :>-1 DOWNTO 0);
+<:}:>
+<: if {$C_HAS_AXIS_TSTRB == 1} {  :>
+  axi_str_txd_tstrb           : OUT STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :>/8-1 DOWNTO 0);
+<:}:>
+<: if {$C_HAS_AXIS_TUSER == 1} {  :>
+  axi_str_txd_tuser           : OUT STD_LOGIC_VECTOR(<=: C_AXIS_TUSER_WIDTH  :>-1 DOWNTO 0);
+<:}:>
+<:}:>
+  
+<: if {$C_USE_TX_DATA == 1 && $C_USE_TX_CTRL == 1} {  :>
+  -- TX AXI Control Streaming
+  mm2s_cntrl_reset_out_n      : OUT STD_LOGIC;
+  axi_str_txc_tvalid          : OUT STD_LOGIC;
+  axi_str_txc_tready          : IN STD_LOGIC;
+  axi_str_txc_tlast           : OUT STD_LOGIC;
+  axi_str_txc_tdata           : OUT STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :>-1 DOWNTO 0);
+<: if {$C_HAS_AXIS_TKEEP == 1} {  :>
+  axi_str_txc_tkeep           : OUT STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :>/8-1 DOWNTO 0);
+<:}:>
+<: if {$C_HAS_AXIS_TDEST == 1} {  :>
+  axi_str_txc_tdest           : OUT STD_LOGIC_VECTOR(<=: C_AXIS_TDEST_WIDTH  :>-1 DOWNTO 0);
+<:}:>
+<: if {$C_HAS_AXIS_TID == 1} {  :>
+  axi_str_txc_tid             : OUT STD_LOGIC_VECTOR(<=: C_AXIS_TID_WIDTH    :>-1 DOWNTO 0);
+<:}:>
+<: if {$C_HAS_AXIS_TSTRB == 1} {  :>
+  axi_str_txc_tstrb           : OUT STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :>/8-1 DOWNTO 0);
+<:}:>
+<: if {$C_HAS_AXIS_TUSER == 1} {  :>
+  axi_str_txc_tuser           : OUT STD_LOGIC_VECTOR(<=: C_AXIS_TUSER_WIDTH  :>-1 DOWNTO 0);
+<:}:>
+<:}:>
+  
+<: if {$C_USE_RX_DATA == 1} {  :>
+  -- RX AXI Streaming
+  s2mm_prmry_reset_out_n      : OUT STD_LOGIC;
+  axi_str_rxd_tvalid          : IN STD_LOGIC;
+  axi_str_rxd_tready          : OUT STD_LOGIC;
+  axi_str_rxd_tlast           : IN STD_LOGIC;
+  axi_str_rxd_tdata           : IN STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :>-1 DOWNTO 0);
+<: if {$C_HAS_AXIS_TKEEP == 1} {  :>
+  axi_str_rxd_tkeep           : IN STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :>/8-1 DOWNTO 0);
+<:}:>
+<: if {$C_HAS_AXIS_TDEST == 1} {  :>
+  axi_str_rxd_tdest           : IN STD_LOGIC_VECTOR(<=: C_AXIS_TDEST_WIDTH  :>-1 DOWNTO 0);
+<:}:>
+<: if {$C_HAS_AXIS_TID == 1} {  :>
+  axi_str_rxd_tid             : IN STD_LOGIC_VECTOR(<=: C_AXIS_TID_WIDTH    :>-1 DOWNTO 0);
+<:}:>
+<: if {$C_HAS_AXIS_TSTRB == 1} {  :>
+  axi_str_rxd_tstrb           : IN STD_LOGIC_VECTOR(<=: C_S_AXI4_DATA_WIDTH :>/8-1 DOWNTO 0);
+<:}:>
+<: if {$C_HAS_AXIS_TUSER == 1} {  :>
+  axi_str_rxd_tuser           : IN STD_LOGIC_VECTOR(<=: C_AXIS_TUSER_WIDTH  :>-1 DOWNTO 0);
+<:}:>
+<:}:>
+  interrupt                   : OUT STD_LOGIC
+);
+END COMPONENT;
+
+
+COMPONENT atg_lite_agent
+  PORT (
+    s_axi_aclk             : IN STD_LOGIC;
+    s_axi_aresetn          : IN STD_LOGIC;
+    m_axi_lite_ch1_awaddr  : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+    m_axi_lite_ch1_awprot  : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
+    m_axi_lite_ch1_awvalid : OUT STD_LOGIC;
+    m_axi_lite_ch1_awready : IN STD_LOGIC;
+    m_axi_lite_ch1_wdata   : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+    m_axi_lite_ch1_wstrb   : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+    m_axi_lite_ch1_wvalid  : OUT STD_LOGIC;
+    m_axi_lite_ch1_wready  : IN STD_LOGIC;
+    m_axi_lite_ch1_bresp   : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+    m_axi_lite_ch1_bvalid  : IN STD_LOGIC;
+    m_axi_lite_ch1_bready  : OUT STD_LOGIC;
+    m_axi_lite_ch1_araddr  : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+    m_axi_lite_ch1_arvalid : OUT STD_LOGIC;
+    m_axi_lite_ch1_arready : IN STD_LOGIC;
+    m_axi_lite_ch1_rvalid  : IN STD_LOGIC;
+    m_axi_lite_ch1_rready  : OUT STD_LOGIC;
+    m_axi_lite_ch1_rdata   : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+    m_axi_lite_ch1_rresp   : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+<: if {$C_DATA_INTERFACE_TYPE == 1} {  :>
+    m_axi_lite_ch2_awaddr  : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+    m_axi_lite_ch2_awprot  : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
+    m_axi_lite_ch2_awvalid : OUT STD_LOGIC;
+    m_axi_lite_ch2_awready : IN STD_LOGIC;
+    m_axi_lite_ch2_wdata   : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+    m_axi_lite_ch2_wstrb   : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+    m_axi_lite_ch2_wvalid  : OUT STD_LOGIC;
+    m_axi_lite_ch2_wready  : IN STD_LOGIC;
+    m_axi_lite_ch2_bresp   : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+    m_axi_lite_ch2_bvalid  : IN STD_LOGIC;
+    m_axi_lite_ch2_bready  : OUT STD_LOGIC;
+    m_axi_lite_ch2_araddr  : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+    m_axi_lite_ch2_arvalid : OUT STD_LOGIC;
+    m_axi_lite_ch2_arready : IN STD_LOGIC;
+    m_axi_lite_ch2_rvalid  : IN STD_LOGIC;
+    m_axi_lite_ch2_rready  : OUT STD_LOGIC;
+    m_axi_lite_ch2_rdata   : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+    m_axi_lite_ch2_rresp   : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+<:}:>
+    done                   : OUT STD_LOGIC;
+    status                 : OUT STD_LOGIC_VECTOR(31 DOWNTO 0)
+  );
+END COMPONENT;
+
+
+BEGIN
+
+    aclk_buf: bufg
+    PORT MAP(
+      i => aclk,
+      o => aclk_i
+    );
+ 
+  test_status   <= lite_gen_status(1 DOWNTO 0) & data_status;
+
+<: if {$C_USE_RX_DATA == 1 && $C_USE_TX_DATA == 1} {  :>
+  m_axis_tready <= s_axis_tready;
+  s_axis_tvalid <= m_axis_tvalid;
+  s_axis_tlast  <= m_axis_tlast;
+  s_axis_tdata  <= m_axis_tdata;
+  s_axis_tstrb  <= m_axis_tstrb;
+  s_axis_tkeep  <= m_axis_tkeep;
+  s_axis_tuser  <= m_axis_tuser;
+  s_axis_tid    <= m_axis_tid;
+  s_axis_tdest  <= m_axis_tdest;
+
+  data_status   <= '0';
+<:} else {:>
+ 
+ PROCESS (aclk_i,aresetn) BEGIN
+  IF (aresetn = '0') THEN
+    data_gen <= STD_LOGIC_VECTOR(to_unsigned(1, 8));
+  ELSIF (aclk_i = '1' AND aclk_i'event) THEN
+    IF(next_data = '1')  THEN
+      data_gen <= data_gen + "1";
+    END IF;
+  END IF;
+ END PROCESS;
+
+  PROCESS (aclk_i,aresetn) BEGIN
+  IF (aresetn = '0') THEN
+    last_counter <= STD_LOGIC_VECTOR(to_unsigned(1, 4));
+  ELSIF (aclk_i = '1' AND aclk_i'event) THEN
+    IF(next_data = '1')  THEN
+     last_counter(3 DOWNTO 1) <= last_counter(2 DOWNTO 0);
+     last_counter(0)          <= last_counter(3);
+    END IF;
+  END IF;
+ END PROCESS;
+ 
+<:}:>
+
+<: if {$C_USE_RX_DATA == 0 && $C_USE_TX_DATA == 1} {  :>
+ next_data <= m_axis_tvalid and m_axis_tready;
+
+ PROCESS (aclk_i,aresetn) BEGIN
+  IF (aresetn = '0') THEN
+    data_status   <= '0';
+    m_axis_tready <= '0';
+  ELSIF (aclk_i = '1' AND aclk_i'event) THEN
+    m_axis_tready <= '1';
+    IF(m_axis_tvalid = '1')  THEN
+     IF((data_gen /= m_axis_tdata(7 DOWNTO 0)) or (m_axis_tlast /= last_counter(3))) THEN
+       data_status <= '1';
+     END IF;
+    END IF;
+  END IF;
+END PROCESS;
+<:}:>
+
+<: if {$C_USE_RX_DATA == 1 && $C_USE_TX_DATA == 0} {  :>
+ next_data                <= s_axis_tvalid and s_axis_tready;
+ s_axis_tdata(7 DOWNTO 0) <= data_gen;
+ s_axis_tdata(<=:C_S_AXI4_DATA_WIDTH:>-1 DOWNTO 8) <= (OTHERS =>'0');
+ s_axis_tlast             <= last_counter(3);
+ s_axis_tstrb             <= (OTHERS => '1');
+ s_axis_tkeep             <= (OTHERS => '1');
+ s_axis_tdest             <= (OTHERS => '0');
+ s_axis_tid               <= (OTHERS => '0');
+ s_axis_tuser             <= (OTHERS => '0');
+ data_status              <= '0';
+
+ PROCESS (aclk_i,aresetn) BEGIN
+  IF (aresetn = '0') THEN
+    s_axis_tvalid <= '0';
+  ELSIF (aclk_i = '1' AND aclk_i'event) THEN
+    s_axis_tvalid <= '1';
+  END IF;
+END PROCESS;
+
+<:}:>
+
+
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 64} {  :>
+  wdata_64             <= m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata;
+  m_axi_lite_ch2_rdata <= rdata_64(31 DOWNTO 0);
+<:}:>  
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 128} {  :>
+  wdata_128            <= m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata;
+  m_axi_lite_ch2_rdata <= rdata_128(31 DOWNTO 0);
+<:}:>  
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 256} {  :>
+  wdata_256            <= m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata 
+			  & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata;
+  m_axi_lite_ch2_rdata <= rdata_256(31 DOWNTO 0);
+<:}:>  
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 512} {  :>
+  wdata_512             <= m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata 
+			  & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata
+                          & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata 
+			  & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata & m_axi_lite_ch2_wdata;
+  m_axi_lite_ch2_rdata <= rdata_512(31 DOWNTO 0);
+<:}:>  
+
+
+  <=: ComponentName :>_inst : <=: ComponentName :>
+  PORT MAP( 
+          --axi4 lite SIGNALs
+          s_axi_aclk          => aclk_i,
+          s_axi_aresetn       => aresetn,
+          s_axi_awaddr        => m_axi_lite_ch1_awaddr,
+          s_axi_awvalid       => m_axi_lite_ch1_awvalid,
+          s_axi_awready       => m_axi_lite_ch1_awready,
+          s_axi_wdata         => m_axi_lite_ch1_wdata,
+          s_axi_wstrb         => m_axi_lite_ch1_wstrb,
+          s_axi_wvalid        => m_axi_lite_ch1_wvalid,
+          s_axi_wready        => m_axi_lite_ch1_wready,
+          s_axi_bresp         => m_axi_lite_ch1_bresp,
+          s_axi_bvalid        => m_axi_lite_ch1_bvalid,
+          s_axi_bready        => m_axi_lite_ch1_bready,
+          s_axi_araddr        => m_axi_lite_ch1_araddr,
+          s_axi_arvalid       => m_axi_lite_ch1_arvalid,
+          s_axi_arready       => m_axi_lite_ch1_arready,
+          s_axi_rdata         => m_axi_lite_ch1_rdata,
+          s_axi_rresp         => m_axi_lite_ch1_rresp,
+          s_axi_rvalid        => m_axi_lite_ch1_rvalid,
+          s_axi_rready        => m_axi_lite_ch1_rready,
+
+<: if {$C_DATA_INTERFACE_TYPE == 1} {  :>
+	  --axi4 full interface
+          --axi SIGNALs         
+<: if {$C_USE_TX_DATA == 1} {  :>
+<: if {$C_HAS_AXI_ID != 0} {  :>
+          s_axi4_awid => (OTHERS => '0'),                
+<:}:>
+          s_axi4_awaddr => m_axi_lite_ch2_awaddr,              
+          s_axi4_awlen => (OTHERS => '0'),               
+<: if {$C_S_AXI4_DATA_WIDTH == 32} {  :>
+          s_axi4_awsize => STD_LOGIC_VECTOR(to_unsigned(2, 3)),              
+<:}:>
+<: if {$C_S_AXI4_DATA_WIDTH == 64} {  :>
+          s_axi4_awsize => STD_LOGIC_VECTOR(to_unsigned(3, 3)),              
+<:}:>
+<: if {$C_S_AXI4_DATA_WIDTH == 128} {  :>
+          s_axi4_awsize => STD_LOGIC_VECTOR(to_unsigned(4, 3)),              
+<:}:>
+<: if {$C_S_AXI4_DATA_WIDTH == 256} {  :>
+          s_axi4_awsize => STD_LOGIC_VECTOR(to_unsigned(5, 3)),              
+<:}:>
+<: if {$C_S_AXI4_DATA_WIDTH == 512} {  :>
+          s_axi4_awsize => STD_LOGIC_VECTOR(to_unsigned(6, 3)),              
+<:}:>
+          s_axi4_awburst => STD_LOGIC_VECTOR(to_unsigned(1, 2)),             
+          s_axi4_awlock => '0',              
+          s_axi4_awcache => (OTHERS => '0'),             
+          s_axi4_awprot => (OTHERS => '0'),              
+          s_axi4_awvalid => m_axi_lite_ch2_awvalid,             
+          s_axi4_awready => m_axi_lite_ch2_awready,             
+
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 32} {  :>
+          s_axi4_wdata => m_axi_lite_ch2_wdata,               
+<:}:>
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 64} {  :>
+          s_axi4_wdata => wdata_64,               
+<:} :> 
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 128} {  :>
+          s_axi4_wdata => wdata_128,               
+<:} :>
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 256} {  :>
+          s_axi4_wdata => wdata_256,               
+<:} :>
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 512} {  :>
+          s_axi4_wdata => wdata_512,               
+<:} :>
+          s_axi4_wstrb => (OTHERS => '1'),               
+          s_axi4_wlast => '1',               
+          s_axi4_wvalid => m_axi_lite_ch2_wvalid,              
+          s_axi4_wready => m_axi_lite_ch2_wready,              
+
+<: if {$C_HAS_AXI_ID != 0} {  :>
+          s_axi4_bid => open,                 
+<:}:>
+          s_axi4_bresp => m_axi_lite_ch2_bresp,               
+          s_axi4_bvalid => m_axi_lite_ch2_bvalid,              
+          s_axi4_bready => m_axi_lite_ch2_bready,              
+<:}:>
+<: if {$C_USE_RX_DATA == 1} {  :>
+<: if {$C_HAS_AXI_ID != 0} {  :>
+          s_axi4_arid => (OTHERS => '0'),                
+<:}:>
+          s_axi4_araddr => m_axi_lite_ch2_araddr,              
+          s_axi4_arlen => (OTHERS => '0'),               
+<: if {$C_S_AXI4_DATA_WIDTH == 32} {  :>
+          s_axi4_arsize => STD_LOGIC_VECTOR(to_unsigned(2, 3)),              
+<:}:>
+<: if {$C_S_AXI4_DATA_WIDTH == 64} {  :>
+          s_axi4_arsize => STD_LOGIC_VECTOR(to_unsigned(3, 3)),              
+<:}:>
+<: if {$C_S_AXI4_DATA_WIDTH == 128} {  :>
+          s_axi4_arsize => STD_LOGIC_VECTOR(to_unsigned(4, 3)),              
+<:}:>
+<: if {$C_S_AXI4_DATA_WIDTH == 256} {  :>
+          s_axi4_arsize => STD_LOGIC_VECTOR(to_unsigned(5, 3)),              
+<:}:>
+<: if {$C_S_AXI4_DATA_WIDTH == 512} {  :>
+          s_axi4_arsize => STD_LOGIC_VECTOR(to_unsigned(6, 3)),              
+<:}:>
+          s_axi4_arburst => STD_LOGIC_VECTOR(to_unsigned(1, 2)),             
+          s_axi4_arlock => '0',              
+          s_axi4_arcache => (OTHERS => '0'),             
+          s_axi4_arprot => (OTHERS => '0'),              
+          s_axi4_arvalid => m_axi_lite_ch2_arvalid,             
+          s_axi4_arready => m_axi_lite_ch2_arready,             
+
+<: if {$C_HAS_AXI_ID != 0} {  :>
+          s_axi4_rid => open,                 
+<:}:>
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 32} {  :>
+          s_axi4_rdata => m_axi_lite_ch2_rdata,               
+<:}:>
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 64} {  :>
+          s_axi4_rdata => rdata_64,               
+<:} :>
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 128} {  :>
+          s_axi4_rdata => rdata_128,               
+<:}:>
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 256} {  :>
+          s_axi4_rdata => rdata_256,               
+<:}:>
+<: if {$C_DATA_INTERFACE_TYPE == 1 && $C_S_AXI4_DATA_WIDTH == 512} {  :>
+          s_axi4_rdata => rdata_512,               
+<:}:>
+          s_axi4_rresp => m_axi_lite_ch2_rresp,               
+          s_axi4_rlast => open,               
+          s_axi4_rvalid => m_axi_lite_ch2_rvalid,              
+          s_axi4_rready => m_axi_lite_ch2_rready,              
+<:}:>
+<:}:>
+<: if {$C_USE_TX_DATA == 1} {  :>
+          --tx axi streaming    
+          mm2s_prmry_reset_out_n => open,
+          axi_str_txd_tvalid => m_axis_tvalid,
+          axi_str_txd_tready => m_axis_tready,
+          axi_str_txd_tlast => m_axis_tlast,
+          axi_str_txd_tdata => m_axis_tdata,
+<: if {$C_HAS_AXIS_TKEEP == 1} {  :>
+          axi_str_txd_tkeep => m_axis_tkeep,
+<:}:>
+<: if {$C_HAS_AXIS_TDEST == 1} {  :>
+          axi_str_txd_tdest => m_axis_tdest,
+<:}:>
+<: if {$C_HAS_AXIS_TSTRB == 1} {  :>
+          axi_str_txd_tstrb => m_axis_tstrb,
+<:}:>
+<: if {$C_HAS_AXIS_TID == 1} {  :>
+          axi_str_txd_tid => m_axis_tid,
+<:}:>
+<: if {$C_HAS_AXIS_TUSER == 1} {  :>
+          axi_str_txd_tuser => m_axis_tuser,
+<:}:>
+<:}:>
+<: if {$C_USE_RX_DATA == 1} {  :>
+          -- rx axi streaming   
+          s2mm_prmry_reset_out_n => open,
+          axi_str_rxd_tvalid => s_axis_tvalid,
+          axi_str_rxd_tready => s_axis_tready,
+          axi_str_rxd_tlast => s_axis_tlast,
+          axi_str_rxd_tdata => s_axis_tdata,
+<: if {$C_HAS_AXIS_TKEEP == 1} {  :>
+          axi_str_rxd_tkeep => s_axis_tkeep,
+<:}:>
+<: if {$C_HAS_AXIS_TDEST == 1} {  :>
+          axi_str_rxd_tdest => s_axis_tdest,
+<:}:>
+<: if {$C_HAS_AXIS_TSTRB == 1} {  :>
+          axi_str_rxd_tstrb => s_axis_tstrb,
+<:}:>
+<: if {$C_HAS_AXIS_TID == 1} {  :>
+          axi_str_rxd_tid => s_axis_tid,
+<:}:>
+<: if {$C_HAS_AXIS_TUSER == 1} {  :>
+          axi_str_rxd_tuser => s_axis_tuser,
+<:}:>
+<:}:>
+
+<: if {$C_USE_TX_DATA == 1 && $C_USE_TX_CTRL == 1} {  :>
+	  -- tx axi control streaming
+          mm2s_cntrl_reset_out_n => open,
+          axi_str_txc_tvalid => open,
+          axi_str_txc_tready => '1',
+          axi_str_txc_tlast => open,
+<: if {$C_HAS_AXIS_TKEEP == 1} {  :>
+          axi_str_txc_tkeep => open,
+<:}:>
+<: if {$C_HAS_AXIS_TDEST == 1} {  :>
+          axi_str_txc_tdest => open,
+<:}:>
+<: if {$C_HAS_AXIS_TSTRB == 1} {  :>
+          axi_str_txc_tstrb => open,
+<:}:>
+<: if {$C_HAS_AXIS_TID == 1} {  :>
+          axi_str_txc_tid => open,
+<:}:>
+<: if {$C_HAS_AXIS_TUSER == 1} {  :>
+          axi_str_txc_tuser => open,
+<:}:>
+          axi_str_txc_tdata => open,
+<:}:>
+          interrupt => open 
+);
+
+
+ 
+   lite_agent:atg_lite_agent
+   port map
+   (
+    s_axi_aclk             => aclk_i,
+    s_axi_aresetn          => aresetn,
+    m_axi_lite_ch1_awaddr  => m_axi_lite_ch1_awaddr,
+    m_axi_lite_ch1_awprot  => m_axi_lite_ch1_awprot,
+    m_axi_lite_ch1_awvalid => m_axi_lite_ch1_awvalid,
+    m_axi_lite_ch1_awready => m_axi_lite_ch1_awready,
+    m_axi_lite_ch1_wdata   => m_axi_lite_ch1_wdata,
+    m_axi_lite_ch1_wstrb   => m_axi_lite_ch1_wstrb,
+    m_axi_lite_ch1_wvalid  => m_axi_lite_ch1_wvalid,
+    m_axi_lite_ch1_wready  => m_axi_lite_ch1_wready,
+    m_axi_lite_ch1_bresp   => m_axi_lite_ch1_bresp,
+    m_axi_lite_ch1_bvalid  => m_axi_lite_ch1_bvalid,
+    m_axi_lite_ch1_bready  => m_axi_lite_ch1_bready,
+    m_axi_lite_ch1_araddr  => m_axi_lite_ch1_araddr,
+    m_axi_lite_ch1_arvalid => m_axi_lite_ch1_arvalid,
+    m_axi_lite_ch1_arready => m_axi_lite_ch1_arready,
+    m_axi_lite_ch1_rdata   => m_axi_lite_ch1_rdata,
+    m_axi_lite_ch1_rvalid  => m_axi_lite_ch1_rvalid,
+    m_axi_lite_ch1_rready  => m_axi_lite_ch1_rready,
+    m_axi_lite_ch1_rresp   => m_axi_lite_ch1_rresp,
+<: if {$C_DATA_INTERFACE_TYPE == 1} {  :>
+    m_axi_lite_ch2_awaddr  => m_axi_lite_ch2_awaddr,
+    m_axi_lite_ch2_awprot  => m_axi_lite_ch2_awprot,
+    m_axi_lite_ch2_awvalid => m_axi_lite_ch2_awvalid,
+    m_axi_lite_ch2_awready => m_axi_lite_ch2_awready,
+    m_axi_lite_ch2_wdata   => m_axi_lite_ch2_wdata,
+    m_axi_lite_ch2_wstrb   => m_axi_lite_ch2_wstrb,
+    m_axi_lite_ch2_wvalid  => m_axi_lite_ch2_wvalid,
+    m_axi_lite_ch2_wready  => m_axi_lite_ch2_wready,
+    m_axi_lite_ch2_bresp   => m_axi_lite_ch2_bresp,
+    m_axi_lite_ch2_bvalid  => m_axi_lite_ch2_bvalid,
+    m_axi_lite_ch2_bready  => m_axi_lite_ch2_bready,
+    m_axi_lite_ch2_araddr  => m_axi_lite_ch2_araddr,
+    m_axi_lite_ch2_arvalid => m_axi_lite_ch2_arvalid,
+    m_axi_lite_ch2_arready => m_axi_lite_ch2_arready,
+    m_axi_lite_ch2_rdata   => m_axi_lite_ch2_rdata,
+    m_axi_lite_ch2_rvalid  => m_axi_lite_ch2_rvalid,
+    m_axi_lite_ch2_rready  => m_axi_lite_ch2_rready,
+    m_axi_lite_ch2_rresp   => m_axi_lite_ch2_rresp,
+<:}:>
+    done                   => done,
+    status                 => lite_gen_status
+    );
+
+
+end arch_<=: ComponentName :>_exdes;

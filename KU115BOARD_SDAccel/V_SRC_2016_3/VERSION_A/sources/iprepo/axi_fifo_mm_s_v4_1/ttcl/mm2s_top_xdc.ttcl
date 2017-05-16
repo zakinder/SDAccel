@@ -1,0 +1,19 @@
+<: set ComponentName [getComponentNameString] :>
+<: setOutputDirectory [ttcl_add "./" $ComponentName "/example_design"] :>
+<: setFileName [ttcl_add $ComponentName "_exdes"] :>
+<: setFileExtension ".xdc" :>
+<: set c_family [getFamily] :>
+<: set c_xdevicefamily [getProjectFamily] :>
+################################################################################
+<#: ttcl/variables.ttcl :>
+<: set comment "#" :>
+<#: ttcl/disclaimer.ttcl :>
+#
+################################################################################
+
+# Core Period Constraint. This constraint can be modified, and is
+# valid as long as it is met after place and route.
+
+create_clock -name "TS_ACLK" -period 20.0 [ get_ports aclk ]
+
+################################################################################
