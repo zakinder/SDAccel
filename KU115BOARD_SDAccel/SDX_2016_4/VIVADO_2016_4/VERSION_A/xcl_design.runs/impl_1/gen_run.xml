@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xcku115-flvb2104-2-e" LaunchTime="1494935342">
+  <File Type="PWROPT-DRC" Name="xcl_design_wrapper_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="xcl_design_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="xcl_design_wrapper_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="xcl_design_wrapper_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="xcl_design_wrapper.tcl"/>
+  <File Type="OPT-HWDEF" Name="xcl_design_wrapper.hwdef"/>
+  <File Type="RDI-RDI" Name="xcl_design_wrapper.vdi"/>
+  <File Type="OPT-DCP" Name="xcl_design_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="xcl_design_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="xcl_design_wrapper_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="xcl_design_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="xcl_design_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="xcl_design_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="xcl_design_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="xcl_design_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="xcl_design_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="xcl_design_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="xcl_design_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="xcl_design_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="xcl_design_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="xcl_design_wrapper_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="xcl_design_wrapper_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="xcl_design_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="xcl_design_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="xcl_design_wrapper_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="xcl_design_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="xcl_design_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="xcl_design_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="xcl_design_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="xcl_design_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="xcl_design_wrapper_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="xcl_design_wrapper.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="xcl_design_wrapper_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="xcl_design_wrapper.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="xcl_design_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="xcl_design_wrapper.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="xcl_design_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="xcl_design_wrapper.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="xcl_design_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="xcl_design_wrapper_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="xcl_design_wrapper_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="xcl_design_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="xcl_design_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="xcl_design_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="xcl_design_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="xcl_design_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="xcl_design_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="xcl_design_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="xcl_design_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="xcl_design_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="xcl_design_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="xcl_design_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="xcl_design_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="xcl_design_wrapper.bit"/>
+  <File Type="BITSTR-RBT" Name="xcl_design_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="xcl_design_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="xcl_design_wrapper_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="xcl_design_wrapper.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="xcl_design_wrapper.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/iob_static_qspi.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/hdl/iob_static_qspi.v"/>
+        <Attr Name="ImportTime" Val="1478984418"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/startup_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/hdl/startup_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1478984418"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/xcl_design/xcl_design.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/xcl_design/hdl/xcl_design_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="xcl_design_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/xcl_design.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/constraints/xcl_design.xdc"/>
+        <Attr Name="ImportTime" Val="1478984418"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design" PreStepTclHook="C:/Sim/sdaccel_ku/sources/misc/xpr_preopt.tcl" PostStepTclHook="C:/Sim/sdaccel_ku/sources/misc/xpr_postopt.tcl"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design" PostStepTclHook="C:/Sim/sdaccel_ku/sources/misc/xpr_postroute.tcl"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_axi_i2c_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_interconnect_aximm_ddrmem3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_buf_refclk_bufg_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_gate_pr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_m00_regslice_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_clkwiz_kernel_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_interconnect_aximm_ddrmem1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_psreset_regslice_ctrl_pr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_buf_refclk_ibuf_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_xbar_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_clkwiz_kernel2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_regslice_control_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_m03_regslice_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_const_gnd_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_regslice_data_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_clkwiz_sysclks_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_const_vcc_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_slice_ss_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_xilmonitor_apm_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_psreset_ctrlclk_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_m01_regslice_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_interconnect_aximm_ddrmem0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_const_gnd_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_dma_pcie_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_ddr_calib_status_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_const_featureid_low_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_axicc_ddrmem_2_ctrl_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_gpio_featureid_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_auto_cc_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_const_featureid_high_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_regslice_apm_a_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_startup_primitive_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_iob_static_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_sys_mgmt_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_regslice_fifo_a_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_psreset_regslice_data_pr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_regslice_fifo_b_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_slice_reset_kernel_pr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_slice_reset_system_pr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_axicc_ddrmem_3_ctrl_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_interconnect_aximm_host_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_psreset_gate_pr_apmclk_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_regslice_apm_b_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_psreset_ddrmem_n_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_psreset_gate_pr_kernel_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_xilmonitor_fifo0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_concat_ddrcalib_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_psreset_ddrmem_n_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_m02_regslice_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_xilmonitor_subset0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_auto_cc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_logic_reset_op_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_m03_regslice_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_psreset_ddrmem_n_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_psreset_gate_pr_kernel2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_psreset_ddrmem_n_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_concat_flash_dq_o_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_interconnect_aximm_ddrmem2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_psreset_gate_pr_control_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_psreset_gate_pr_data_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_auto_cc_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_s00_regslice_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_s00_regslice_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_ddrmem_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_ddrmem_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_ddrmem_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_ddrmem_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_logic_ddrcalib_op_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_concat_flash_tri_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_debug_bridge_xsdbm_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_6ad6_xsdbm_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_6ad6_lut_buffer_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_flash_programmer_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_slice_ss_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_u_ocl_region_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_s00_regslice_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_s00_regslice_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_s00_regslice_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_m05_regslice_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_m00_regslice_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_data_sys_reset_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_m01_regslice_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_kernel_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_kernel_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_kernel_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_control_sys_reset_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_s00_regslice_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_slave_bridge_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_master_bridge_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_kernel_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_m06_regslice_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_master_bridge_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_master_bridge_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_master_bridge_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_m04_regslice_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_m02_regslice_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="xcl_design_auto_cc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_auto_cc_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_auto_cc_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="bd_2fd7_auto_cc_3"/>
+</GenRun>

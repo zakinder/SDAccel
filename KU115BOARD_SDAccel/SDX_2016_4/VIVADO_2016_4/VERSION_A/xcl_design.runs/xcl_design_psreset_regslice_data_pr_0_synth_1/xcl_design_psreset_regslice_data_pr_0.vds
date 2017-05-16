@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2016.3_sdx (64-bit)
+# SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+# IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+# Start of session at: Tue May 16 06:07:05 2017
+# Process ID: 15856
+# Current directory: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_psreset_regslice_data_pr_0_synth_1
+# Command line: vivado.exe -log xcl_design_psreset_regslice_data_pr_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source xcl_design_psreset_regslice_data_pr_0.tcl
+# Log file: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_psreset_regslice_data_pr_0_synth_1/xcl_design_psreset_regslice_data_pr_0.vds
+# Journal file: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_psreset_regslice_data_pr_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/SDx/2016.3/Vivado/scripts/init.tcl'
+16 Beta devices matching pattern found, 16 enabled.
+Loaded SDSoC Platform Tcl Library
+source xcl_design_psreset_regslice_data_pr_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP xcl_design_psreset_regslice_data_pr_0, cache-ID = 4efb39927ab2c60b.

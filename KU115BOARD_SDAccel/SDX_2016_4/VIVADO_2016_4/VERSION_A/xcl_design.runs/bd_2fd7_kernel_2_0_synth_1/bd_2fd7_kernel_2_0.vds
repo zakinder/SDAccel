@@ -1,0 +1,107 @@
+#-----------------------------------------------------------
+# Vivado v2016.3_sdx (64-bit)
+# SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+# IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+# Start of session at: Tue May 16 06:05:09 2017
+# Process ID: 20072
+# Current directory: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_kernel_2_0_synth_1
+# Command line: vivado.exe -log bd_2fd7_kernel_2_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_2fd7_kernel_2_0.tcl
+# Log file: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_kernel_2_0_synth_1/bd_2fd7_kernel_2_0.vds
+# Journal file: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_kernel_2_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/SDx/2016.3/Vivado/scripts/init.tcl'
+16 Beta devices matching pattern found, 16 enabled.
+Loaded SDSoC Platform Tcl Library
+source bd_2fd7_kernel_2_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 414.770 ; gain = 204.711
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_kernel_2_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/ip/ip_18/synth/bd_2fd7_kernel_2_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'addone' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone.v:12]
+INFO: [Synth 8-638] synthesizing module 'addone_control_s_axi' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_control_s_axi.v:9]
+INFO: [Synth 8-256] done synthesizing module 'addone_control_s_axi' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_control_s_axi.v:9]
+INFO: [Synth 8-638] synthesizing module 'addone_gmem_m_axi' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:10]
+INFO: [Synth 8-638] synthesizing module 'addone_gmem_m_axi_throttl' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:712]
+INFO: [Synth 8-256] done synthesizing module 'addone_gmem_m_axi_throttl' (2#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:712]
+INFO: [Synth 8-638] synthesizing module 'addone_gmem_m_axi_throttl__parameterized0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:712]
+INFO: [Synth 8-256] done synthesizing module 'addone_gmem_m_axi_throttl__parameterized0' (2#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:712]
+INFO: [Synth 8-638] synthesizing module 'addone_gmem_m_axi_write' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:1516]
+INFO: [Synth 8-638] synthesizing module 'addone_gmem_m_axi_fifo' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:422]
+INFO: [Synth 8-256] done synthesizing module 'addone_gmem_m_axi_fifo' (3#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:422]
+INFO: [Synth 8-638] synthesizing module 'addone_gmem_m_axi_fifo__parameterized0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:422]
+INFO: [Synth 8-256] done synthesizing module 'addone_gmem_m_axi_fifo__parameterized0' (3#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:422]
+INFO: [Synth 8-638] synthesizing module 'addone_gmem_m_axi_buffer' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:531]
+INFO: [Synth 8-256] done synthesizing module 'addone_gmem_m_axi_buffer' (4#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:531]
+INFO: [Synth 8-638] synthesizing module 'addone_gmem_m_axi_fifo__parameterized1' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:422]
+INFO: [Synth 8-256] done synthesizing module 'addone_gmem_m_axi_fifo__parameterized1' (4#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:422]
+INFO: [Synth 8-638] synthesizing module 'addone_gmem_m_axi_fifo__parameterized2' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:422]
+INFO: [Synth 8-256] done synthesizing module 'addone_gmem_m_axi_fifo__parameterized2' (4#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:422]
+INFO: [Synth 8-256] done synthesizing module 'addone_gmem_m_axi_write' (5#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:1516]
+INFO: [Synth 8-638] synthesizing module 'addone_gmem_m_axi_read' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:764]
+INFO: [Synth 8-638] synthesizing module 'addone_gmem_m_axi_fifo__parameterized3' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:422]
+INFO: [Synth 8-256] done synthesizing module 'addone_gmem_m_axi_fifo__parameterized3' (5#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:422]
+INFO: [Synth 8-638] synthesizing module 'addone_gmem_m_axi_buffer__parameterized0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:531]
+INFO: [Synth 8-256] done synthesizing module 'addone_gmem_m_axi_buffer__parameterized0' (5#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:531]
+INFO: [Synth 8-638] synthesizing module 'addone_gmem_m_axi_reg_slice' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:318]
+INFO: [Synth 8-256] done synthesizing module 'addone_gmem_m_axi_reg_slice' (6#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:318]
+INFO: [Synth 8-638] synthesizing module 'addone_gmem_m_axi_fifo__parameterized4' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:422]
+INFO: [Synth 8-256] done synthesizing module 'addone_gmem_m_axi_fifo__parameterized4' (6#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:422]
+INFO: [Synth 8-256] done synthesizing module 'addone_gmem_m_axi_read' (7#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:764]
+INFO: [Synth 8-256] done synthesizing module 'addone_gmem_m_axi' (8#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone_gmem_m_axi.v:10]
+INFO: [Synth 8-256] done synthesizing module 'addone' (9#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/700e/hdl/verilog/addone.v:12]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_kernel_2_0' (10#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/ip/ip_18/synth/bd_2fd7_kernel_2_0.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 553.082 ; gain = 343.023
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 553.082 ; gain = 343.023
+INFO: [Device 21-403] Loading part xcku115-flvb2104-2-e
+Constraint Validation Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1271.203 ; gain = 12.266
+Finished Constraint Validation : Time (s): cpu = 00:01:04 ; elapsed = 00:01:14 . Memory (MB): peak = 1271.203 ; gain = 1061.145
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:04 ; elapsed = 00:01:14 . Memory (MB): peak = 1271.203 ; gain = 1061.145
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:04 ; elapsed = 00:01:14 . Memory (MB): peak = 1271.203 ; gain = 1061.145
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:15 ; elapsed = 00:01:26 . Memory (MB): peak = 1271.203 ; gain = 1061.145
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:42 ; elapsed = 00:01:54 . Memory (MB): peak = 1271.203 ; gain = 1061.145
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping  Report (see note below)
++-------------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name              | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|addone_gmem_m_axi_buffer | mem_reg    | 256 x 576(READ_FIRST)  | W |   | 256 x 576(WRITE_FIRST) |   | R | Port A and B     | 0      | 8      | 
+|addone_gmem_m_axi_buffer | mem_reg    | 256 x 515(READ_FIRST)  | W |   | 256 x 515(WRITE_FIRST) |   | R | Port A and B     | 1      | 7      | 
++-------------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:10 ; elapsed = 00:02:25 . Memory (MB): peak = 1353.270 ; gain = 1143.211
+Finished Timing Optimization : Time (s): cpu = 00:02:17 ; elapsed = 00:02:33 . Memory (MB): peak = 1443.801 ; gain = 1233.742
+Finished Technology Mapping : Time (s): cpu = 00:02:27 ; elapsed = 00:02:44 . Memory (MB): peak = 1447.215 ; gain = 1237.156
+Finished IO Insertion : Time (s): cpu = 00:02:29 ; elapsed = 00:02:46 . Memory (MB): peak = 1447.215 ; gain = 1237.156
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:30 ; elapsed = 00:02:46 . Memory (MB): peak = 1447.215 ; gain = 1237.156
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:31 ; elapsed = 00:02:48 . Memory (MB): peak = 1447.215 ; gain = 1237.156
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:31 ; elapsed = 00:02:48 . Memory (MB): peak = 1447.215 ; gain = 1237.156
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:32 ; elapsed = 00:02:49 . Memory (MB): peak = 1447.215 ; gain = 1237.156
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:32 ; elapsed = 00:02:49 . Memory (MB): peak = 1447.215 ; gain = 1237.156
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY8   |    54|
+|2     |LUT1     |   227|
+|3     |LUT2     |   142|
+|4     |LUT3     |  1502|
+|5     |LUT4     |   643|
+|6     |LUT5     |   106|
+|7     |LUT6     |   235|
+|8     |MUXF7    |   512|
+|9     |MUXF8    |   256|
+|10    |RAMB18E2 |     1|
+|11    |RAMB36E2 |    15|
+|12    |SRL16E   |     2|
+|13    |SRLC32E  |  1024|
+|14    |FDRE     |  6175|
+|15    |FDSE     |     7|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:32 ; elapsed = 00:02:49 . Memory (MB): peak = 1447.215 ; gain = 1237.156
+synth_design: Time (s): cpu = 00:02:36 ; elapsed = 00:02:49 . Memory (MB): peak = 1490.160 ; gain = 1147.152

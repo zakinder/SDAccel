@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3_sdx (64-bit)
+# SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+# IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+# Start of session at: Tue May 16 06:41:46 2017
+# Process ID: 31868
+# Current directory: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/synth_1
+# Command line: vivado.exe -log xcl_design_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source xcl_design_wrapper.tcl
+# Log file: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/synth_1/xcl_design_wrapper.vds
+# Journal file: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source xcl_design_wrapper.tcl -notrace

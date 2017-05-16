@@ -1,0 +1,64 @@
+
+*** Running vivado
+    with args -log xcl_design_auto_cc_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source xcl_design_auto_cc_1.tcl
+
+
+
+****** Vivado v2016.3_sdx (64-bit)
+  **** SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+  **** IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Xilinx/SDx/2016.3/Vivado/scripts/init.tcl'
+16 Beta devices matching pattern found, 16 enabled.
+Loaded SDSoC Platform Tcl Library
+source xcl_design_auto_cc_1.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 420.172 ; gain = 210.633
+INFO: [Synth 8-638] synthesizing module 'xcl_design_auto_cc_1' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_auto_cc_1/synth/xcl_design_auto_cc_1.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_clock_converter_v2_1_9_axi_clock_converter' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/cf3b/hdl/axi_clock_converter_v2_1_vl_rfs.v:642]
+INFO: [Synth 8-638] synthesizing module 'axi_clock_converter_v2_1_9_axic_sync_clock_converter' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/cf3b/hdl/axi_clock_converter_v2_1_vl_rfs.v:63]
+INFO: [Synth 8-256] done synthesizing module 'axi_clock_converter_v2_1_9_axic_sync_clock_converter' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/cf3b/hdl/axi_clock_converter_v2_1_vl_rfs.v:63]
+INFO: [Synth 8-638] synthesizing module 'axi_clock_converter_v2_1_9_axic_sync_clock_converter__parameterized0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/cf3b/hdl/axi_clock_converter_v2_1_vl_rfs.v:63]
+INFO: [Synth 8-256] done synthesizing module 'axi_clock_converter_v2_1_9_axic_sync_clock_converter__parameterized0' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/cf3b/hdl/axi_clock_converter_v2_1_vl_rfs.v:63]
+INFO: [Synth 8-638] synthesizing module 'axi_clock_converter_v2_1_9_axic_sync_clock_converter__parameterized1' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/cf3b/hdl/axi_clock_converter_v2_1_vl_rfs.v:63]
+INFO: [Synth 8-256] done synthesizing module 'axi_clock_converter_v2_1_9_axic_sync_clock_converter__parameterized1' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/cf3b/hdl/axi_clock_converter_v2_1_vl_rfs.v:63]
+INFO: [Synth 8-638] synthesizing module 'axi_clock_converter_v2_1_9_axic_sync_clock_converter__parameterized2' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/cf3b/hdl/axi_clock_converter_v2_1_vl_rfs.v:63]
+INFO: [Synth 8-256] done synthesizing module 'axi_clock_converter_v2_1_9_axic_sync_clock_converter__parameterized2' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/cf3b/hdl/axi_clock_converter_v2_1_vl_rfs.v:63]
+INFO: [Synth 8-638] synthesizing module 'axi_clock_converter_v2_1_9_axic_sample_cycle_ratio' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/cf3b/hdl/axi_clock_converter_v2_1_vl_rfs.v:359]
+INFO: [Synth 8-256] done synthesizing module 'axi_clock_converter_v2_1_9_axic_sample_cycle_ratio' (2#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/cf3b/hdl/axi_clock_converter_v2_1_vl_rfs.v:359]
+INFO: [Synth 8-256] done synthesizing module 'axi_clock_converter_v2_1_9_axi_clock_converter' (3#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/cf3b/hdl/axi_clock_converter_v2_1_vl_rfs.v:642]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_auto_cc_1' (4#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_auto_cc_1/synth/xcl_design_auto_cc_1.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 536.383 ; gain = 326.844
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 536.383 ; gain = 326.844
+INFO: [Device 21-403] Loading part xcku115-flvb2104-2-e
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1104.668 ; gain = 1.012
+Finished Constraint Validation : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 1104.668 ; gain = 895.129
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 1104.668 ; gain = 895.129
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 1104.668 ; gain = 895.129
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 1104.668 ; gain = 895.129
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:53 . Memory (MB): peak = 1104.668 ; gain = 895.129
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:09 ; elapsed = 00:01:15 . Memory (MB): peak = 1261.328 ; gain = 1051.789
+Finished Timing Optimization : Time (s): cpu = 00:01:09 ; elapsed = 00:01:15 . Memory (MB): peak = 1271.012 ; gain = 1061.473
+Finished Technology Mapping : Time (s): cpu = 00:01:09 ; elapsed = 00:01:15 . Memory (MB): peak = 1281.656 ; gain = 1072.117
+Finished IO Insertion : Time (s): cpu = 00:01:10 ; elapsed = 00:01:16 . Memory (MB): peak = 1281.656 ; gain = 1072.117
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:10 ; elapsed = 00:01:16 . Memory (MB): peak = 1281.656 ; gain = 1072.117
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:10 ; elapsed = 00:01:16 . Memory (MB): peak = 1281.656 ; gain = 1072.117
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:10 ; elapsed = 00:01:16 . Memory (MB): peak = 1281.656 ; gain = 1072.117
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:10 ; elapsed = 00:01:16 . Memory (MB): peak = 1281.656 ; gain = 1072.117
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:10 ; elapsed = 00:01:16 . Memory (MB): peak = 1281.656 ; gain = 1072.117
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |LUT1   |     3|
+|2     |LUT2   |     2|
+|3     |LUT3   |     5|
+|4     |LUT4   |    10|
+|5     |LUT5   |     8|
+|6     |LUT6   |     6|
+|7     |SRL16E |     1|
+|8     |FDRE   |   175|
++------+-------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:10 ; elapsed = 00:01:16 . Memory (MB): peak = 1281.656 ; gain = 1072.117
+synth_design: Time (s): cpu = 00:01:10 ; elapsed = 00:01:13 . Memory (MB): peak = 1360.547 ; gain = 1018.348

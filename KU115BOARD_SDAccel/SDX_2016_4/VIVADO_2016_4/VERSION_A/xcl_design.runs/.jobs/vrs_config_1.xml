@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="xcl_design_axi_i2c_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_axi_i2c_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_buf_refclk_bufg_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_buf_refclk_bufg_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_buf_refclk_ibuf_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_buf_refclk_ibuf_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_clkwiz_kernel_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_clkwiz_kernel_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_clkwiz_kernel2_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_clkwiz_kernel2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_clkwiz_sysclks_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_clkwiz_sysclks_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_psreset_ctrlclk_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_psreset_ctrlclk_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_const_vcc_1_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_const_vcc_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_const_gnd_1_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_const_gnd_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_const_gnd_3_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_const_gnd_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_dma_pcie_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_dma_pcie_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_ddr_calib_status_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_ddr_calib_status_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_const_featureid_low_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_const_featureid_low_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_gpio_featureid_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_gpio_featureid_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_const_featureid_high_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_const_featureid_high_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_gate_pr_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_gate_pr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_xbar_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_xilmonitor_apm_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_xilmonitor_apm_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_regslice_data_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_regslice_data_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_startup_primitive_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_startup_primitive_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_iob_static_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_iob_static_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_sys_mgmt_wiz_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_sys_mgmt_wiz_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_psreset_regslice_data_pr_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_psreset_regslice_data_pr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_psreset_regslice_ctrl_pr_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_psreset_regslice_ctrl_pr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_regslice_control_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_regslice_control_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_regslice_fifo_b_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_regslice_fifo_b_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_slice_reset_kernel_pr_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_slice_reset_kernel_pr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_slice_reset_system_pr_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_slice_reset_system_pr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_regslice_fifo_a_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_regslice_fifo_a_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_regslice_apm_b_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_regslice_apm_b_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_regslice_apm_a_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_regslice_apm_a_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_psreset_gate_pr_kernel_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_psreset_gate_pr_kernel_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_xbar_1_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_xbar_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_xilmonitor_fifo0_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_xilmonitor_fifo0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_psreset_ddrmem_n_4_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_psreset_ddrmem_n_4_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_xilmonitor_subset0_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_xilmonitor_subset0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_psreset_gate_pr_apmclk_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_psreset_gate_pr_apmclk_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_logic_reset_op_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_logic_reset_op_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_psreset_ddrmem_n_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_psreset_ddrmem_n_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_interconnect_aximm_ddrmem1_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_interconnect_aximm_ddrmem1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_psreset_gate_pr_kernel2_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_psreset_gate_pr_kernel2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_psreset_ddrmem_n_2_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_psreset_ddrmem_n_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_interconnect_aximm_ddrmem2_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_interconnect_aximm_ddrmem2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_interconnect_aximm_ddrmem0_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_interconnect_aximm_ddrmem0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_psreset_ddrmem_n_3_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_psreset_ddrmem_n_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_psreset_gate_pr_control_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_psreset_gate_pr_control_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_interconnect_aximm_host_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_interconnect_aximm_host_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_psreset_gate_pr_data_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_psreset_gate_pr_data_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_interconnect_aximm_ddrmem3_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_interconnect_aximm_ddrmem3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_m02_regslice_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_m02_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_m03_regslice_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_m03_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_auto_cc_1_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_auto_cc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_m01_regslice_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_m01_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_m00_regslice_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_m00_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_s00_regslice_1_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_s00_regslice_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_m03_regslice_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_m03_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_axicc_ddrmem_3_ctrl_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_axicc_ddrmem_3_ctrl_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_axicc_ddrmem_2_ctrl_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_axicc_ddrmem_2_ctrl_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_s00_regslice_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_s00_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_concat_ddrcalib_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_concat_ddrcalib_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_ddrmem_0_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_ddrmem_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_ddrmem_1_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_ddrmem_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_ddrmem_2_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_ddrmem_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_ddrmem_3_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_ddrmem_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_concat_flash_dq_o_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_concat_flash_dq_o_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_logic_ddrcalib_op_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_logic_ddrcalib_op_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_concat_flash_tri_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_concat_flash_tri_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_debug_bridge_xsdbm_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_debug_bridge_xsdbm_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="bd_6ad6_xsdbm_0_synth_1"/>
+		<Parent Id="bd_6ad6_lut_buffer_0_synth_1"/>
+	</Run>
+	<Run Id="bd_6ad6_xsdbm_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_6ad6_xsdbm_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_6ad6_lut_buffer_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_6ad6_lut_buffer_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_flash_programmer_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_flash_programmer_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_slice_ss_0_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_slice_ss_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_slice_ss_1_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_slice_ss_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_u_ocl_region_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="bd_2fd7_m03_regslice_0_synth_1"/>
+		<Parent Id="bd_2fd7_s00_regslice_0_synth_1"/>
+		<Parent Id="bd_2fd7_s00_regslice_3_synth_1"/>
+		<Parent Id="bd_2fd7_s00_regslice_2_synth_1"/>
+		<Parent Id="bd_2fd7_s00_regslice_1_synth_1"/>
+		<Parent Id="bd_2fd7_xbar_0_synth_1"/>
+		<Parent Id="bd_2fd7_m00_regslice_0_synth_1"/>
+		<Parent Id="bd_2fd7_data_sys_reset_0_synth_1"/>
+		<Parent Id="bd_2fd7_m01_regslice_0_synth_1"/>
+		<Parent Id="bd_2fd7_kernel_2_0_synth_1"/>
+		<Parent Id="bd_2fd7_kernel_3_0_synth_1"/>
+		<Parent Id="bd_2fd7_kernel_0_0_synth_1"/>
+		<Parent Id="bd_2fd7_control_sys_reset_0_synth_1"/>
+		<Parent Id="bd_2fd7_slave_bridge_0_synth_1"/>
+		<Parent Id="bd_2fd7_master_bridge_1_0_synth_1"/>
+		<Parent Id="bd_2fd7_kernel_1_0_synth_1"/>
+		<Parent Id="bd_2fd7_master_bridge_3_0_synth_1"/>
+		<Parent Id="bd_2fd7_master_bridge_0_0_synth_1"/>
+		<Parent Id="bd_2fd7_master_bridge_2_0_synth_1"/>
+		<Parent Id="bd_2fd7_m02_regslice_0_synth_1"/>
+		<Parent Id="bd_2fd7_auto_cc_0_synth_1"/>
+		<Parent Id="bd_2fd7_auto_cc_1_synth_1"/>
+		<Parent Id="bd_2fd7_auto_cc_2_synth_1"/>
+		<Parent Id="bd_2fd7_auto_cc_3_synth_1"/>
+	</Run>
+	<Run Id="bd_2fd7_s00_regslice_3_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_s00_regslice_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_s00_regslice_2_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_s00_regslice_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_s00_regslice_1_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_s00_regslice_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_m05_regslice_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_m05_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_xbar_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_m00_regslice_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_m00_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_data_sys_reset_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_data_sys_reset_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_m01_regslice_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_m01_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_kernel_2_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_kernel_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_kernel_3_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_kernel_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_kernel_0_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_kernel_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_control_sys_reset_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_control_sys_reset_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_s00_regslice_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_s00_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_slave_bridge_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_slave_bridge_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_master_bridge_1_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_master_bridge_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_kernel_1_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_kernel_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_m06_regslice_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_m06_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_master_bridge_3_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_master_bridge_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_master_bridge_0_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_master_bridge_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_master_bridge_2_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_master_bridge_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_m04_regslice_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_m04_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_m02_regslice_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_m02_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_auto_cc_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_auto_cc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xcl_design_auto_cc_2_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_auto_cc_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_auto_cc_0_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_auto_cc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_auto_cc_1_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_auto_cc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_auto_cc_2_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_auto_cc_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_2fd7_auto_cc_3_synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_auto_cc_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="xcl_design_axi_i2c_0_synth_1"/>
+		<Parent Id="xcl_design_buf_refclk_bufg_0_synth_1"/>
+		<Parent Id="xcl_design_buf_refclk_ibuf_0_synth_1"/>
+		<Parent Id="xcl_design_clkwiz_kernel_0_synth_1"/>
+		<Parent Id="xcl_design_clkwiz_kernel2_0_synth_1"/>
+		<Parent Id="xcl_design_clkwiz_sysclks_0_synth_1"/>
+		<Parent Id="xcl_design_psreset_ctrlclk_0_synth_1"/>
+		<Parent Id="xcl_design_const_vcc_1_0_synth_1"/>
+		<Parent Id="xcl_design_const_gnd_1_0_synth_1"/>
+		<Parent Id="xcl_design_const_gnd_3_0_synth_1"/>
+		<Parent Id="xcl_design_dma_pcie_0_synth_1"/>
+		<Parent Id="xcl_design_ddr_calib_status_0_synth_1"/>
+		<Parent Id="xcl_design_const_featureid_low_0_synth_1"/>
+		<Parent Id="xcl_design_gpio_featureid_0_synth_1"/>
+		<Parent Id="xcl_design_const_featureid_high_0_synth_1"/>
+		<Parent Id="xcl_design_gate_pr_0_synth_1"/>
+		<Parent Id="xcl_design_xbar_0_synth_1"/>
+		<Parent Id="xcl_design_xilmonitor_apm_0_synth_1"/>
+		<Parent Id="xcl_design_regslice_data_0_synth_1"/>
+		<Parent Id="xcl_design_startup_primitive_0_synth_1"/>
+		<Parent Id="xcl_design_iob_static_0_synth_1"/>
+		<Parent Id="xcl_design_sys_mgmt_wiz_0_synth_1"/>
+		<Parent Id="xcl_design_psreset_regslice_data_pr_0_synth_1"/>
+		<Parent Id="xcl_design_psreset_regslice_ctrl_pr_0_synth_1"/>
+		<Parent Id="xcl_design_regslice_control_0_synth_1"/>
+		<Parent Id="xcl_design_regslice_fifo_b_0_synth_1"/>
+		<Parent Id="xcl_design_slice_reset_kernel_pr_0_synth_1"/>
+		<Parent Id="xcl_design_slice_reset_system_pr_0_synth_1"/>
+		<Parent Id="xcl_design_regslice_fifo_a_0_synth_1"/>
+		<Parent Id="xcl_design_regslice_apm_b_0_synth_1"/>
+		<Parent Id="xcl_design_regslice_apm_a_0_synth_1"/>
+		<Parent Id="xcl_design_psreset_gate_pr_kernel_0_synth_1"/>
+		<Parent Id="xcl_design_xbar_1_synth_1"/>
+		<Parent Id="xcl_design_xilmonitor_fifo0_0_synth_1"/>
+		<Parent Id="xcl_design_psreset_ddrmem_n_4_0_synth_1"/>
+		<Parent Id="xcl_design_xilmonitor_subset0_0_synth_1"/>
+		<Parent Id="xcl_design_psreset_gate_pr_apmclk_0_synth_1"/>
+		<Parent Id="xcl_design_logic_reset_op_0_synth_1"/>
+		<Parent Id="xcl_design_psreset_ddrmem_n_0_synth_1"/>
+		<Parent Id="xcl_design_interconnect_aximm_ddrmem1_0_synth_1"/>
+		<Parent Id="xcl_design_psreset_gate_pr_kernel2_0_synth_1"/>
+		<Parent Id="xcl_design_psreset_ddrmem_n_2_0_synth_1"/>
+		<Parent Id="xcl_design_interconnect_aximm_ddrmem2_0_synth_1"/>
+		<Parent Id="xcl_design_interconnect_aximm_ddrmem0_0_synth_1"/>
+		<Parent Id="xcl_design_psreset_ddrmem_n_3_0_synth_1"/>
+		<Parent Id="xcl_design_psreset_gate_pr_control_0_synth_1"/>
+		<Parent Id="xcl_design_interconnect_aximm_host_0_synth_1"/>
+		<Parent Id="xcl_design_psreset_gate_pr_data_0_synth_1"/>
+		<Parent Id="xcl_design_interconnect_aximm_ddrmem3_0_synth_1"/>
+		<Parent Id="xcl_design_m02_regslice_0_synth_1"/>
+		<Parent Id="xcl_design_m03_regslice_0_synth_1"/>
+		<Parent Id="xcl_design_auto_cc_1_synth_1"/>
+		<Parent Id="xcl_design_m01_regslice_0_synth_1"/>
+		<Parent Id="xcl_design_m00_regslice_0_synth_1"/>
+		<Parent Id="xcl_design_s00_regslice_1_synth_1"/>
+		<Parent Id="xcl_design_axicc_ddrmem_3_ctrl_0_synth_1"/>
+		<Parent Id="xcl_design_axicc_ddrmem_2_ctrl_0_synth_1"/>
+		<Parent Id="xcl_design_concat_ddrcalib_0_synth_1"/>
+		<Parent Id="xcl_design_ddrmem_0_0_synth_1"/>
+		<Parent Id="xcl_design_ddrmem_1_0_synth_1"/>
+		<Parent Id="xcl_design_ddrmem_2_0_synth_1"/>
+		<Parent Id="xcl_design_ddrmem_3_0_synth_1"/>
+		<Parent Id="xcl_design_concat_flash_dq_o_0_synth_1"/>
+		<Parent Id="xcl_design_logic_ddrcalib_op_0_synth_1"/>
+		<Parent Id="xcl_design_concat_flash_tri_0_synth_1"/>
+		<Parent Id="xcl_design_debug_bridge_xsdbm_0_synth_1"/>
+		<Parent Id="xcl_design_flash_programmer_0_synth_1"/>
+		<Parent Id="xcl_design_slice_ss_0_0_synth_1"/>
+		<Parent Id="xcl_design_slice_ss_1_0_synth_1"/>
+		<Parent Id="xcl_design_u_ocl_region_0_synth_1"/>
+		<Parent Id="xcl_design_m05_regslice_0_synth_1"/>
+		<Parent Id="xcl_design_s00_regslice_0_synth_1"/>
+		<Parent Id="xcl_design_m06_regslice_0_synth_1"/>
+		<Parent Id="xcl_design_m04_regslice_0_synth_1"/>
+		<Parent Id="xcl_design_auto_cc_0_synth_1"/>
+		<Parent Id="xcl_design_auto_cc_2_synth_1"/>
+	</Run>
+</Runs>
+

@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2016.3_sdx (64-bit)
+# SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+# IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+# Start of session at: Tue May 16 06:38:09 2017
+# Process ID: 18080
+# Current directory: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_master_bridge_0_0_synth_1
+# Command line: vivado.exe -log bd_2fd7_master_bridge_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_2fd7_master_bridge_0_0.tcl
+# Log file: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_master_bridge_0_0_synth_1/bd_2fd7_master_bridge_0_0.vds
+# Journal file: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/bd_2fd7_master_bridge_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/SDx/2016.3/Vivado/scripts/init.tcl'
+16 Beta devices matching pattern found, 16 enabled.
+Loaded SDSoC Platform Tcl Library
+source bd_2fd7_master_bridge_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 415.527 ; gain = 205.438
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_master_bridge_0_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/ip/ip_21/synth/bd_2fd7_master_bridge_0_0.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'axifull_bridge' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/1193/hdl/axifull_bridge.vhd:107]
+INFO: [Synth 8-256] done synthesizing module 'axifull_bridge' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/1193/hdl/axifull_bridge.vhd:107]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_master_bridge_0_0' (2#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/ip/ip_21/synth/bd_2fd7_master_bridge_0_0.vhd:140]
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 454.020 ; gain = 243.930
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 454.020 ; gain = 243.930
+INFO: [Device 21-403] Loading part xcku115-flvb2104-2-e
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 998.813 ; gain = 1.859
+Finished Constraint Validation : Time (s): cpu = 00:00:38 ; elapsed = 00:00:45 . Memory (MB): peak = 998.813 ; gain = 788.723
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:38 ; elapsed = 00:00:45 . Memory (MB): peak = 998.813 ; gain = 788.723
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:45 . Memory (MB): peak = 998.813 ; gain = 788.723
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:38 ; elapsed = 00:00:45 . Memory (MB): peak = 998.813 ; gain = 788.723
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:46 . Memory (MB): peak = 998.813 ; gain = 788.723
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:01 ; elapsed = 00:01:09 . Memory (MB): peak = 1234.637 ; gain = 1024.547
+Finished Timing Optimization : Time (s): cpu = 00:01:01 ; elapsed = 00:01:09 . Memory (MB): peak = 1234.637 ; gain = 1024.547
+Finished Technology Mapping : Time (s): cpu = 00:01:01 ; elapsed = 00:01:09 . Memory (MB): peak = 1245.301 ; gain = 1035.211
+Finished IO Insertion : Time (s): cpu = 00:01:01 ; elapsed = 00:01:10 . Memory (MB): peak = 1245.301 ; gain = 1035.211
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:01 ; elapsed = 00:01:10 . Memory (MB): peak = 1245.301 ; gain = 1035.211
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:01 ; elapsed = 00:01:10 . Memory (MB): peak = 1245.301 ; gain = 1035.211
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:01 ; elapsed = 00:01:10 . Memory (MB): peak = 1245.301 ; gain = 1035.211
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:02 ; elapsed = 00:01:10 . Memory (MB): peak = 1245.301 ; gain = 1035.211
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:02 ; elapsed = 00:01:10 . Memory (MB): peak = 1245.301 ; gain = 1035.211
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:02 ; elapsed = 00:01:10 . Memory (MB): peak = 1245.301 ; gain = 1035.211
+synth_design: Time (s): cpu = 00:01:01 ; elapsed = 00:01:06 . Memory (MB): peak = 1329.797 ; gain = 986.824

@@ -1,0 +1,130 @@
+#-----------------------------------------------------------
+# Vivado v2016.3_sdx (64-bit)
+# SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+# IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+# Start of session at: Tue May 16 06:19:35 2017
+# Process ID: 19860
+# Current directory: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_xilmonitor_fifo0_0_synth_1
+# Command line: vivado.exe -log xcl_design_xilmonitor_fifo0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source xcl_design_xilmonitor_fifo0_0.tcl
+# Log file: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_xilmonitor_fifo0_0_synth_1/xcl_design_xilmonitor_fifo0_0.vds
+# Journal file: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_xilmonitor_fifo0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/SDx/2016.3/Vivado/scripts/init.tcl'
+16 Beta devices matching pattern found, 16 enabled.
+Loaded SDSoC Platform Tcl Library
+source xcl_design_xilmonitor_fifo0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 426.340 ; gain = 217.160
+INFO: [Synth 8-638] synthesizing module 'xcl_design_xilmonitor_fifo0_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_fifo0_0/synth/xcl_design_xilmonitor_fifo0_0.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'axi_fifo_mm_s' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:4985]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized3' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized3' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized4' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized4' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized5' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized5' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized6' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized6' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized7' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized7' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized8' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized8' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized9' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized9' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized10' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized10' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized11' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized11' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'axi_wrapper' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2359]
+INFO: [Synth 8-638] synthesizing module 'axi_write_wrapper' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:794]
+INFO: [Synth 8-638] synthesizing module 'axi_write_fsm' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:307]
+INFO: [Synth 8-256] done synthesizing module 'axi_write_fsm' (5#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:307]
+INFO: [Synth 8-256] done synthesizing module 'axi_write_wrapper' (6#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:794]
+INFO: [Synth 8-638] synthesizing module 'axi_read_wrapper' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:1874]
+INFO: [Synth 8-638] synthesizing module 'axi_read_fsm' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:1280]
+INFO: [Synth 8-256] done synthesizing module 'axi_read_fsm' (7#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:1280]
+INFO: [Synth 8-256] done synthesizing module 'axi_read_wrapper' (8#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:1874]
+INFO: [Synth 8-256] done synthesizing module 'axi_wrapper' (9#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2359]
+INFO: [Synth 8-638] synthesizing module 'ipic2axi_s' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:3852]
+INFO: [Synth 8-638] synthesizing module 'fifo' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:3402]
+INFO: [Synth 8-638] synthesizing module 'axis_fg' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2629]
+INFO: [Synth 8-256] done synthesizing module 'axis_fg' (38#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:2629]
+INFO: [Synth 8-256] done synthesizing module 'fifo' (39#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:3402]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/61a7/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg' (60#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/61a7/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'ipic2axi_s' (61#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:3852]
+INFO: [Synth 8-256] done synthesizing module 'axi_fifo_mm_s' (62#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e3aa/hdl/axi_fifo_mm_s_v4_1_rfs.vhd:4985]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_xilmonitor_fifo0_0' (63#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_fifo0_0/synth/xcl_design_xilmonitor_fifo0_0.vhd:106]
+Finished RTL Elaboration : Time (s): cpu = 00:01:42 ; elapsed = 00:01:52 . Memory (MB): peak = 658.324 ; gain = 449.145
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:43 ; elapsed = 00:01:53 . Memory (MB): peak = 658.324 ; gain = 449.145
+INFO: [Device 21-403] Loading part xcku115-flvb2104-2-e
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.171 . Memory (MB): peak = 1161.645 ; gain = 0.098
+Finished Constraint Validation : Time (s): cpu = 00:02:09 ; elapsed = 00:02:20 . Memory (MB): peak = 1161.645 ; gain = 952.465
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:09 ; elapsed = 00:02:20 . Memory (MB): peak = 1161.645 ; gain = 952.465
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:09 ; elapsed = 00:02:20 . Memory (MB): peak = 1161.645 ; gain = 952.465
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:13 ; elapsed = 00:02:25 . Memory (MB): peak = 1161.645 ; gain = 952.465
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:18 ; elapsed = 00:02:30 . Memory (MB): peak = 1161.645 ; gain = 952.465
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+-----------------+
+|Module Name   | RTL Object                                                                                                                                            | Inference      | Size (Depth x Width) | Primitives      | 
++--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+-----------------+
+|axi_fifo_mm_s | COMP_IPIC2AXI_S/grxd.COMP_rx_len_fifo/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 1 K x 23             | RAM64X1D x 32   | 
+|axi_fifo_mm_s | gaxif.COMP_AXI4/axi_wr_fsm/gaxi_bid_gen.axi_bid_array_reg                                                                                             | User Attribute | 4 x 1                | RAM16X1D x 1    | 
++--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:40 ; elapsed = 00:02:54 . Memory (MB): peak = 1294.813 ; gain = 1085.633
+Finished Timing Optimization : Time (s): cpu = 00:02:43 ; elapsed = 00:02:57 . Memory (MB): peak = 1343.074 ; gain = 1133.895
+Finished Technology Mapping : Time (s): cpu = 00:02:45 ; elapsed = 00:02:59 . Memory (MB): peak = 1358.094 ; gain = 1148.914
+Finished IO Insertion : Time (s): cpu = 00:02:46 ; elapsed = 00:03:00 . Memory (MB): peak = 1358.094 ; gain = 1148.914
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:46 ; elapsed = 00:03:00 . Memory (MB): peak = 1358.094 ; gain = 1148.914
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:46 ; elapsed = 00:03:00 . Memory (MB): peak = 1358.094 ; gain = 1148.914
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:46 ; elapsed = 00:03:00 . Memory (MB): peak = 1358.094 ; gain = 1148.914
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:46 ; elapsed = 00:03:01 . Memory (MB): peak = 1358.094 ; gain = 1148.914
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:46 ; elapsed = 00:03:01 . Memory (MB): peak = 1358.094 ; gain = 1148.914
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY8   |    22|
+|2     |LUT1     |   125|
+|3     |LUT2     |    71|
+|4     |LUT3     |    73|
+|5     |LUT4     |   110|
+|6     |LUT5     |    81|
+|7     |LUT6     |   228|
+|8     |MUXCY    |    44|
+|9     |MUXF7    |    46|
+|10    |MUXF8    |    23|
+|11    |RAM16X1D |     1|
+|12    |RAM64M8  |    48|
+|13    |RAM64X1D |    32|
+|14    |RAMB36E2 |    29|
+|15    |FDCE     |   118|
+|16    |FDPE     |    39|
+|17    |FDRE     |   531|
+|18    |FDSE     |     7|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:46 ; elapsed = 00:03:01 . Memory (MB): peak = 1358.094 ; gain = 1148.914
+synth_design: Time (s): cpu = 00:02:49 ; elapsed = 00:03:00 . Memory (MB): peak = 1428.035 ; gain = 1083.027

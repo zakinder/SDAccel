@@ -1,0 +1,146 @@
+#-----------------------------------------------------------
+# Vivado v2016.3_sdx (64-bit)
+# SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+# IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+# Start of session at: Tue May 16 06:40:27 2017
+# Process ID: 21748
+# Current directory: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1
+# Command line: vivado.exe -log xcl_design_u_ocl_region_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source xcl_design_u_ocl_region_0.tcl
+# Log file: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/xcl_design_u_ocl_region_0.vds
+# Journal file: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/SDx/2016.3/Vivado/scripts/init.tcl'
+16 Beta devices matching pattern found, 16 enabled.
+Loaded SDSoC Platform Tcl Library
+source xcl_design_u_ocl_region_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 460.516 ; gain = 250.809
+INFO: [Synth 8-638] synthesizing module 'xcl_design_u_ocl_region_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/synth/xcl_design_u_ocl_region_0.v:59]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:13]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_control_sys_reset_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_control_sys_reset_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_control_sys_reset_0' (1#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_control_sys_reset_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_data_sys_reset_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_data_sys_reset_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_data_sys_reset_0' (2#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_data_sys_reset_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_kernel_0_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_kernel_0_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_kernel_0_0' (3#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_kernel_0_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_kernel_1_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_kernel_1_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_kernel_1_0' (4#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_kernel_1_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_kernel_2_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_kernel_2_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_kernel_2_0' (5#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_kernel_2_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_kernel_3_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_kernel_3_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_kernel_3_0' (6#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_kernel_3_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_m_axi_interconnect_M00_AXI_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:2053]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_1328SXF' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:5341]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_s00_regslice_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_s00_regslice_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_s00_regslice_0' (7#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_s00_regslice_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_1328SXF' (8#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:5341]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_m_axi_interconnect_M00_AXI_0' (9#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:2053]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_m_axi_interconnect_M01_AXI_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:2423]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_BG5KE5' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:6567]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_s00_regslice_1' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_s00_regslice_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_s00_regslice_1' (10#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_s00_regslice_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_BG5KE5' (11#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:6567]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_m_axi_interconnect_M01_AXI_0' (12#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:2423]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_m_axi_interconnect_M02_AXI_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:2793]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_7YHXYM' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:6207]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_s00_regslice_2' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_s00_regslice_2_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_s00_regslice_2' (13#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_s00_regslice_2_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_7YHXYM' (14#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:6207]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_m_axi_interconnect_M02_AXI_0' (15#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:2793]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_m_axi_interconnect_M03_AXI_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:3163]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_1FDD540' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:5701]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_s00_regslice_3' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_s00_regslice_3_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_s00_regslice_3' (16#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_s00_regslice_3_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_1FDD540' (17#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:5701]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_m_axi_interconnect_M03_AXI_0' (18#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:3163]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_master_bridge_0_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_master_bridge_0_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_master_bridge_0_0' (19#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_master_bridge_0_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_master_bridge_1_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_master_bridge_1_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_master_bridge_1_0' (20#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_master_bridge_1_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_master_bridge_2_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_master_bridge_2_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_master_bridge_2_0' (21#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_master_bridge_2_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_master_bridge_3_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_master_bridge_3_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_master_bridge_3_0' (22#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_master_bridge_3_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_s_axi_interconnect_0_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:3533]
+INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_J7A2MO' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:4277]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_auto_cc_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_auto_cc_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_auto_cc_0' (23#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_auto_cc_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_m00_regslice_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_m00_regslice_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_m00_regslice_0' (24#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_m00_regslice_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_J7A2MO' (25#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:4277]
+INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_1HZIYDV' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:4543]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_auto_cc_1' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_auto_cc_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_auto_cc_1' (26#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_auto_cc_1_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_m01_regslice_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_m01_regslice_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_m01_regslice_0' (27#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_m01_regslice_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_1HZIYDV' (28#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:4543]
+INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_148OM53' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:4809]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_auto_cc_2' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_auto_cc_2_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_auto_cc_2' (29#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_auto_cc_2_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_m02_regslice_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_m02_regslice_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_m02_regslice_0' (30#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_m02_regslice_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_148OM53' (31#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:4809]
+INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_6AKQJ8' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:5075]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_auto_cc_3' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_auto_cc_3_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_auto_cc_3' (32#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_auto_cc_3_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_m03_regslice_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_m03_regslice_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_m03_regslice_0' (33#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_m03_regslice_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_6AKQJ8' (34#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:5075]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_1HU9HL8' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:6061]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_1HU9HL8' (35#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:6061]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_xbar_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_xbar_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_xbar_0' (36#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_xbar_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_s_axi_interconnect_0_0' (37#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:3533]
+INFO: [Synth 8-638] synthesizing module 'bd_2fd7_slave_bridge_0' [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_slave_bridge_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7_slave_bridge_0' (38#1) [C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_u_ocl_region_0_synth_1/.Xil/Vivado-21748-SakinderLaptop1/realtime/bd_2fd7_slave_bridge_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'bd_2fd7' (39#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/bd_0/hdl/bd_2fd7.v:13]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_u_ocl_region_0' (40#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_u_ocl_region_0/synth/xcl_design_u_ocl_region_0.v:59]
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 507.270 ; gain = 297.563
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 507.270 ; gain = 297.563
+INFO: [Device 21-403] Loading part xcku115-flvb2104-2-e
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.244 . Memory (MB): peak = 1156.289 ; gain = 0.398
+Finished Constraint Validation : Time (s): cpu = 00:00:35 ; elapsed = 00:00:42 . Memory (MB): peak = 1156.289 ; gain = 946.582
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:35 ; elapsed = 00:00:42 . Memory (MB): peak = 1156.289 ; gain = 946.582
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:42 . Memory (MB): peak = 1156.289 ; gain = 946.582
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:42 . Memory (MB): peak = 1156.289 ; gain = 946.582
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:43 . Memory (MB): peak = 1156.289 ; gain = 946.582
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:53 ; elapsed = 00:01:00 . Memory (MB): peak = 1305.617 ; gain = 1095.910
+Finished Timing Optimization : Time (s): cpu = 00:00:53 ; elapsed = 00:01:00 . Memory (MB): peak = 1307.629 ; gain = 1097.922
+Finished Technology Mapping : Time (s): cpu = 00:00:54 ; elapsed = 00:01:01 . Memory (MB): peak = 1325.992 ; gain = 1116.285
+Finished IO Insertion : Time (s): cpu = 00:00:55 ; elapsed = 00:01:02 . Memory (MB): peak = 1325.992 ; gain = 1116.285
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:55 ; elapsed = 00:01:02 . Memory (MB): peak = 1325.992 ; gain = 1116.285
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:55 ; elapsed = 00:01:02 . Memory (MB): peak = 1325.992 ; gain = 1116.285
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:55 ; elapsed = 00:01:02 . Memory (MB): peak = 1325.992 ; gain = 1116.285
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:55 ; elapsed = 00:01:02 . Memory (MB): peak = 1325.992 ; gain = 1116.285
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:55 ; elapsed = 00:01:02 . Memory (MB): peak = 1325.992 ; gain = 1116.285
+
+Report Cell Usage: 
++------+----------------------------+------+
+|      |Cell                        |Count |
++------+----------------------------+------+
+|1     |bd_2fd7_auto_cc_0           |     1|
+|2     |bd_2fd7_auto_cc_1           |     1|
+|3     |bd_2fd7_auto_cc_2           |     1|
+|4     |bd_2fd7_auto_cc_3           |     1|
+|5     |bd_2fd7_control_sys_reset_0 |     1|
+|6     |bd_2fd7_data_sys_reset_0    |     1|
+|7     |bd_2fd7_kernel_0_0          |     1|
+|8     |bd_2fd7_kernel_1_0          |     1|
+|9     |bd_2fd7_kernel_2_0          |     1|
+|10    |bd_2fd7_kernel_3_0          |     1|
+|11    |bd_2fd7_m00_regslice_0      |     1|
+|12    |bd_2fd7_m01_regslice_0      |     1|
+|13    |bd_2fd7_m02_regslice_0      |     1|
+|14    |bd_2fd7_m03_regslice_0      |     1|
+|15    |bd_2fd7_master_bridge_0_0   |     1|
+|16    |bd_2fd7_master_bridge_1_0   |     1|
+|17    |bd_2fd7_master_bridge_2_0   |     1|
+|18    |bd_2fd7_master_bridge_3_0   |     1|
+|19    |bd_2fd7_s00_regslice_0      |     1|
+|20    |bd_2fd7_s00_regslice_1      |     1|
+|21    |bd_2fd7_s00_regslice_2      |     1|
+|22    |bd_2fd7_s00_regslice_3      |     1|
+|23    |bd_2fd7_slave_bridge_0      |     1|
+|24    |bd_2fd7_xbar_0              |     1|
++------+----------------------------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:55 ; elapsed = 00:01:02 . Memory (MB): peak = 1325.992 ; gain = 1116.285
+synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 1434.391 ; gain = 1057.301

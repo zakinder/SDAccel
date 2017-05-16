@@ -1,0 +1,6 @@
+create_generated_clock -source [get_ports clk] -edges {1 2 3} -edge_shift {0.000 3.333 6.666} [get_ports -no_traverse sl_iport0_o[1]]
+create_generated_clock -source [get_ports clk] -edges {1 2 3} -edge_shift {0.000 3.333 6.666} [get_ports -no_traverse sl_iport1_o[1]]
+create_generated_clock -source [get_ports clk] -edges {1 2 3} -edge_shift {0.000 3.333 6.666} [get_ports -no_traverse sl_iport2_o[1]]
+create_generated_clock -source [get_ports clk] -edges {1 2 3} -edge_shift {0.000 3.333 6.666} [get_ports -no_traverse sl_iport3_o[1]]
+set_property -quiet CLOCK_PERIOD_OOC_TARGET 3.333 [get_ports -no_traverse -quiet clk]
+set_property -quiet IS_IP_OOC_CELL TRUE [get_cells -of [get_ports -no_traverse -quiet bscanid[0]]]

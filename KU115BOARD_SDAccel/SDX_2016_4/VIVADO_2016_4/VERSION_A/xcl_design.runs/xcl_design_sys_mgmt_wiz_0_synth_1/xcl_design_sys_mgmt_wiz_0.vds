@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# Vivado v2016.3_sdx (64-bit)
+# SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+# IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+# Start of session at: Tue May 16 06:14:27 2017
+# Process ID: 10884
+# Current directory: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_sys_mgmt_wiz_0_synth_1
+# Command line: vivado.exe -log xcl_design_sys_mgmt_wiz_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source xcl_design_sys_mgmt_wiz_0.tcl
+# Log file: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_sys_mgmt_wiz_0_synth_1/xcl_design_sys_mgmt_wiz_0.vds
+# Journal file: C:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/xcl_design_sys_mgmt_wiz_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/SDx/2016.3/Vivado/scripts/init.tcl'
+16 Beta devices matching pattern found, 16 enabled.
+Loaded SDSoC Platform Tcl Library
+source xcl_design_sys_mgmt_wiz_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 416.617 ; gain = 207.414
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/xcl_design_sys_mgmt_wiz_0.v:51]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_axi_xadc' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/xcl_design_sys_mgmt_wiz_0_axi_xadc.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_axi_lite_ipif' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/axi_lite_ipif_v1_31_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_axi_lite_ipif.vhd:241]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_slave_attachment' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/axi_lite_ipif_v1_31_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_slave_attachment.vhd:227]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_address_decoder' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/axi_lite_ipif_v1_31_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_address_decoder.vhd:176]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized0' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized1' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized1' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized2' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized2' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized3' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized3' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized4' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized4' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized5' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized5' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized6' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized6' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized7' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized7' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized8' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized8' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized9' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized9' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized10' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized10' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized11' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized11' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized12' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized12' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized13' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized13' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized14' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized14' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized15' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized15' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized16' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized16' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized17' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized17' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized18' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized18' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized19' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized19' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized20' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized20' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized21' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized21' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized22' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized22' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized23' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized23' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized24' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized24' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized25' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_pselect_f__parameterized25' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_pselect_f.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_address_decoder' (2#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/axi_lite_ipif_v1_31_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_address_decoder.vhd:176]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_slave_attachment' (3#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/axi_lite_ipif_v1_31_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_slave_attachment.vhd:227]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_axi_lite_ipif' (4#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/axi_lite_ipif_v1_31_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_axi_lite_ipif.vhd:241]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_xadc_core_drp' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/xcl_design_sys_mgmt_wiz_0_xadc_core_drp.vhd:184]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_xadc_core_drp' (5#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/xcl_design_sys_mgmt_wiz_0_xadc_core_drp.vhd:184]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_soft_reset' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_soft_reset.vhd:142]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_soft_reset' (6#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_soft_reset.vhd:142]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_sys_mgmt_wiz_0_interrupt_control' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/interrupt_control_v2_01_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_interrupt_control.vhd:240]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_interrupt_control' (7#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/interrupt_control_v2_01_a/hdl/src/vhdl/xcl_design_sys_mgmt_wiz_0_interrupt_control.vhd:240]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0_axi_xadc' (8#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/xcl_design_sys_mgmt_wiz_0_axi_xadc.vhd:236]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_sys_mgmt_wiz_0' (9#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_sys_mgmt_wiz_0/xcl_design_sys_mgmt_wiz_0.v:51]
+Finished RTL Elaboration : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 486.699 ; gain = 277.496
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 486.699 ; gain = 277.496
+INFO: [Device 21-403] Loading part xcku115-flvb2104-2-e
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1104.344 ; gain = 1.004
+Finished Constraint Validation : Time (s): cpu = 00:00:50 ; elapsed = 00:00:56 . Memory (MB): peak = 1104.344 ; gain = 895.141
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:50 ; elapsed = 00:00:56 . Memory (MB): peak = 1104.344 ; gain = 895.141
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:50 ; elapsed = 00:00:56 . Memory (MB): peak = 1104.344 ; gain = 895.141
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:51 ; elapsed = 00:00:57 . Memory (MB): peak = 1104.344 ; gain = 895.141
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:53 ; elapsed = 00:01:00 . Memory (MB): peak = 1104.344 ; gain = 895.141
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:15 ; elapsed = 00:01:22 . Memory (MB): peak = 1260.930 ; gain = 1051.727
+Finished Timing Optimization : Time (s): cpu = 00:01:16 ; elapsed = 00:01:23 . Memory (MB): peak = 1304.910 ; gain = 1095.707
+Finished Technology Mapping : Time (s): cpu = 00:01:16 ; elapsed = 00:01:24 . Memory (MB): peak = 1304.910 ; gain = 1095.707
+Finished IO Insertion : Time (s): cpu = 00:01:17 ; elapsed = 00:01:24 . Memory (MB): peak = 1304.910 ; gain = 1095.707
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:17 ; elapsed = 00:01:24 . Memory (MB): peak = 1304.910 ; gain = 1095.707
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:17 ; elapsed = 00:01:24 . Memory (MB): peak = 1304.910 ; gain = 1095.707
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:17 ; elapsed = 00:01:24 . Memory (MB): peak = 1304.910 ; gain = 1095.707
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:17 ; elapsed = 00:01:24 . Memory (MB): peak = 1304.910 ; gain = 1095.707
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:17 ; elapsed = 00:01:24 . Memory (MB): peak = 1304.910 ; gain = 1095.707
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT1     |     2|
+|2     |LUT2     |    35|
+|3     |LUT3     |    15|
+|4     |LUT4     |    25|
+|5     |LUT5     |    79|
+|6     |LUT6     |    45|
+|7     |SYSMONE1 |     1|
+|8     |FDRE     |   224|
+|9     |FDSE     |    36|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:17 ; elapsed = 00:01:24 . Memory (MB): peak = 1304.910 ; gain = 1095.707
+synth_design: Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 1364.488 ; gain = 1022.645

@@ -1,0 +1,16 @@
+
+*** Running vivado
+    with args -log xcl_design_concat_flash_dq_o_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source xcl_design_concat_flash_dq_o_0.tcl
+
+
+
+****** Vivado v2016.3_sdx (64-bit)
+  **** SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+  **** IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Xilinx/SDx/2016.3/Vivado/scripts/init.tcl'
+16 Beta devices matching pattern found, 16 enabled.
+Loaded SDSoC Platform Tcl Library
+source xcl_design_concat_flash_dq_o_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP xcl_design_concat_flash_dq_o_0, cache-ID = 2b6db3281e8676a9.
