@@ -1,0 +1,389 @@
+
+*** Running vivado
+    with args -log xcl_design_interconnect_aximm_host_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source xcl_design_interconnect_aximm_host_0.tcl
+
+
+
+****** Vivado v2016.3_sdx (64-bit)
+  **** SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+  **** IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Xilinx/SDx/2016.3/Vivado/scripts/init.tcl'
+16 Beta devices matching pattern found, 16 enabled.
+Loaded SDSoC Platform Tcl Library
+source xcl_design_interconnect_aximm_host_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:26 ; elapsed = 00:00:38 . Memory (MB): peak = 462.297 ; gain = 252.246
+INFO: [Synth 8-638] synthesizing module 'xcl_design_interconnect_aximm_host_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/synth/xcl_design_interconnect_aximm_host_0.v:59]
+INFO: [Synth 8-638] synthesizing module 'bd_d184' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:13]
+INFO: [Synth 8-638] synthesizing module 'clk_map_imp_12Z0HC7' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:2664]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_one_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_0/sim/bd_d184_one_0.v:56]
+INFO: [Synth 8-638] synthesizing module 'xlconstant' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e147/xlconstant.v:23]
+INFO: [Synth 8-256] done synthesizing module 'xlconstant' (1#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/e147/xlconstant.v:23]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_one_0' (2#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_0/sim/bd_d184_one_0.v:56]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_psr0_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_1/synth/bd_d184_psr0_0.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-638] synthesizing module 'lpf' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'SRL16' [C:/Xilinx/SDx/2016.3/Vivado/scripts/rt/data/unisim_comp.v:43312]
+INFO: [Synth 8-256] done synthesizing module 'SRL16' (3#1) [C:/Xilinx/SDx/2016.3/Vivado/scripts/rt/data/unisim_comp.v:43312]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (4#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (5#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (6#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (7#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (8#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_psr0_0' (9#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_1/synth/bd_d184_psr0_0.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_psr_aclk_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_2/synth/bd_d184_psr_aclk_0.vhd:71]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_psr_aclk_0' (10#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_2/synth/bd_d184_psr_aclk_0.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_psr_aclk1_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_3/synth/bd_d184_psr_aclk1_0.vhd:71]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_psr_aclk1_0' (11#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_3/synth/bd_d184_psr_aclk1_0.vhd:71]
+INFO: [Synth 8-256] done synthesizing module 'clk_map_imp_12Z0HC7' (12#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:2664]
+INFO: [Synth 8-638] synthesizing module 'm00_exit_pipeline_imp_WF7YFW' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:2752]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m00e_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_24/synth/bd_d184_m00e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m00e_0' (22#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_24/synth/bd_d184_m00e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm00_exit_pipeline_imp_WF7YFW' (23#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:2752]
+INFO: [Synth 8-638] synthesizing module 'm00_nodes_imp_A8YHBK' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:3168]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m00arn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_19/synth/bd_d184_m00arn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base' (28#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m00arn_0' (37#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_19/synth/bd_d184_m00arn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m00awn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_21/synth/bd_d184_m00awn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m00awn_0' (38#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_21/synth/bd_d184_m00awn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m00bn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_23/synth/bd_d184_m00bn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized0' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized0' (38#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized1' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized1' (38#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m00bn_0' (39#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_23/synth/bd_d184_m00bn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m00rn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_20/synth/bd_d184_m00rn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized2' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized2' (39#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized3' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized3' (39#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized4' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized4' (39#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized5' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized5' (39#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m00rn_0' (40#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_20/synth/bd_d184_m00rn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m00wn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_22/synth/bd_d184_m00wn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized6' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized6' (40#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized7' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized7' (40#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized8' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized8' (40#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized9' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized9' (40#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m00wn_0' (41#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_22/synth/bd_d184_m00wn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm00_nodes_imp_A8YHBK' (42#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:3168]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m00s2a_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_18/synth/bd_d184_m00s2a_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m00s2a_0' (44#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_18/synth/bd_d184_m00s2a_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'm01_exit_pipeline_imp_RQD4GS' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:3464]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m01e_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_31/synth/bd_d184_m01e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m01e_0' (45#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_31/synth/bd_d184_m01e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm01_exit_pipeline_imp_RQD4GS' (46#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:3464]
+INFO: [Synth 8-638] synthesizing module 'm01_nodes_imp_1FKNOSM' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:3880]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m01arn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_26/synth/bd_d184_m01arn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m01arn_0' (47#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_26/synth/bd_d184_m01arn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m01awn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_28/synth/bd_d184_m01awn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m01awn_0' (48#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_28/synth/bd_d184_m01awn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m01bn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_30/synth/bd_d184_m01bn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized10' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized10' (48#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized11' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized11' (48#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m01bn_0' (49#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_30/synth/bd_d184_m01bn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m01rn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_27/synth/bd_d184_m01rn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized12' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized12' (49#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized13' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized13' (49#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized14' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized14' (49#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized15' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized15' (49#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m01rn_0' (50#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_27/synth/bd_d184_m01rn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m01wn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_29/synth/bd_d184_m01wn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized16' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized16' (50#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized17' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized17' (50#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized18' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized18' (50#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized19' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized19' (50#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m01wn_0' (51#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_29/synth/bd_d184_m01wn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm01_nodes_imp_1FKNOSM' (52#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:3880]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m01s2a_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_25/synth/bd_d184_m01s2a_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m01s2a_0' (53#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_25/synth/bd_d184_m01s2a_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'm02_exit_pipeline_imp_P4DQQK' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:4176]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m02e_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_38/synth/bd_d184_m02e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m02e_0' (54#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_38/synth/bd_d184_m02e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm02_exit_pipeline_imp_P4DQQK' (55#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:4176]
+INFO: [Synth 8-638] synthesizing module 'm02_nodes_imp_1ISTIU5' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:4592]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m02arn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_33/synth/bd_d184_m02arn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m02arn_0' (56#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_33/synth/bd_d184_m02arn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m02awn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_35/synth/bd_d184_m02awn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m02awn_0' (57#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_35/synth/bd_d184_m02awn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m02bn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_37/synth/bd_d184_m02bn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized20' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized20' (57#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized21' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized21' (57#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m02bn_0' (58#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_37/synth/bd_d184_m02bn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m02rn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_34/synth/bd_d184_m02rn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized22' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized22' (58#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized23' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized23' (58#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized24' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized24' (58#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized25' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized25' (58#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m02rn_0' (59#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_34/synth/bd_d184_m02rn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m02wn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_36/synth/bd_d184_m02wn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized26' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized26' (59#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized27' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized27' (59#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized28' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized28' (59#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized29' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized29' (59#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m02wn_0' (60#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_36/synth/bd_d184_m02wn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm02_nodes_imp_1ISTIU5' (61#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:4592]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m02s2a_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_32/synth/bd_d184_m02s2a_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m02s2a_0' (62#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_32/synth/bd_d184_m02s2a_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'm03_exit_pipeline_imp_LJGKT8' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:4888]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m03e_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_45/synth/bd_d184_m03e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m03e_0' (63#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_45/synth/bd_d184_m03e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm03_exit_pipeline_imp_LJGKT8' (64#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:4888]
+INFO: [Synth 8-638] synthesizing module 'm03_nodes_imp_OKKXD7' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:5304]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m03arn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_40/synth/bd_d184_m03arn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m03arn_0' (65#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_40/synth/bd_d184_m03arn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m03awn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_42/synth/bd_d184_m03awn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m03awn_0' (66#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_42/synth/bd_d184_m03awn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m03bn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_44/synth/bd_d184_m03bn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized30' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized30' (66#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized31' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized31' (66#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m03bn_0' (67#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_44/synth/bd_d184_m03bn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m03rn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_41/synth/bd_d184_m03rn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized32' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized32' (67#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized33' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized33' (67#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized34' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized34' (67#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized35' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized35' (67#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m03rn_0' (68#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_41/synth/bd_d184_m03rn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m03wn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_43/synth/bd_d184_m03wn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized36' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized36' (68#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized37' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized37' (68#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized38' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized38' (68#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized39' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized39' (68#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m03wn_0' (69#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_43/synth/bd_d184_m03wn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm03_nodes_imp_OKKXD7' (70#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:5304]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m03s2a_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_39/synth/bd_d184_m03s2a_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m03s2a_0' (71#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_39/synth/bd_d184_m03s2a_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'm04_exit_pipeline_imp_B8CL5O' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:5600]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m04e_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_49/synth/bd_d184_m04e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m04e_0' (72#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_49/synth/bd_d184_m04e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm04_exit_pipeline_imp_B8CL5O' (73#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:5600]
+INFO: [Synth 8-638] synthesizing module 'm04_nodes_imp_GZXZ57' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:5776]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m04arn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_47/synth/bd_d184_m04arn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m04arn_0' (98#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_47/synth/bd_d184_m04arn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m04rn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_48/synth/bd_d184_m04rn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m04rn_0' (99#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_48/synth/bd_d184_m04rn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm04_nodes_imp_GZXZ57' (100#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:5776]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_m04s2a_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_46/synth/bd_d184_m04s2a_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_m04s2a_0' (101#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_46/synth/bd_d184_m04s2a_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_s00a2s_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_12/synth/bd_d184_s00a2s_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_s00a2s_0' (103#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_12/synth/bd_d184_s00a2s_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 's00_entry_pipeline_imp_1WSPPGF' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:5907]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_s00mmu_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_9/synth/bd_d184_s00mmu_0.sv:59]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_s00mmu_0' (107#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_9/synth/bd_d184_s00mmu_0.sv:59]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_s00sic_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_11/synth/bd_d184_s00sic_0.sv:59]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_s00sic_0' (110#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_11/synth/bd_d184_s00sic_0.sv:59]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_s00tr_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_10/synth/bd_d184_s00tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_s00tr_0' (113#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_10/synth/bd_d184_s00tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's00_entry_pipeline_imp_1WSPPGF' (114#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:5907]
+INFO: [Synth 8-638] synthesizing module 's00_nodes_imp_1QSCGSL' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:6544]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_sarn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_13/synth/bd_d184_sarn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized40' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized40' (114#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized41' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized41' (114#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_sarn_0' (115#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_13/synth/bd_d184_sarn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_sawn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_15/synth/bd_d184_sawn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized42' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized42' (115#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized43' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized43' (115#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_sawn_0' (116#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_15/synth/bd_d184_sawn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_sbn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_17/synth/bd_d184_sbn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized44' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized44' (117#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_sbn_0' (118#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_17/synth/bd_d184_sbn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_srn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_14/synth/bd_d184_srn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized45' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized45' (118#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized46' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized46' (118#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized47' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized47' (118#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_srn_0' (119#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_14/synth/bd_d184_srn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_swn_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_16/synth/bd_d184_swn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized48' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized48' (119#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized49' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized49' (119#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized50' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized50' (119#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized51' [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized51' (119#1) [C:/Xilinx/SDx/2016.3/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_swn_0' (120#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_16/synth/bd_d184_swn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's00_nodes_imp_1QSCGSL' (121#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:6544]
+INFO: [Synth 8-638] synthesizing module 'switchboards_imp_127UVBL' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:6840]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_arsw_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_4/synth/bd_d184_arsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_arsw_0' (124#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_4/synth/bd_d184_arsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_awsw_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_6/synth/bd_d184_awsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_awsw_0' (125#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_6/synth/bd_d184_awsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_bsw_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_8/synth/bd_d184_bsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_bsw_0' (126#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_8/synth/bd_d184_bsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_rsw_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_5/synth/bd_d184_rsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_rsw_0' (127#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_5/synth/bd_d184_rsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_d184_wsw_0' [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_7/synth/bd_d184_wsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184_wsw_0' (128#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/ip/ip_7/synth/bd_d184_wsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'switchboards_imp_127UVBL' (129#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:6840]
+INFO: [Synth 8-256] done synthesizing module 'bd_d184' (130#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/bd_0/hdl/bd_d184.v:13]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_interconnect_aximm_host_0' (131#1) [c:/Sim/sdaccel_ku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_interconnect_aximm_host_0/synth/xcl_design_interconnect_aximm_host_0.v:59]
+Finished RTL Elaboration : Time (s): cpu = 00:03:44 ; elapsed = 00:04:26 . Memory (MB): peak = 791.715 ; gain = 581.664
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:48 ; elapsed = 00:04:33 . Memory (MB): peak = 791.715 ; gain = 581.664
+INFO: [Device 21-403] Loading part xcku115-flvb2104-2-e
+Constraint Validation Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1873.789 ; gain = 32.270
+Finished Constraint Validation : Time (s): cpu = 00:05:20 ; elapsed = 00:06:09 . Memory (MB): peak = 1873.789 ; gain = 1663.738
+Finished Loading Part and Timing Information : Time (s): cpu = 00:05:20 ; elapsed = 00:06:09 . Memory (MB): peak = 1873.789 ; gain = 1663.738
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:05:20 ; elapsed = 00:06:09 . Memory (MB): peak = 1873.789 ; gain = 1663.738
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:05:37 ; elapsed = 00:06:29 . Memory (MB): peak = 1873.789 ; gain = 1663.738
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:06:26 ; elapsed = 00:07:55 . Memory (MB): peak = 1873.789 ; gain = 1663.738
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+------------+
+|Module Name        | RTL Object                                                                                                                                                               | Inference      | Size (Depth x Width) | Primitives | 
++-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+------------+
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 172             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 172             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 18              |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 8               |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 18              |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 178             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 178             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 178             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 154             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 154             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 154             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 152             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 172             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 172             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 18              |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 8               |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 18              |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 178             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 178             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 178             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 154             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 154             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 154             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 152             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 172             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 172             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 18              |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 8               |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 18              |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 178             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 178             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 178             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 154             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 154             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 154             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 152             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 172             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 172             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 18              |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 8               |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 18              |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 178             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 178             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 178             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 154             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 154             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 154             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 152             |            | 
+|sc_node_v1_0_2_top | inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_fg_fifo.inst_fg_fifo/inst_fg_fifo/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 172             |            | 
+|sc_node_v1_0_2_top | inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_fg_fifo.inst_fg_fifo/inst_fg_fifo/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 534             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 22              |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 154             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 22              |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 154             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 28              |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 185             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 185             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 184             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 22              |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 199             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 199             |            | 
+|xpm_memory_base    | gen_wr_a.gen_word_narrow.mem_reg                                                                                                                                         | User Attribute | 32 x 198             |            | 
++-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:06:49 ; elapsed = 00:08:19 . Memory (MB): peak = 1873.789 ; gain = 1663.738
+Finished Timing Optimization : Time (s): cpu = 00:07:23 ; elapsed = 00:08:53 . Memory (MB): peak = 1873.789 ; gain = 1663.738
+Finished Technology Mapping : Time (s): cpu = 00:07:27 ; elapsed = 00:09:32 . Memory (MB): peak = 1873.789 ; gain = 1663.738
+Finished IO Insertion : Time (s): cpu = 00:07:31 ; elapsed = 00:09:37 . Memory (MB): peak = 1873.789 ; gain = 1663.738
+Finished Renaming Generated Instances : Time (s): cpu = 00:07:31 ; elapsed = 00:09:38 . Memory (MB): peak = 1873.789 ; gain = 1663.738
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:07:37 ; elapsed = 00:09:44 . Memory (MB): peak = 1873.789 ; gain = 1663.738
+Finished Renaming Generated Ports : Time (s): cpu = 00:07:38 ; elapsed = 00:09:44 . Memory (MB): peak = 1873.789 ; gain = 1663.738
+Finished Handling Custom Attributes : Time (s): cpu = 00:07:39 ; elapsed = 00:09:45 . Memory (MB): peak = 1873.789 ; gain = 1663.738
+Finished Renaming Generated Nets : Time (s): cpu = 00:07:39 ; elapsed = 00:09:46 . Memory (MB): peak = 1873.789 ; gain = 1663.738
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY8   |     6|
+|2     |LUT1     |   282|
+|3     |LUT2     |  2848|
+|4     |LUT3     |   515|
+|5     |LUT4     |  1145|
+|6     |LUT5     |   821|
+|7     |LUT6     |  1195|
+|8     |MUXF7    |   279|
+|9     |RAM32M16 |   599|
+|10    |SRL16    |     3|
+|11    |SRLC32E  |    37|
+|12    |FDCE     |   212|
+|13    |FDPE     |    53|
+|14    |FDR      |    20|
+|15    |FDRE     |  4497|
+|16    |FDSE     |   114|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:07:39 ; elapsed = 00:09:46 . Memory (MB): peak = 1873.789 ; gain = 1663.738
+get_clocks: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1873.789 ; gain = 0.000
+synth_design: Time (s): cpu = 00:07:59 ; elapsed = 00:09:56 . Memory (MB): peak = 1873.789 ; gain = 1500.992
+write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1873.789 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1873.789 ; gain = 0.000
