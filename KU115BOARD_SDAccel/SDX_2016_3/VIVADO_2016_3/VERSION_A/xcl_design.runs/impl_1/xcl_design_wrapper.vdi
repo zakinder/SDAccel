@@ -2102,3 +2102,28 @@ Phase 1 Placer Initialization | Checksum: 11fae5cfc
 Time (s): cpu = 00:09:43 ; elapsed = 00:08:52 . Memory (MB): peak = 6262.672 ; gain = 1287.367
 
 Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 13c967e25
+
+Time (s): cpu = 00:26:22 ; elapsed = 00:20:03 . Memory (MB): peak = 6262.672 ; gain = 1287.367
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 13c967e25
+
+Time (s): cpu = 00:26:35 ; elapsed = 00:20:10 . Memory (MB): peak = 6262.672 ; gain = 1287.367
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: af529c14
+
+Time (s): cpu = 00:28:39 ; elapsed = 00:21:40 . Memory (MB): peak = 6262.672 ; gain = 1287.367
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 120ded6d5
+
+Time (s): cpu = 00:28:57 ; elapsed = 00:21:54 . Memory (MB): peak = 6262.672 ; gain = 1287.367
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 120ded6d5
+
+Time (s): cpu = 00:29:12 ; elapsed = 00:22:09 . Memory (MB): peak = 6262.672 ; gain = 1287.367
