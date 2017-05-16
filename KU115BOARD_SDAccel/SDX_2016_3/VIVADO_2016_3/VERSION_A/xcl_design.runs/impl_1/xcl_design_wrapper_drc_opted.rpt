@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.3_sdx (win64) Build 1721784 Tue Nov 29 22:12:44 MST 2016
-| Date         : Tue May 16 07:22:49 2017
+| Date         : Tue May 16 08:23:44 2017
 | Host         : SakinderLaptop1 running 64-bit major release  (build 9200)
 | Command      : report_drc -file xcl_design_wrapper_drc_opted.rpt
 | Design       : xcl_design_wrapper

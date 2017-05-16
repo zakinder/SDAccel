@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xcku115-flvb2104-2-e" LaunchTime="1494935342">
+<GenRun Id="impl_1" LaunchPart="xcku115-flvb2104-2-e" LaunchTime="1494939173">
   <File Type="PWROPT-DRC" Name="xcl_design_wrapper_drc_pwropted.rpt"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="xcl_design_wrapper_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="xcl_design_wrapper_timing_summary_init.rpt"/>
@@ -115,9 +115,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
     <Step Id="init_design"/>
     <Step Id="opt_design" PreStepTclHook="C:/Sim/sdaccel_ku/sources/misc/xpr_preopt.tcl" PostStepTclHook="C:/Sim/sdaccel_ku/sources/misc/xpr_postopt.tcl"/>
     <Step Id="power_opt_design"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="xcl_design_axicc_ddrmem_2_ctrl_0_synth_1" LaunchPart="xcku115-flvb2104-2-e" LaunchTime="1494931388">
-  <File Type="RDS-PROPCONSTRS" Name="xcl_design_axicc_ddrmem_2_ctrl_0_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="xcl_design_axicc_ddrmem_2_ctrl_0.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="xcl_design_axicc_ddrmem_2_ctrl_0_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="xcl_design_axicc_ddrmem_2_ctrl_0.vds"/>
   <File Type="RDS-UTIL" Name="xcl_design_axicc_ddrmem_2_ctrl_0_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="xcl_design_axicc_ddrmem_2_ctrl_0_utilization_synth.pb"/>
@@ -35,9 +35,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

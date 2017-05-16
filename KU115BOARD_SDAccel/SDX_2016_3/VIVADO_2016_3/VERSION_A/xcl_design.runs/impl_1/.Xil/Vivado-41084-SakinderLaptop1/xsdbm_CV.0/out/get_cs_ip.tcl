@@ -2,17 +2,14 @@
 #Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 #
 set_param project.singleFileAddWarning.threshold 0
-set_param synth.elaboration.rodinMoreOptions {rt::set_parameter advancedConstPropAcrossHier true}
-set_param chipscope.enablePRFlow 1
-set_param dsa.expandedPRRegion 1
 set_param chipscope.flow 0
 set part xcku115-flvb2104-2-e
 set ip_vlnv xilinx.com:ip:xsdbm:2.0
 set ip_module_name xsdbm_CV
 set params {{{PARAM_VALUE.C_BSCAN_MODE} {false} {PARAM_VALUE.C_BSCAN_MODE_WITH_CORE} {false} {PARAM_VALUE.C_CLK_INPUT_FREQ_HZ} {300000000} {PARAM_VALUE.C_ENABLE_CLK_DIVIDER} {true} {PARAM_VALUE.C_NUM_BSCAN_MASTER_PORTS} {0} {PARAM_VALUE.C_TWO_PRIM_MODE} {false} {PARAM_VALUE.C_USER_SCAN_CHAIN} {1} {PARAM_VALUE.C_USE_EXT_BSCAN} {true} {PARAM_VALUE.C_XSDB_NUM_SLAVES} {4}}}
-set output_xci c:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/impl_1/.Xil/Vivado-23920-SakinderLaptop1/xsdbm_CV.0/out/result.xci
-set output_dcp c:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/impl_1/.Xil/Vivado-23920-SakinderLaptop1/xsdbm_CV.0/out/result.dcp
-set output_dir c:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/impl_1/.Xil/Vivado-23920-SakinderLaptop1/xsdbm_CV.0/out
+set output_xci c:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/impl_1/.Xil/Vivado-41084-SakinderLaptop1/xsdbm_CV.0/out/result.xci
+set output_dcp c:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/impl_1/.Xil/Vivado-41084-SakinderLaptop1/xsdbm_CV.0/out/result.dcp
+set output_dir c:/Sim/sdaccel_ku/xcl_design/xcl_design.runs/impl_1/.Xil/Vivado-41084-SakinderLaptop1/xsdbm_CV.0/out
 set ip_repo_paths {}
 set ip_output_repo C:/Sim/sdaccel_ku/xcl_design/xcl_design.cache/ip
 set ip_cache_permissions {read write}
