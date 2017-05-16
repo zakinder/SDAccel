@@ -253,7 +253,7 @@ o Download SDAccel binary (.xclbin) to FPGA
 o DMA test for PCIe bandwidth
 o Show status of compute units
 
-![BUS](https://github.com/sakinder/SDAccel/blob/master/PNG/VERSION_A/10.png "BUS")
+![BUS](https://github.com/sakinder/SDAccel/blob/master/PNG/VERSION_A/10.PNG "BUS")
 ![CARD](https://github.com/sakinder/SDAccel/blob/master/PNG/VERSION_A/16.png "CARD")
 ![BLOCK](https://github.com/sakinder/SDAccel/blob/master/PNG/VERSION_A/09.png "BLOCK")
 ![KERNEL](https://github.com/sakinder/SDAccel/blob/master/PNG/VERSION_A/08.png "KERNEL")
