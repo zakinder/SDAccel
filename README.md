@@ -1,6 +1,7 @@
 # Xilinx SDAccel Development Environment
 [NOTES FROM UG1164](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2016_3/ug1164-sdaccel-platform-development.pdf)
 ![SDAccel](https://github.com/sakinder/SDAccel/blob/master/PNG/VERSION_A/14.png "SDAccel")
+![EXPANDED](https://github.com/sakinder/SDAccel/blob/master/PNG/VERSION_A/03.png "EXPANDED")
 ```
 Architecture to enable CPU/GPU developers to easily migrate their applications to FPGAs 
 while maintaining and reusing their OpenCL, C, and C++ code in a familiar workflow. 
