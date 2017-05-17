@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Tue May 16 23:02:40 2017">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="e915d188aae1407d8cfc48054b89a23a" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="CoreView" value="1" type="JavaHandler"/>
+<property name="CustomizeRSBBlock" value="32" type="JavaHandler"/>
+<property name="EditUndo" value="2" type="JavaHandler"/>
+<property name="OpenRSBHierarchyBlock" value="2" type="JavaHandler"/>
+<property name="RegenerateRSBLayout" value="49" type="JavaHandler"/>
+<property name="SaveRSBDesign" value="6" type="JavaHandler"/>
+<property name="ShowAnswerRecord" value="1" type="JavaHandler"/>
+<property name="ShowProductGuide" value="6" type="JavaHandler"/>
+<property name="ShowProductWebPage" value="2" type="JavaHandler"/>
+<property name="ToggleAutoFitSelection" value="1" type="JavaHandler"/>
+<property name="ToggleSelectAreaMode" value="1" type="JavaHandler"/>
+<property name="ToggleViewNavigator" value="1" type="JavaHandler"/>
+<property name="ToolsSettings" value="8" type="JavaHandler"/>
+<property name="ZoomFit" value="3" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="AbstractSaveAsDialog_NAME" value="1" type="GuiResourceData"/>
+<property name="BaseDialog_APPLY" value="9" type="GuiResourceData"/>
+<property name="BaseDialog_CANCEL" value="31" type="GuiResourceData"/>
+<property name="BaseDialog_OK" value="29" type="GuiResourceData"/>
+<property name="ColorTreePanel_COLOR_TREE_TABLE" value="6" type="GuiResourceData"/>
+<property name="CustomizeCoreDialog_DOCUMENTATION" value="11" type="GuiResourceData"/>
+<property name="DefaultOptionPane_CLOSE" value="14" type="GuiResourceData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="38" type="GuiResourceData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="1" type="GuiResourceData"/>
+<property name="HACGCIPSymbol_SHOW_DISABLED_PORTS" value="3" type="GuiResourceData"/>
+<property name="HEditorPane_COPY" value="1" type="GuiResourceData"/>
+<property name="MainMenuMgr_EDIT" value="4" type="GuiResourceData"/>
+<property name="MainMenuMgr_FILE" value="2" type="GuiResourceData"/>
+<property name="MainMenuMgr_FLOW" value="6" type="GuiResourceData"/>
+<property name="MainMenuMgr_HELP" value="2" type="GuiResourceData"/>
+<property name="MainMenuMgr_REPORT" value="8" type="GuiResourceData"/>
+<property name="MainMenuMgr_SETTINGS" value="1" type="GuiResourceData"/>
+<property name="MainMenuMgr_TOOLS" value="20" type="GuiResourceData"/>
+<property name="MainMenuMgr_VIEW" value="4" type="GuiResourceData"/>
+<property name="MainMenuMgr_WINDOW" value="10" type="GuiResourceData"/>
+<property name="MainWinMenuMgr_LAYOUT" value="8" type="GuiResourceData"/>
+<property name="PACommandNames_AUTO_FIT_SELECTION" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_REGENERATE_LAYOUT" value="49" type="GuiResourceData"/>
+<property name="PACommandNames_SAVE_RSB_DESIGN" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_SELECT_AREA" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_SHOW_ANSWER_RECORD" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_SHOW_PRODUCT_GUIDE" value="6" type="GuiResourceData"/>
+<property name="PACommandNames_SHOW_PRODUCT_WEBPAGE" value="2" type="GuiResourceData"/>
+<property name="PACommandNames_TOGGLE_VIEW_NAV" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_ZOOM_FIT" value="3" type="GuiResourceData"/>
+<property name="PAViews_ADDRESS_EDITOR" value="1" type="GuiResourceData"/>
+<property name="PAViews_CODE" value="2" type="GuiResourceData"/>
+<property name="PAViews_IP_CATALOG" value="1" type="GuiResourceData"/>
+<property name="PAViews_SYSTEM" value="9" type="GuiResourceData"/>
+<property name="RDICommands_CUSTOM_COMMANDS" value="8" type="GuiResourceData"/>
+<property name="RDICommands_SETTINGS" value="8" type="GuiResourceData"/>
+<property name="RSBBlockPropPanels_NAME" value="3" type="GuiResourceData"/>
+<property name="RSBSaveAsPDFDialog_ORIENTATION" value="13" type="GuiResourceData"/>
+<property name="RSBSaveAsPDFDialog_SPECIFY_OUTPUT_PDF_FILE" value="14" type="GuiResourceData"/>
+<property name="SelectMenu_HIGHLIGHT" value="55" type="GuiResourceData"/>
+<property name="SettingsColorsBundleNetsPage_BUNDLE_NET_DISPLAY_TABLE" value="7" type="GuiResourceData"/>
+<property name="SettingsColorsDevicePage_XGD_FLOORPLAN_TYPE_TABLE" value="1" type="GuiResourceData"/>
+<property name="SettingsColorsPackagePage_DEVICE_GENERAL_COLORS_TABLE" value="2" type="GuiResourceData"/>
+<property name="SettingsColorsSchematicPage_HIGHLIGHT_COLORS_TABLE" value="8" type="GuiResourceData"/>
+<property name="SettingsDialog_OPTIONS_TREE" value="18" type="GuiResourceData"/>
+<property name="SettingsDialog_RESTORE" value="2" type="GuiResourceData"/>
+<property name="SettingsDisplayPage_MESSAGE_DISPLAY_LIMIT" value="1" type="GuiResourceData"/>
+<property name="SettingsRestoreDialog_CHECK_ALL" value="1" type="GuiResourceData"/>
+<property name="SettingsThemePanel_SAVE_AS" value="1" type="GuiResourceData"/>
+<property name="SettingsThemePanel_SELECT_COLORS_AND_FONT_THAT_HAVE" value="1" type="GuiResourceData"/>
+<property name="SignalTreePanel_SIGNAL_TREE_PANEL" value="2" type="GuiResourceData"/>
+<property name="SystemBuilderLayersView_COLORS" value="23" type="GuiResourceData"/>
+<property name="SystemBuilderLayersView_LAYER_TREE" value="23" type="GuiResourceData"/>
+<property name="SystemBuilderLayersView_SHOW_HIERARCHY_NAVIGATION_BAR" value="3" type="GuiResourceData"/>
+<property name="SystemBuilderLayersView_TABBED_PANE" value="7" type="GuiResourceData"/>
+<property name="SystemBuilderMenu_IP_DOCUMENTATION" value="4" type="GuiResourceData"/>
+<property name="SystemBuilderMenu_SAVE_AS_PDF_FILE" value="16" type="GuiResourceData"/>
+<property name="SystemBuilderView_EXPAND_COLLAPSE" value="20" type="GuiResourceData"/>
+<property name="SystemBuilderView_OPTIMIZE_ROUTING" value="3" type="GuiResourceData"/>
+<property name="SystemBuilderView_ORIENTATION" value="6" type="GuiResourceData"/>
+<property name="SystemTreeView_SYSTEM_TREE" value="1" type="GuiResourceData"/>
+<property name="TaskBanner_CLOSE" value="2" type="GuiResourceData"/>
+<property name="TclConsoleView_TCL_CONSOLE_CODE_EDITOR" value="1" type="GuiResourceData"/>
+<property name="TclObjectTreeTable_TREETABLE" value="2" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="31" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="23" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

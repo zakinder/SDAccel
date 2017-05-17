@@ -1,0 +1,120 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port clkwiz_sysclks_clk_out2 -pg 1 -y 200 -defaultsOSRD
+preplace port clkwiz_kernel2_locked -pg 1 -y 120 -defaultsOSRD
+preplace port flash_programmer_ss_t -pg 1 -y 1390 -defaultsOSRD
+preplace port ref_clk -pg 1 -y 130 -defaultsOSRD
+preplace port dma_pcie_axi_aclk -pg 1 -y 480 -defaultsOSRD
+preplace port clkwiz_kernel2_clk_out1 -pg 1 -y 100 -defaultsOSRD
+preplace port flash_programmer_io3_o -pg 1 -y 1330 -defaultsOSRD
+preplace port clkwiz_kernel_clk_out1 -pg 1 -y 140 -defaultsOSRD
+preplace port flash_programmer_sck_o -pg 1 -y 1370 -defaultsOSRD
+preplace port flash_programmer_io2_t -pg 1 -y 1310 -defaultsOSRD
+preplace port dma_pcie_user_lnk_up -pg 1 -y 460 -defaultsOSRD
+preplace port perst_n -pg 1 -y 1430 -defaultsOSRD
+preplace port iob_static_io3_i -pg 1 -y 1370 -defaultsOSRD
+preplace port iob_static_io0 -pg 1 -y 1230 -defaultsOSRD
+preplace port flash_programmer_io1_o -pg 1 -y 1250 -defaultsOSRD
+preplace port clkwiz_kernel_locked -pg 1 -y 160 -defaultsOSRD
+preplace port iob_static_io1 -pg 1 -y 1270 -defaultsOSRD
+preplace port iob_static_emc_clk_out -pg 1 -y 1190 -defaultsOSRD
+preplace port flash_programmer_io0_o -pg 1 -y 1210 -defaultsOSRD
+preplace port iob_static_ss -pg 1 -y 1430 -defaultsOSRD
+preplace port iob_static_io2_i -pg 1 -y 1330 -defaultsOSRD
+preplace port iob_static_io2 -pg 1 -y 1310 -defaultsOSRD
+preplace port axi_i2c_IIC -pg 1 -y 690 -defaultsOSRD
+preplace port logic_ddrcalib_op_Res -pg 1 -y 1410 -defaultsOSRD
+preplace port iob_static_io3 -pg 1 -y 1350 -defaultsOSRD
+preplace port flash_programmer_io3_t -pg 1 -y 1350 -defaultsOSRD
+preplace port iob_static_init_calib_complete_out -pg 1 -y 1210 -defaultsOSRD
+preplace port emc_clk -pg 1 -y 1190 -defaultsOSRD
+preplace port clkwiz_sysclks_locked -pg 1 -y 220 -defaultsOSRD
+preplace port iob_static_led_0_out -pg 1 -y 1390 -defaultsOSRD
+preplace port flash_programmer_io1_t -pg 1 -y 1270 -defaultsOSRD
+preplace port regslice_data_M_AXI -pg 1 -y 1170 -defaultsOSRD
+preplace port dma_pcie_pcie_mgt -pg 1 -y 400 -defaultsOSRD
+preplace port iob_static_perst_n_out -pg 1 -y 1410 -defaultsOSRD
+preplace port iob_static_io0_i -pg 1 -y 1250 -defaultsOSRD
+preplace port flash_programmer_io0_t -pg 1 -y 1230 -defaultsOSRD
+preplace port regslice_control_M_AXI -pg 1 -y 1150 -defaultsOSRD
+preplace port iob_static_io1_i -pg 1 -y 1290 -defaultsOSRD
+preplace port flash_programmer_io2_o -pg 1 -y 1290 -defaultsOSRD
+preplace port clkwiz_sysclks_clk_out1 -pg 1 -y 180 -defaultsOSRD
+preplace portBus concat_flash_dq_o_dout -pg 1 -y 1090 -defaultsOSRD
+preplace portBus slice_ss_1_Dout -pg 1 -y 1490 -defaultsOSRD
+preplace portBus slice_ss0_Dout -pg 1 -y 1470 -defaultsOSRD
+preplace portBus concat_flash_tri_dout -pg 1 -y 1110 -defaultsOSRD
+preplace portBus slice_reset_kernel_pr_Dout -pg 1 -y 1450 -defaultsOSRD
+preplace portBus axi_i2c_gpo -pg 1 -y 730 -defaultsOSRD
+preplace inst base_tieoffs -pg 1 -lvl 1 -y 210 -defaultsOSRD
+preplace inst pr_isolation_expanded -pg 1 -lvl 1 -y 1250 -defaultsOSRD
+preplace inst featureid -pg 1 -lvl 2 -y 900 -defaultsOSRD
+preplace inst axi_i2c -pg 1 -lvl 2 -y 710 -defaultsOSRD
+preplace inst base_clocking -pg 1 -lvl 2 -y 150 -defaultsOSRD
+preplace inst sys_mgmt_wiz -pg 1 -lvl 2 -y 1060 -defaultsOSRD
+preplace inst dma_pcie -pg 1 -lvl 2 -y 470 -defaultsOSRD
+preplace netloc pr_isolation_expanded_M_AXI1 1 1 2 NJ 1170 NJ
+preplace netloc Conn1 1 2 1 NJ
+preplace netloc perst_n_in_1 1 0 1 NJ
+preplace netloc io1_t_1 1 0 1 NJ
+preplace netloc io1_o_1 1 0 1 NJ
+preplace netloc flash_clk_1 1 0 1 NJ
+preplace netloc flash_CS_N_tri_ctrl_1 1 0 1 NJ
+preplace netloc flash_CS_N_1 1 0 1 NJ
+preplace netloc dma_pcie_axi_aresetn 1 0 3 60 800 NJ 800 1250
+preplace netloc Net4 1 1 2 NJ 1350 NJ
+preplace netloc Conn2 1 0 2 NJ 130 NJ
+preplace netloc io2_o_1 1 0 1 NJ
+preplace netloc base_tieoffs_dout1 1 1 1 630
+preplace netloc base_tieoffs_dout 1 1 1 610
+preplace netloc Conn3 1 2 1 NJ
+preplace netloc ss_o_1 1 0 1 NJ
+preplace netloc io0_t_1 1 0 1 NJ
+preplace netloc io0_o_1 1 0 1 NJ
+preplace netloc flash_DQ_tri_ctrl_1 1 0 1 NJ
+preplace netloc flash_DQ_O_1 1 0 1 NJ
+preplace netloc dma_pcie_axi_aclk 1 0 3 50 640 NJ 640 1300
+preplace netloc base_tieoffs_dout2 1 1 1 640
+preplace netloc base_clocking_clk_out1 1 2 1 NJ
+preplace netloc pr_isolation_expanded_M03_AXI 1 1 1 620
+preplace netloc io3_t_1 1 0 1 NJ
+preplace netloc io3_o_1 1 0 1 NJ
+preplace netloc base_clocking_clk_out2 1 0 3 90 940 700 810 1320
+preplace netloc pr_isolation_expanded_M02_AXI 1 1 1 670
+preplace netloc gpio_io_i_1 1 0 1 NJ
+preplace netloc dma_pcie_user_lnk_up 1 0 3 30 630 NJ 630 1310
+preplace netloc base_clocking_interconnect_aresetn 1 0 3 70 950 710 820 1290
+preplace netloc base_clocking_clk_out3 1 2 1 NJ
+preplace netloc base_clocking_IBUF_DS_ODIV2 1 1 2 720 780 1280
+preplace netloc pr_isolation_expanded_M06_AXI 1 1 1 650
+preplace netloc dma_pcie_M_AXI_LITE 1 0 3 40 300 NJ 300 1260
+preplace netloc pr_isolation_expanded_emc_clk_out 1 1 2 NJ 1190 NJ
+preplace netloc base_clocking_locked1 1 0 3 20 290 NJ 290 1310
+preplace netloc base_clocking_clk_out4 1 2 1 NJ
+preplace netloc base_clocking_IBUF_OUT 1 1 2 730 790 1270
+preplace netloc pr_isolation_expanded_M05_AXI 1 1 1 660
+preplace netloc pr_isolation_expanded_Dout 1 1 2 NJ 1450 NJ
+preplace netloc base_clocking_locked2 1 2 1 NJ
+preplace netloc pr_isolation_expanded_led_0_out 1 1 2 NJ 1390 NJ
+preplace netloc emc_clk_in_1 1 0 1 NJ
+preplace netloc dma_pcie_M_AXI 1 0 3 80 310 NJ 310 1250
+preplace netloc io2_t_1 1 0 1 NJ
+preplace netloc base_clocking_locked 1 2 1 NJ
+preplace netloc pr_isolation_expanded_io1_i 1 1 2 NJ 1290 NJ
+preplace netloc pr_isolation_expanded_M07_AXI 1 1 1 690
+preplace netloc pr_isolation_expanded_io0_i 1 1 2 NJ 1250 NJ
+preplace netloc Net1 1 1 2 NJ 1230 NJ
+preplace netloc Net 1 1 2 NJ 1430 NJ
+preplace netloc pr_isolation_expanded_perst_n_out 1 1 2 680 1410 NJ
+preplace netloc pr_isolation_expanded_io3_i 1 1 2 NJ 1370 NJ
+preplace netloc pr_isolation_expanded_io2_i 1 1 2 NJ 1330 NJ
+preplace netloc pr_isolation_expanded_init_calib_complete_out 1 1 2 NJ 1210 NJ
+preplace netloc Net2 1 1 2 NJ 1270 NJ
+preplace netloc pr_isolation_expanded_M_AXI 1 1 2 620J 1160 1290J
+preplace netloc axi_i2c_gpo 1 2 1 NJ
+preplace netloc Net3 1 1 2 NJ 1310 NJ
+levelinfo -pg 1 0 350 990 1340 -top 0 -bot 1540
+",
+}
+

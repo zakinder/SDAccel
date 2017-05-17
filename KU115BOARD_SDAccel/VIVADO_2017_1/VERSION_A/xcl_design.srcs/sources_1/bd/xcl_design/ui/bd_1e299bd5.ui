@@ -1,0 +1,84 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port tms -pg 1 -y 780 -defaultsOSRD
+preplace port clkwiz_sysclks_clk_out2 -pg 1 -y 370 -defaultsOSRD
+preplace port shift -pg 1 -y 700 -defaultsOSRD
+preplace port flash_programmer_ss_t -pg 1 -y 500 -defaultsOSRD
+preplace port interconnect_axilite_M00_AXI -pg 1 -y 330 -defaultsOSRD
+preplace port tdi -pg 1 -y 740 -defaultsOSRD
+preplace port debug_bridge_xsdbm_update -pg 1 -y 800 -defaultsOSRD
+preplace port tck -pg 1 -y 720 -defaultsOSRD
+preplace port flash_programmer_io3_o -pg 1 -y 420 -defaultsOSRD
+preplace port flash_programmer_sck_o -pg 1 -y 460 -defaultsOSRD
+preplace port flash_programmer_io2_t -pg 1 -y 260 -defaultsOSRD
+preplace port drck -pg 1 -y 620 -defaultsOSRD
+preplace port iob_static_io3_i -pg 1 -y 570 -defaultsOSRD
+preplace port flash_programmer_io1_o -pg 1 -y 180 -defaultsOSRD
+preplace port iob_static_emc_clk_out -pg 1 -y 350 -defaultsOSRD
+preplace port flash_programmer_io0_o -pg 1 -y 20 -defaultsOSRD
+preplace port iob_static_io2_i -pg 1 -y 150 -defaultsOSRD
+preplace port ddrmem_0_c0_ddr4_ui_clk -pg 1 -y 820 -defaultsOSRD
+preplace port tdo -pg 1 -y 1070 -defaultsOSRD
+preplace port flash_programmer_io3_t -pg 1 -y 440 -defaultsOSRD
+preplace port runtest -pg 1 -y 660 -defaultsOSRD
+preplace port flash_programmer_io1_t -pg 1 -y 240 -defaultsOSRD
+preplace port capture -pg 1 -y 600 -defaultsOSRD
+preplace port iob_static_io0_i -pg 1 -y 110 -defaultsOSRD
+preplace port flash_programmer_io0_t -pg 1 -y 220 -defaultsOSRD
+preplace port sel -pg 1 -y 680 -defaultsOSRD
+preplace port reset -pg 1 -y 640 -defaultsOSRD
+preplace port iob_static_io1_i -pg 1 -y 130 -defaultsOSRD
+preplace port flash_programmer_io2_o -pg 1 -y 200 -defaultsOSRD
+preplace portBus bscanid -pg 1 -y 880 -defaultsOSRD
+preplace portBus concat_flash_dq_o_dout -pg 1 -y 100 -defaultsOSRD
+preplace portBus slice_ss_1_Dout -pg 1 -y 1020 -defaultsOSRD
+preplace portBus slice_ss_0_Dout -pg 1 -y 930 -defaultsOSRD
+preplace portBus psreset_gate_pr_control_interconnect_aresetn -pg 1 -y 390 -defaultsOSRD
+preplace portBus concast_flash_tri_dout -pg 1 -y 340 -defaultsOSRD
+preplace inst slice_ss_0 -pg 1 -lvl 2 -y 930 -defaultsOSRD
+preplace inst slice_ss_1 -pg 1 -lvl 2 -y 1020 -defaultsOSRD
+preplace inst concat_flash_dq_o -pg 1 -lvl 2 -y 100 -defaultsOSRD
+preplace inst flash_programmer -pg 1 -lvl 1 -y 360 -defaultsOSRD
+preplace inst debug_bridge_xsdbm -pg 1 -lvl 2 -y 690 -defaultsOSRD
+preplace inst concat_flash_tri -pg 1 -lvl 2 -y 340 -defaultsOSRD
+preplace netloc Conn1 1 0 1 NJ
+preplace netloc debug_bridge_xsdbm_S_BSCAN_VEC_tdo 1 1 2 340 1070 NJ
+preplace netloc io1_i_1 1 0 2 NJ 130 270
+preplace netloc s_axi_aclk_1 1 0 1 NJ
+preplace netloc io3_i_1 1 0 2 NJ 570 260
+preplace netloc flash_programmer_ss_t 1 1 2 NJ 500 NJ
+preplace netloc debug_bridge_xsdbm_S_BSCAN_VEC_bscanid 1 1 2 320 880 NJ
+preplace netloc sel_1 1 0 2 NJ 680 NJ
+preplace netloc s_axi_aresetn_1 1 0 1 NJ
+preplace netloc io0_i_1 1 0 2 NJ 110 280
+preplace netloc flash_programmer_io3_o 1 1 2 320 420 NJ
+preplace netloc concat_flash_dq_o_dout 1 2 1 NJ
+preplace netloc capture_1 1 0 2 NJ 600 NJ
+preplace netloc flash_programmer_sck_o 1 1 2 NJ 460 NJ
+preplace netloc flash_programmer_io2_t 1 1 2 340 260 NJ
+preplace netloc slice_ss_1_Dout 1 2 1 NJ
+preplace netloc flash_programmer_io1_o 1 1 2 300 180 NJ
+preplace netloc flash_programmer_io0_o 1 1 2 290 20 NJ
+preplace netloc concat_flash_tri_dout 1 2 1 NJ
+preplace netloc debug_bridge_xsdbm_update_1 1 0 2 NJ 800 NJ
+preplace netloc io2_i_1 1 0 2 NJ 150 260
+preplace netloc clk_1 1 0 2 NJ 820 NJ
+preplace netloc slice_ss_0_Dout 1 2 1 NJ
+preplace netloc flash_programmer_io3_t 1 1 2 350 440 NJ
+preplace netloc drck_1 1 0 2 NJ 620 NJ
+preplace netloc tdi_1 1 0 2 NJ 740 NJ
+preplace netloc flash_programmer_ss_o 1 1 1 290
+preplace netloc ext_spi_clk_1 1 0 1 NJ
+preplace netloc flash_programmer_io1_t 1 1 2 350 240 NJ
+preplace netloc reset_1 1 0 2 NJ 640 NJ
+preplace netloc flash_programmer_io0_t 1 1 2 330 220 NJ
+preplace netloc runtest_1 1 0 2 NJ 660 NJ
+preplace netloc shift_1 1 0 2 NJ 700 NJ
+preplace netloc tck_1 1 0 2 NJ 720 NJ
+preplace netloc tms_1 1 0 2 NJ 780 NJ
+preplace netloc flash_programmer_io2_o 1 1 2 310 200 NJ
+levelinfo -pg 1 0 140 500 670 -top 0 -bot 1090
+",
+}
+

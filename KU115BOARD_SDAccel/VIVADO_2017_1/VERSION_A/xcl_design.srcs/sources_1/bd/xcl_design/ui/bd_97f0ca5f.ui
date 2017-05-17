@@ -1,0 +1,52 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port u_ocl_region_M00_AXI -pg 1 -y 260 -defaultsOSRD
+preplace port interconnect_aximm_ddrmem2_M00_AXI -pg 1 -y 480 -defaultsOSRD
+preplace port dma_pcie_axi_aclk -pg 1 -y 550 -defaultsOSRD
+preplace port u_ocl_region_M02_AXI -pg 1 -y 450 -defaultsOSRD
+preplace port interconnect_aximm_host_M04_AXI -pg 1 -y 600 -defaultsOSRD
+preplace port clkwiz_kernel_clk_out1 -pg 1 -y 130 -defaultsOSRD
+preplace port ddrmem_1_c0_ddr4_ui_clk -pg 1 -y 90 -defaultsOSRD
+preplace port ddrmem_2_c0_ddr4_ui_clk -pg 1 -y 470 -defaultsOSRD
+preplace port ddrmem_0_c0_ddr4_ui_clk -pg 1 -y 280 -defaultsOSRD
+preplace port u_ocl_region_M01_AXI -pg 1 -y 70 -defaultsOSRD
+preplace port interconnect_aximm_ddrmem1_M00_AXI -pg 1 -y 100 -defaultsOSRD
+preplace port ddrmem_3_c0_ddr4_ui_clk -pg 1 -y 690 -defaultsOSRD
+preplace port u_ocl_region_M03_AXI -pg 1 -y 670 -defaultsOSRD
+preplace port interconnect_aximm_ddrmem0_M00_AXI -pg 1 -y 290 -defaultsOSRD
+preplace port regslice_data_M_AXI -pg 1 -y 530 -defaultsOSRD
+preplace port interconnect_aximm_ddrmem3_M00_AXI -pg 1 -y 700 -defaultsOSRD
+preplace port clkwiz_sysclks_clk_out1 -pg 1 -y 570 -defaultsOSRD
+preplace portBus psreset_gate_pr_data_interconnect_aresetn -pg 1 -y 590 -defaultsOSRD
+preplace inst interconnect_aximm_ddrmem0 -pg 1 -lvl 2 -y 290 -defaultsOSRD
+preplace inst interconnect_aximm_ddrmem1 -pg 1 -lvl 2 -y 100 -defaultsOSRD
+preplace inst interconnect_aximm_host -pg 1 -lvl 1 -y 560 -defaultsOSRD
+preplace inst interconnect_aximm_ddrmem2 -pg 1 -lvl 2 -y 480 -defaultsOSRD
+preplace inst interconnect_aximm_ddrmem3 -pg 1 -lvl 2 -y 700 -defaultsOSRD
+preplace netloc smartconnect_2_M00_AXI 1 2 1 NJ
+preplace netloc smartconnect_0_M02_AXI 1 1 1 370
+preplace netloc smartconnect_0_M01_AXI 1 1 1 310
+preplace netloc ACLK3_1 1 0 2 20J 460 350J
+preplace netloc ACLK1_1 1 0 2 NJ 280 NJ
+preplace netloc clkwiz_kernel_clk_out1_1 1 0 2 NJ 130 320
+preplace netloc smartconnect_0_M00_AXI1 1 1 1 340
+preplace netloc ACLK2_1 1 0 2 NJ 90 NJ
+preplace netloc smartconnect_0_M03_AXI 1 1 1 310
+preplace netloc ACLK_1 1 0 2 30 470 330
+preplace netloc ACLK4_1 1 0 2 NJ 690 NJ
+preplace netloc smartconnect_0_M04_AXI 1 1 2 NJ 600 NJ
+preplace netloc smartconnect_0_M00_AXI 1 2 1 NJ
+preplace netloc aclk1_2 1 0 1 NJ
+preplace netloc S00_AXI_1 1 0 1 NJ
+preplace netloc S01_AXI2_1 1 0 2 NJ 450 NJ
+preplace netloc S01_AXI_1 1 0 2 NJ 260 NJ
+preplace netloc aresetn_1 1 0 2 20 700 360
+preplace netloc S01_AXI1_1 1 0 2 NJ 70 NJ
+preplace netloc S01_AXI3_1 1 0 2 NJ 670 NJ
+preplace netloc smartconnect_3_M00_AXI 1 2 1 NJ
+preplace netloc smartconnect_1_M00_AXI 1 2 1 NJ
+levelinfo -pg 1 0 170 510 670 -top 0 -bot 800
+",
+}
+

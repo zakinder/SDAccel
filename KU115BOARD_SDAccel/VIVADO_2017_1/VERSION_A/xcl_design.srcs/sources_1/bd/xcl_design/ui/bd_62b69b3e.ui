@@ -1,0 +1,118 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port dma_pcie_axi_aresetn -pg 1 -y 580 -defaultsOSRD
+preplace port clkwiz_sysclks_clk_out2 -pg 1 -y 1000 -defaultsOSRD
+preplace port flash_programmer_ss_t -pg 1 -y 130 -defaultsOSRD
+preplace port interconnect_axilite_static_M07_AXI -pg 1 -y 1170 -defaultsOSRD
+preplace port interconnect_axilite_static_M05_AXI -pg 1 -y 1010 -defaultsOSRD
+preplace port dma_pcie_axi_aclk -pg 1 -y 560 -defaultsOSRD
+preplace port flash_programmer_io3_o -pg 1 -y 400 -defaultsOSRD
+preplace port flash_programmer_sck_o -pg 1 -y 150 -defaultsOSRD
+preplace port flash_programmer_io2_t -pg 1 -y 380 -defaultsOSRD
+preplace port dma_pcie_user_lnk_up -pg 1 -y 610 -defaultsOSRD
+preplace port perst_n -pg 1 -y 200 -defaultsOSRD
+preplace port iob_static_io3_i -pg 1 -y 380 -defaultsOSRD
+preplace port iob_static_io0 -pg 1 -y 280 -defaultsOSRD
+preplace port flash_programmer_io1_o -pg 1 -y 320 -defaultsOSRD
+preplace port interconnect_axilite_static_M03_AXI -pg 1 -y 970 -defaultsOSRD
+preplace port dma_pcie_M_AXI_LITE -pg 1 -y 780 -defaultsOSRD
+preplace port iob_static_io1 -pg 1 -y 320 -defaultsOSRD
+preplace port iob_static_emc_clk_out -pg 1 -y 220 -defaultsOSRD
+preplace port flash_programmer_io0_o -pg 1 -y 280 -defaultsOSRD
+preplace port iob_static_ss -pg 1 -y 240 -defaultsOSRD
+preplace port iob_static_io2_i -pg 1 -y 340 -defaultsOSRD
+preplace port iob_static_io2 -pg 1 -y 360 -defaultsOSRD
+preplace port iob_static_io3 -pg 1 -y 400 -defaultsOSRD
+preplace port flash_programmer_io3_t -pg 1 -y 420 -defaultsOSRD
+preplace port dma_pcie_M_AXI -pg 1 -y 510 -defaultsOSRD
+preplace port iob_static_init_calib_complete_out -pg 1 -y 180 -defaultsOSRD
+preplace port emc_clk -pg 1 -y 20 -defaultsOSRD
+preplace port clkwiz_sysclks_locked -pg 1 -y 1130 -defaultsOSRD
+preplace port interconnect_axilite_static_M02_AXI -pg 1 -y 950 -defaultsOSRD
+preplace port iob_static_led_0_out -pg 1 -y 200 -defaultsOSRD
+preplace port flash_programmer_io1_t -pg 1 -y 340 -defaultsOSRD
+preplace port regslice_data_M_AXI -pg 1 -y 530 -defaultsOSRD
+preplace port interconnect_axilite_static_M06_AXI -pg 1 -y 1030 -defaultsOSRD
+preplace port iob_static_perst_n_out -pg 1 -y 160 -defaultsOSRD
+preplace port iob_static_io0_i -pg 1 -y 260 -defaultsOSRD
+preplace port flash_programmer_io0_t -pg 1 -y 300 -defaultsOSRD
+preplace port regslice_control_M_AXI -pg 1 -y 1100 -defaultsOSRD
+preplace port iob_static_io1_i -pg 1 -y 300 -defaultsOSRD
+preplace port flash_programmer_io2_o -pg 1 -y 360 -defaultsOSRD
+preplace portBus concat_flash_dq_o_dout -pg 1 -y 70 -defaultsOSRD
+preplace portBus slice_ss_1_Dout -pg 1 -y 220 -defaultsOSRD
+preplace portBus slice_ss0_Dout -pg 1 -y 110 -defaultsOSRD
+preplace portBus psreset_ctrlclk_interconnect_aresetn -pg 1 -y 1030 -defaultsOSRD
+preplace portBus concat_flash_tri_dout -pg 1 -y 90 -defaultsOSRD
+preplace portBus logic_ddrcalib_op_Res -pg 1 -y 690 -defaultsOSRD
+preplace portBus slice_reset_kernel_pr_Dout -pg 1 -y 1220 -defaultsOSRD
+preplace inst slice_reset_system_pr -pg 1 -lvl 1 -y 1080 -defaultsOSRD
+preplace inst psreset_regslice_data_pr -pg 1 -lvl 3 -y 600 -defaultsOSRD
+preplace inst interconnect_axilite_static -pg 1 -lvl 3 -y 980 -defaultsOSRD
+preplace inst ddr_calib_status -pg 1 -lvl 4 -y 710 -defaultsOSRD
+preplace inst iob_static -pg 1 -lvl 4 -y 280 -defaultsOSRD
+preplace inst startup_primitive -pg 1 -lvl 3 -y 110 -defaultsOSRD
+preplace inst gate_pr -pg 1 -lvl 4 -y 860 -defaultsOSRD
+preplace inst slice_reset_kernel_pr -pg 1 -lvl 4 -y 1220 -defaultsOSRD
+preplace inst psreset_regslice_ctrl_pr -pg 1 -lvl 2 -y 1090 -defaultsOSRD
+preplace inst regslice_data -pg 1 -lvl 4 -y 530 -defaultsOSRD
+preplace inst regslice_control -pg 1 -lvl 4 -y 1100 -defaultsOSRD
+preplace netloc Conn1 1 0 3 NJ 780 NJ 780 NJ
+preplace netloc perst_n_in_1 1 0 4 NJ 200 NJ 200 NJ 200 990J
+preplace netloc io1_t_1 1 0 4 NJ 340 NJ 340 NJ 340 NJ
+preplace netloc io1_o_1 1 0 4 NJ 320 NJ 320 NJ 320 NJ
+preplace netloc flash_clk_1 1 0 3 NJ 150 NJ 150 NJ
+preplace netloc flash_CS_N_tri_ctrl_1 1 0 4 NJ 130 NJ 130 590 240 NJ
+preplace netloc flash_CS_N_1 1 0 3 NJ 110 NJ 110 NJ
+preplace netloc Net4 1 4 1 NJ
+preplace netloc Conn2 1 0 4 NJ 510 NJ 510 NJ 510 NJ
+preplace netloc interconnect_axilite_static_M01_AXI 1 3 1 1050
+preplace netloc s_axi_aclk_1 1 0 4 NJ 560 NJ 560 590 700 1000
+preplace netloc io2_o_1 1 0 4 NJ 360 NJ 360 NJ 360 NJ
+preplace netloc Conn3 1 4 1 NJ
+preplace netloc ss_o_1 1 0 4 NJ 220 NJ 220 NJ 220 NJ
+preplace netloc io0_t_1 1 0 4 NJ 300 NJ 300 NJ 300 NJ
+preplace netloc io0_o_1 1 0 4 NJ 280 NJ 280 NJ 280 NJ
+preplace netloc flash_DQ_tri_ctrl_1 1 0 3 NJ 90 NJ 90 NJ
+preplace netloc flash_DQ_O_1 1 0 3 NJ 70 NJ 70 NJ
+preplace netloc Conn4 1 4 1 NJ
+preplace netloc interconnect_axilite_static_M04_AXI 1 3 1 1040
+preplace netloc slice_reset_system_pr_Dout 1 1 2 240 600 NJ
+preplace netloc io3_t_1 1 0 4 NJ 420 NJ 420 NJ 420 NJ
+preplace netloc io3_o_1 1 0 4 NJ 400 NJ 400 NJ 400 NJ
+preplace netloc Conn5 1 3 2 NJ 1010 NJ
+preplace netloc gpio_io_i_1 1 0 5 NJ 690 NJ 690 NJ 690 1030 780 1480
+preplace netloc dcm_locked_1 1 0 4 NJ 610 NJ 610 610 210 1000J
+preplace netloc ARESETN_1 1 0 3 NJ 580 NJ 580 580
+preplace netloc Conn6 1 3 2 990J 1170 NJ
+preplace netloc interconnect_axilite_static_M03_AXI 1 3 2 NJ 970 NJ
+preplace netloc iob_static_io3_i 1 4 1 NJ
+preplace netloc gate_pr_gpio_io_o 1 0 5 20 1240 NJ 1240 NJ 1240 1050 940 1480
+preplace netloc dcm_locked_2 1 0 2 NJ 1130 NJ
+preplace netloc startup_primitive_flash_DQ_I 1 3 1 1010
+preplace netloc psreset_regslice_data_pr_interconnect_aresetn 1 3 1 1020
+preplace netloc iob_static_emc_clk_out 1 4 1 NJ
+preplace netloc iob_static_io2_i 1 4 1 NJ
+preplace netloc emc_clk_in_1 1 0 4 NJ 20 NJ 20 NJ 20 1020J
+preplace netloc io2_t_1 1 0 4 NJ 380 NJ 380 NJ 380 NJ
+preplace netloc interconnect_axilite_static_M02_AXI 1 3 2 NJ 950 NJ
+preplace netloc slice_reset_kernel_pr_Dout 1 4 1 NJ
+preplace netloc psreset_regslice_pr_interconnect_aresetn 1 2 2 580 1250 1060J
+preplace netloc iob_static_init_calib_complete_out 1 4 1 NJ
+preplace netloc interconnect_axilite_static_M06_AXI 1 3 2 NJ 1030 NJ
+preplace netloc iob_static_led_0_out 1 4 1 NJ
+preplace netloc Net1 1 4 1 NJ
+preplace netloc Net 1 4 1 NJ
+preplace netloc M00_ARESETN_1 1 0 4 NJ 1030 220 1180 600 720 1000
+preplace netloc interconnect_axilite_static_M00_AXI 1 3 1 1000
+preplace netloc iob_static_perst_n_out 1 4 1 NJ
+preplace netloc iob_static_io0_i 1 4 1 NJ
+preplace netloc Net2 1 4 1 NJ
+preplace netloc M00_ACLK_1 1 0 4 NJ 1000 230 1000 610 710 1020
+preplace netloc iob_static_io1_i 1 4 1 NJ
+preplace netloc Net3 1 4 1 NJ
+levelinfo -pg 1 0 120 410 800 1270 1500 -top 0 -bot 1270
+",
+}
+
