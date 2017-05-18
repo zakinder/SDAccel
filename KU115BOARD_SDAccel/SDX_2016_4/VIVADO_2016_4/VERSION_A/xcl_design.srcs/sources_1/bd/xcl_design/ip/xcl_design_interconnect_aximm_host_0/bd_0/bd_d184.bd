@@ -1636,7 +1636,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>CLK_DOMAIN</spirit:name>
-            <spirit:value>xcl_design_clkwiz_sysclks_0_clk_out1</spirit:value>
+            <spirit:value>xcl_design_clk_wiz_0_0_clk_out1</spirit:value>
             <spirit:vendorExtensions>
               <bd:configElementInfos>
                 <bd:configElementInfo bd:valueSource="default_prop"/>
@@ -1784,7 +1784,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>CLK_DOMAIN</spirit:name>
-            <spirit:value>xcl_design_clkwiz_sysclks_0_clk_out1</spirit:value>
+            <spirit:value>xcl_design_clk_wiz_0_0_clk_out1</spirit:value>
             <spirit:vendorExtensions>
               <bd:configElementInfos>
                 <bd:configElementInfo bd:valueSource="default_prop"/>
@@ -2693,11 +2693,11 @@
           <spirit:configurableElementValue spirit:referenceId="HAS_LOCK">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="HAS_BURST">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_MSC">5</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="SSC000_ROUTE">0b1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SSC000_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC001_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC002_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC003_ROUTE">0b0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="SSC004_ROUTE">0b0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SSC004_ROUTE">0b1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC005_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC006_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC007_ROUTE">0b0</spirit:configurableElementValue>
@@ -2889,7 +2889,7 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="USER_WIDTH">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="M_SEND_PIPELINE">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLK_RELATIONSHIP">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S00_NUM_BYTES">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S01_NUM_BYTES">32</spirit:configurableElementValue>
@@ -3133,11 +3133,11 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="HAS_BURST">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_MSC">5</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="SSC000_ROUTE">0b1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SSC000_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC001_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC002_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC003_ROUTE">0b0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="SSC004_ROUTE">0b0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SSC004_ROUTE">0b1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC005_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC006_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC007_ROUTE">0b0</spirit:configurableElementValue>
@@ -3364,7 +3364,7 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="USER_WIDTH">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="M_SEND_PIPELINE">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLK_RELATIONSHIP">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S00_NUM_BYTES">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S01_NUM_BYTES">32</spirit:configurableElementValue>
@@ -3466,7 +3466,7 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="USER_WIDTH">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="M_SEND_PIPELINE">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLK_RELATIONSHIP">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S00_NUM_BYTES">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S01_NUM_BYTES">32</spirit:configurableElementValue>
@@ -3518,7 +3518,7 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="USER_WIDTH">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="M_SEND_PIPELINE">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLK_RELATIONSHIP">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S00_NUM_BYTES">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S01_NUM_BYTES">32</spirit:configurableElementValue>
@@ -3790,11 +3790,11 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="HAS_BURST">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_MSC">5</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="SSC000_ROUTE">0b1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SSC000_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC001_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC002_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC003_ROUTE">0b0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="SSC004_ROUTE">0b0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SSC004_ROUTE">0b1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC005_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC006_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC007_ROUTE">0b0</spirit:configurableElementValue>
@@ -4021,7 +4021,7 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="USER_WIDTH">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="M_SEND_PIPELINE">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLK_RELATIONSHIP">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S00_NUM_BYTES">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S01_NUM_BYTES">32</spirit:configurableElementValue>
@@ -4123,7 +4123,7 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="USER_WIDTH">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="M_SEND_PIPELINE">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLK_RELATIONSHIP">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S00_NUM_BYTES">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S01_NUM_BYTES">32</spirit:configurableElementValue>
@@ -4175,7 +4175,7 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="USER_WIDTH">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="M_SEND_PIPELINE">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLK_RELATIONSHIP">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S00_NUM_BYTES">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S01_NUM_BYTES">32</spirit:configurableElementValue>
@@ -4447,11 +4447,11 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="HAS_BURST">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_MSC">5</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="SSC000_ROUTE">0b1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SSC000_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC001_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC002_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC003_ROUTE">0b0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="SSC004_ROUTE">0b0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SSC004_ROUTE">0b1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC005_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC006_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC007_ROUTE">0b0</spirit:configurableElementValue>
@@ -4678,7 +4678,7 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="USER_WIDTH">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="M_SEND_PIPELINE">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLK_RELATIONSHIP">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S00_NUM_BYTES">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S01_NUM_BYTES">32</spirit:configurableElementValue>
@@ -4780,7 +4780,7 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="USER_WIDTH">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="M_SEND_PIPELINE">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLK_RELATIONSHIP">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S00_NUM_BYTES">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S01_NUM_BYTES">32</spirit:configurableElementValue>
@@ -4832,7 +4832,7 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="USER_WIDTH">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="M_SEND_PIPELINE">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLK_RELATIONSHIP">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S00_NUM_BYTES">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S01_NUM_BYTES">32</spirit:configurableElementValue>
@@ -5104,11 +5104,11 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="HAS_BURST">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_MSC">5</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="SSC000_ROUTE">0b1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SSC000_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC001_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC002_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC003_ROUTE">0b0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="SSC004_ROUTE">0b0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SSC004_ROUTE">0b1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC005_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC006_ROUTE">0b0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SSC007_ROUTE">0b0</spirit:configurableElementValue>
@@ -5335,7 +5335,7 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="USER_WIDTH">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="M_SEND_PIPELINE">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLK_RELATIONSHIP">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S00_NUM_BYTES">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S01_NUM_BYTES">32</spirit:configurableElementValue>
@@ -5437,7 +5437,7 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="USER_WIDTH">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="M_SEND_PIPELINE">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLK_RELATIONSHIP">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S00_NUM_BYTES">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S01_NUM_BYTES">32</spirit:configurableElementValue>
@@ -5489,7 +5489,7 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="USER_WIDTH">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="M_SEND_PIPELINE">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLK_RELATIONSHIP">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S00_NUM_BYTES">32</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S01_NUM_BYTES">32</spirit:configurableElementValue>
@@ -5897,7 +5897,7 @@
           <spirit:configurableElementValue spirit:referenceId="PAYLD_WIDTH">534</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="M_SEND_PIPELINE">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLK_RELATIONSHIP">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLKEN_CONVERSION">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S00_NUM_BYTES">32</spirit:configurableElementValue>
@@ -6051,7 +6051,7 @@
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="USER_WIDTH">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="M_SEND_PIPELINE">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="S_LATENCY">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLK_RELATIONSHIP">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ACLKEN_CONVERSION">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S00_NUM_BYTES">32</spirit:configurableElementValue>
@@ -6295,7 +6295,7 @@
           <spirit:configurableElementValue spirit:referenceId="SEG003_SECURE_WRITE">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SEG004_BASE_ADDR">0x0000002000000000</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SEG004_SIZE">32</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="SEG004_SEP_ROUTE">0b0000000000000000000000000000000000000000000000000000000000000000</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SEG004_SEP_ROUTE">0b0000000000000000000000000000000000000000000000000000000000000100</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SEG004_SUPPORTS_READ">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SEG004_SUPPORTS_WRITE">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="SEG004_SECURE_READ">0</spirit:configurableElementValue>
@@ -6316,7 +6316,7 @@
           <spirit:configurableElementValue spirit:referenceId="IS_CASCADED">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_READ_THREADS">2</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_WRITE_THREADS">2</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="MEP_IDENTIFIER">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="MEP_IDENTIFIER">4</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="MEP_IDENTIFIER_WIDTH">3</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="ADDR_WIDTH">38</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S_ID_WIDTH">4</spirit:configurableElementValue>
@@ -6679,7 +6679,7 @@
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">bd_d184_arsw_0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S_PIPELINES">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="M_PIPELINES">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="M_PIPELINES">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_SI">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_MI">5</spirit:configurableElementValue>
@@ -6697,7 +6697,7 @@
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">bd_d184_rsw_0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S_PIPELINES">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="M_PIPELINES">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="M_PIPELINES">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_SI">5</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_MI">1</spirit:configurableElementValue>
@@ -6715,7 +6715,7 @@
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">bd_d184_awsw_0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S_PIPELINES">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="M_PIPELINES">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="M_PIPELINES">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_SI">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_MI">5</spirit:configurableElementValue>
@@ -6733,7 +6733,7 @@
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">bd_d184_wsw_0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S_PIPELINES">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="M_PIPELINES">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="M_PIPELINES">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_SI">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_MI">5</spirit:configurableElementValue>
@@ -6751,7 +6751,7 @@
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">bd_d184_bsw_0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S_PIPELINES">0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="M_PIPELINES">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="M_PIPELINES">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="S_LATENCY">0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_SI">5</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="NUM_MI">1</spirit:configurableElementValue>

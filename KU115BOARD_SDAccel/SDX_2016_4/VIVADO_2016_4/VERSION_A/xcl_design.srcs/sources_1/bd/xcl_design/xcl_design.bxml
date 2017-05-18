@@ -2,9 +2,9 @@
 <Root MajorVersion="0" MinorVersion="33">
   <CompositeFile CompositeFileTopName="xcl_design" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1494939580"/>
-    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1494939580"/>
-    <Generation Name="SIMULATION" State="STALE" Timestamp="1494939580"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1494967049"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1494967049"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1494967049"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\xcl_design_axi_i2c_0\xcl_design_axi_i2c_0.xci" Type="IP">
         <Instance HierarchyPath="base_region/axi_i2c"/>
@@ -40,14 +40,6 @@
       </File>
       <File Name="ip\xcl_design_clkwiz_kernel2_0\xcl_design_clkwiz_kernel2_0.xci" Type="IP">
         <Instance HierarchyPath="base_region/base_clocking/clkwiz_kernel2"/>
-        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
-        <Library Name="xil_defaultlib"/>
-        <UsedIn Val="SYNTHESIS"/>
-        <UsedIn Val="IMPLEMENTATION"/>
-        <UsedIn Val="SIMULATION"/>
-      </File>
-      <File Name="ip\xcl_design_clkwiz_sysclks_0\xcl_design_clkwiz_sysclks_0.xci" Type="IP">
-        <Instance HierarchyPath="base_region/base_clocking/clkwiz_sysclks"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
@@ -135,7 +127,6 @@
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip\xcl_design_interconnect_axilite_static_0\xcl_design_interconnect_axilite_static_0.xci" Type="IP">
-        <Instance HierarchyPath="base_region/pr_isolation_expanded/interconnect_axilite_static"/>
         <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
@@ -399,7 +390,6 @@
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip\xcl_design_interconnect_axilite_0\xcl_design_interconnect_axilite_0.xci" Type="IP">
-        <Instance HierarchyPath="expanded_region/interconnect_axilite"/>
         <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
@@ -534,6 +524,21 @@
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
+      <File Name="hdl\xcl_design.v" Type="Verilog">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\xcl_design_clk_wiz_0_0\xcl_design_clk_wiz_0_0.xci" Type="IP">
+        <Instance HierarchyPath="base_region/base_clocking/clkwiz_sysclkd"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
       <File Name="ip\xcl_design_s00_regslice_0\xcl_design_s00_regslice_0.xci" Type="IP">
         <Instance HierarchyPath="base_region/pr_isolation_expanded/interconnect_axilite_static/s00_couplers/s00_regslice"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
@@ -629,6 +634,28 @@
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="xcl_design_ooc.xdc" Type="XDC">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="OUT_OF_CONTEXT"/>
+      </File>
+      <File Name="hw_handoff\xcl_design.hwh" Type="HwHandoff">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="hw_handoff\xcl_design_bd.tcl">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="hdl\xcl_design.hwdef">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
       </File>
     </FileCollection>
   </CompositeFile>

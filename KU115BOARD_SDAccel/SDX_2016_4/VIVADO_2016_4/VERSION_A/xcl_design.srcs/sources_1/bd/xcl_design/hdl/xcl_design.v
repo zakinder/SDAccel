@@ -1,7 +1,7 @@
 //Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2016.4_sdx (win64) Build 1806307 Thu Mar  9 15:24:31 MST 2017
-//Date        : Tue May 16 08:03:16 2017
+//Date        : Tue May 16 15:33:48 2017
 //Host        : SakinderLaptop1 running 64-bit major release  (build 9200)
 //Command     : generate_target xcl_design.bd
 //Design      : xcl_design
@@ -1628,11 +1628,11 @@ module base_clocking_imp_TFI73W
   wire [0:0]buf_refclk_bufg_BUFG_GT_O;
   wire [0:0]buf_refclk_ibuf_IBUF_DS_ODIV2;
   wire [0:0]buf_refclk_ibuf_IBUF_OUT;
+  wire clk_wiz_0_clk_out1;
   wire clkwiz_kernel2_clk_out1;
   wire clkwiz_kernel2_locked;
   wire clkwiz_kernel_clk_out1;
   wire clkwiz_kernel_locked;
-  wire clkwiz_sysclks_clk_out1;
   wire clkwiz_sysclks_clk_out2;
   wire clkwiz_sysclks_locked;
   wire [31:0]interconnect_axilite_static_M03_AXI_1_ARADDR;
@@ -1677,6 +1677,7 @@ module base_clocking_imp_TFI73W
   assign BUFG_GT_DIV_1 = const_gnd_3_dout[2:0];
   assign Conn1_CLK_N = ref_clk_clk_n[0];
   assign Conn1_CLK_P = ref_clk_clk_p[0];
+  assign clkwiz_sysclks_clk_out1 = clk_wiz_0_clk_out1;
   assign interconnect_axilite_static_M03_AXI_1_ARADDR = interconnect_axilite_static_M03_AXI_araddr[31:0];
   assign interconnect_axilite_static_M03_AXI_1_ARVALID = interconnect_axilite_static_M03_AXI_arvalid[0];
   assign interconnect_axilite_static_M03_AXI_1_AWADDR = interconnect_axilite_static_M03_AXI_awaddr[31:0];
@@ -1772,9 +1773,9 @@ module base_clocking_imp_TFI73W
         .s_axi_wready(s_axi_lite_1_WREADY),
         .s_axi_wstrb(s_axi_lite_1_WSTRB),
         .s_axi_wvalid(s_axi_lite_1_WVALID));
-  xcl_design_clkwiz_sysclks_0 clkwiz_sysclks
+  xcl_design_clk_wiz_0_0 clkwiz_sysclkd
        (.clk_in1(buf_refclk_bufg_BUFG_GT_O),
-        .clk_out1(clkwiz_sysclks_clk_out1),
+        .clk_out1(clk_wiz_0_clk_out1),
         .clk_out2(clkwiz_sysclks_clk_out2),
         .locked(clkwiz_sysclks_locked),
         .resetn(iob_static_perst_n_out_1));

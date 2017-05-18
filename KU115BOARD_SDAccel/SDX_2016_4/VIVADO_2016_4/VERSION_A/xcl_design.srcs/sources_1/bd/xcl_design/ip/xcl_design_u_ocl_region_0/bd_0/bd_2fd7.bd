@@ -1358,7 +1358,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>CLK_DOMAIN</spirit:name>
-            <spirit:value>xcl_design_clkwiz_sysclks_0_clk_out1</spirit:value>
+            <spirit:value>xcl_design_clk_wiz_0_0_clk_out1</spirit:value>
             <spirit:vendorExtensions>
               <bd:configElementInfos>
                 <bd:configElementInfo bd:valueSource="ip_prop"/>
@@ -1526,7 +1526,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>CLK_DOMAIN</spirit:name>
-            <spirit:value>xcl_design_clkwiz_sysclks_0_clk_out1</spirit:value>
+            <spirit:value>xcl_design_clk_wiz_0_0_clk_out1</spirit:value>
             <spirit:vendorExtensions>
               <bd:configElementInfos>
                 <bd:configElementInfo bd:valueSource="ip_prop"/>

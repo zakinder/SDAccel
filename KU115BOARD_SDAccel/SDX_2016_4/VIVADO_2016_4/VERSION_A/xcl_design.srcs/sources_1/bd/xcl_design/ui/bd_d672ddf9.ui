@@ -1,0 +1,48 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port clkwiz_sysclks_clk_out2 -pg 1 -y 150 -defaultsOSRD
+preplace port clkwiz_kernel2_locked -pg 1 -y 80 -defaultsOSRD
+preplace port ref_clk -pg 1 -y 730 -defaultsOSRD
+preplace port clkwiz_kernel2_clk_out1 -pg 1 -y 60 -defaultsOSRD
+preplace port clkwiz_kernel_clk_out1 -pg 1 -y 220 -defaultsOSRD
+preplace port clkwiz_kernel_locked -pg 1 -y 240 -defaultsOSRD
+preplace port interconnect_axilite_static_M03_AXI -pg 1 -y 200 -defaultsOSRD
+preplace port clkwiz_sysclks_locked -pg 1 -y 460 -defaultsOSRD
+preplace port interconnect_axilite_static_M06_AXI -pg 1 -y 40 -defaultsOSRD
+preplace port iob_static_perst_n_out -pg 1 -y 270 -defaultsOSRD
+preplace port clkwiz_sysclks_clk_out1 -pg 1 -y 440 -defaultsOSRD
+preplace portBus psreset_ctrlclk_interconnect_aresetn -pg 1 -y 310 -defaultsOSRD
+preplace portBus buf_refclk_ibuf_IBUF_OUT -pg 1 -y 720 -defaultsOSRD
+preplace portBus const_vcc_1_dout -pg 1 -y 600 -defaultsOSRD
+preplace portBus const_gnd_3_dout -pg 1 -y 680 -defaultsOSRD
+preplace portBus const_gnd_1_dout -pg 1 -y 620 -defaultsOSRD
+preplace portBus buf_refclk_ibuf_IBUF_DS_ODIV2 -pg 1 -y 740 -defaultsOSRD
+preplace inst buf_refclk_bufg -pg 1 -lvl 1 -y 630 -defaultsOSRD
+preplace inst psreset_ctrlclk -pg 1 -lvl 2 -y 290 -defaultsOSRD
+preplace inst clkwiz_kernel2 -pg 1 -lvl 3 -y 70 -defaultsOSRD
+preplace inst buf_refclk_ibuf -pg 1 -lvl 3 -y 730 -defaultsOSRD
+preplace inst clkwiz_sysclkd -pg 1 -lvl 1 -y 100 -defaultsOSRD
+preplace inst clkwiz_kernel -pg 1 -lvl 3 -y 230 -defaultsOSRD
+preplace netloc Conn1 1 0 3 NJ 730 NJ 730 NJ
+preplace netloc clkwiz_sysclks_clk_out2 1 1 3 330 150 660 150 NJ
+preplace netloc clkwiz_kernel2_locked 1 3 1 NJ
+preplace netloc interconnect_axilite_static_M03_AXI_1 1 0 3 NJ 200 NJ 200 NJ
+preplace netloc clkwiz_kernel2_clk_out1 1 3 1 NJ
+preplace netloc BUFG_GT_CEMASK_1 1 0 1 0
+preplace netloc clkwiz_kernel_clk_out1 1 3 1 NJ
+preplace netloc clkwiz_kernel_locked 1 3 1 NJ
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 2 2 670 310 NJ
+preplace netloc BUFG_GT_DIV_1 1 0 1 NJ
+preplace netloc s_axi_lite_1 1 0 3 0J 30 NJ 30 660J
+preplace netloc clk_wiz_0_clk_out1 1 1 3 320J 440 NJ 440 N
+preplace netloc iob_static_perst_n_out_1 1 0 2 0J 270 N
+preplace netloc buf_refclk_bufg_BUFG_GT_O 1 0 3 10 390 310 390 680
+preplace netloc clkwiz_sysclks_locked 1 1 3 310 380 N 380 950J
+preplace netloc buf_refclk_ibuf_IBUF_OUT 1 3 1 NJ
+preplace netloc BUFG_GT_CE_1 1 0 1 NJ
+preplace netloc buf_refclk_ibuf_IBUF_DS_ODIV2 1 0 4 10 740 320J 670 NJ 670 950
+levelinfo -pg 1 -20 160 500 820 980 -top 0 -bot 790
+",
+}
+0

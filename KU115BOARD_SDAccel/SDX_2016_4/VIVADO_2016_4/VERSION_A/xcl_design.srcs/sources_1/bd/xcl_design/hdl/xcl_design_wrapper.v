@@ -1,7 +1,7 @@
 //Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2016.4_sdx (win64) Build 1806307 Thu Mar  9 15:24:31 MST 2017
-//Date        : Tue May 16 08:03:19 2017
+//Date        : Tue May 16 15:33:52 2017
 //Host        : SakinderLaptop1 running 64-bit major release  (build 9200)
 //Command     : generate_target xcl_design_wrapper.bd
 //Design      : xcl_design_wrapper
