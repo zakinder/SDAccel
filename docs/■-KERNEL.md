@@ -1,0 +1,1 @@
+The kernel program is a piece of computationally intensive code within the application identified by the programmer through profiling. The kernel source is written in a C-like language. Hardware vendors often have their OpenCL implementation optimized for their hardware, which can be applied by setting #pragma and __attribute__ in the kernel code. 
