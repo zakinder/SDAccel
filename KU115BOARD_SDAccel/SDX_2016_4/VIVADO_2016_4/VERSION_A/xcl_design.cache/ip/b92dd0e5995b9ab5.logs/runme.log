@@ -1,0 +1,120 @@
+
+*** Running vivado
+    with args -log xcl_design_clkwiz_kernel2_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source xcl_design_clkwiz_kernel2_0.tcl
+
+
+
+****** Vivado v2016.4_sdx (64-bit)
+  **** SW Build 1806307 on Thu Mar  9 15:24:31 MST 2017
+  **** IP Build 1759159 on Thu Jan 26 07:31:30 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Xilinx/SDx/2016.4/Vivado/scripts/init.tcl'
+16 Beta devices matching pattern found, 16 enabled.
+Loaded SDSoC Platform Tcl Library
+source xcl_design_clkwiz_kernel2_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 418.938 ; gain = 209.355
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/xcl_design_clkwiz_kernel2_0.v:70]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_axi_clk_config' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/xcl_design_clkwiz_kernel2_0_axi_clk_config.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_axi_lite_ipif' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_axi_lite_ipif.vhd:245]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_slave_attachment' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_slave_attachment.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_address_decoder' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_address_decoder.vhd:186]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f' (1#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized0' (1#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized1' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized1' (1#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized2' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized2' (1#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized3' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized3' (1#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized4' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized4' (1#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized5' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized5' (1#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized6' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized6' (1#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized7' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized7' (1#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized8' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_pselect_f__parameterized8' (1#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_pselect_f.vhd:162]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_address_decoder' (2#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_address_decoder.vhd:186]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_slave_attachment' (3#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_slave_attachment.vhd:236]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_axi_lite_ipif' (4#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/axi_lite_ipif_v1_01_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_axi_lite_ipif.vhd:245]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_clk_wiz_drp' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/xcl_design_clkwiz_kernel2_0_clk_wiz_drp.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_clk_wiz' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/xcl_design_clkwiz_kernel2_0_clk_wiz.v:68]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:14146]
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (5#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:14146]
+INFO: [Synth 8-638] synthesizing module 'MMCME3_ADV' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:20605]
+INFO: [Synth 8-256] done synthesizing module 'MMCME3_ADV' (6#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:20605]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (7#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_clk_wiz' (8#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/xcl_design_clkwiz_kernel2_0_clk_wiz.v:68]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_mmcm_drp' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/xcl_design_clkwiz_kernel2_0_mmcm_pll_drp.v:47]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_mmcm_drp' (9#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/xcl_design_clkwiz_kernel2_0_mmcm_pll_drp.v:47]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_clk_wiz_drp' (10#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/xcl_design_clkwiz_kernel2_0_clk_wiz_drp.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_clkwiz_kernel2_0_soft_reset' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_soft_reset.vhd:142]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_soft_reset' (11#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/proc_common_v3_00_a/hdl/src/vhdl/xcl_design_clkwiz_kernel2_0_soft_reset.vhd:142]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0_axi_clk_config' (12#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/xcl_design_clkwiz_kernel2_0_axi_clk_config.vhd:177]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_clkwiz_kernel2_0' (13#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_clkwiz_kernel2_0/xcl_design_clkwiz_kernel2_0.v:70]
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 467.898 ; gain = 258.316
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 467.898 ; gain = 258.316
+INFO: [Device 21-403] Loading part xcku115-flvb2104-2-e
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 1118.238 ; gain = 0.004
+Finished Constraint Validation : Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 1118.238 ; gain = 908.656
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 1118.238 ; gain = 908.656
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 1118.238 ; gain = 908.656
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:46 ; elapsed = 00:00:51 . Memory (MB): peak = 1118.238 ; gain = 908.656
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:31 ; elapsed = 00:01:37 . Memory (MB): peak = 1118.238 ; gain = 908.656
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------------------------------------+------------+---------------+----------------+
+|Module Name                                | RTL Object | Depth x Width | Implemented As | 
++-------------------------------------------+------------+---------------+----------------+
+|xcl_design_clkwiz_kernel2_0_mmcm_drp       | ram        | 2x39          | LUT            | 
+|xcl_design_clkwiz_kernel2_0_mmcm_drp       | ram        | 2x39          | LUT            | 
+|xcl_design_clkwiz_kernel2_0_mmcm_drp       | ram        | 2x39          | LUT            | 
+|xcl_design_clkwiz_kernel2_0_mmcm_drp       | ram        | 2x39          | LUT            | 
+|xcl_design_clkwiz_kernel2_0_axi_clk_config | ram        | 2x39          | LUT            | 
+|xcl_design_clkwiz_kernel2_0_axi_clk_config | ram        | 2x39          | LUT            | 
+|xcl_design_clkwiz_kernel2_0_axi_clk_config | ram        | 2x39          | LUT            | 
+|xcl_design_clkwiz_kernel2_0_axi_clk_config | ram        | 2x39          | LUT            | 
++-------------------------------------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:54 ; elapsed = 00:02:01 . Memory (MB): peak = 1316.051 ; gain = 1106.469
+Finished Timing Optimization : Time (s): cpu = 00:01:58 ; elapsed = 00:02:04 . Memory (MB): peak = 1333.781 ; gain = 1124.199
+Finished Technology Mapping : Time (s): cpu = 00:02:01 ; elapsed = 00:02:07 . Memory (MB): peak = 1344.887 ; gain = 1135.305
+Finished IO Insertion : Time (s): cpu = 00:02:02 ; elapsed = 00:02:08 . Memory (MB): peak = 1344.887 ; gain = 1135.305
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:02 ; elapsed = 00:02:08 . Memory (MB): peak = 1344.887 ; gain = 1135.305
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:02 ; elapsed = 00:02:08 . Memory (MB): peak = 1344.887 ; gain = 1135.305
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:02 ; elapsed = 00:02:08 . Memory (MB): peak = 1344.887 ; gain = 1135.305
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:02 ; elapsed = 00:02:08 . Memory (MB): peak = 1344.887 ; gain = 1135.305
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:02 ; elapsed = 00:02:08 . Memory (MB): peak = 1344.887 ; gain = 1135.305
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     2|
+|2     |CARRY8     |    10|
+|3     |LUT1       |     5|
+|4     |LUT2       |   120|
+|5     |LUT3       |   126|
+|6     |LUT4       |   166|
+|7     |LUT5       |   181|
+|8     |LUT6       |   727|
+|9     |MMCME3_ADV |     1|
+|10    |MUXF7      |   135|
+|11    |FDRE       |  1425|
+|12    |FDSE       |    57|
+|13    |IBUF       |     1|
++------+-----------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:02 ; elapsed = 00:02:08 . Memory (MB): peak = 1344.887 ; gain = 1135.305
+synth_design: Time (s): cpu = 00:02:05 ; elapsed = 00:02:07 . Memory (MB): peak = 1512.902 ; gain = 1168.648

@@ -1,0 +1,552 @@
+
+*** Running vivado
+    with args -log xcl_design_dma_pcie_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source xcl_design_dma_pcie_0.tcl
+
+
+
+****** Vivado v2016.4_sdx (64-bit)
+  **** SW Build 1806307 on Thu Mar  9 15:24:31 MST 2017
+  **** IP Build 1759159 on Thu Jan 26 07:31:30 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Xilinx/SDx/2016.4/Vivado/scripts/init.tcl'
+16 Beta devices matching pattern found, 16 enabled.
+Loaded SDSoC Platform Tcl Library
+source xcl_design_dma_pcie_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 491.000 ; gain = 281.547
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/synth/xcl_design_dma_pcie_0.v:64]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_core_top' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/xcl_design_dma_pcie_0_core_top.sv:60]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOAsync' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:571]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOAsync' (1#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:571]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOHead' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOHead' (7#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFO' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFO' (8#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOAsync__parameterized0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:571]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOAsync__parameterized0' (10#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:571]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized0' (10#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFO__parameterized0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFO__parameterized0' (10#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_dma_bram_wrap' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/dma_bram_wrap.sv:63]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_blk_mem_64_reg_be' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_1/synth/xcl_design_dma_pcie_0_blk_mem_64_reg_be.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_blk_mem_64_reg_be' (20#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_1/synth/xcl_design_dma_pcie_0_blk_mem_64_reg_be.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_dma_bram_wrap' (21#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/dma_bram_wrap.sv:63]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized1' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized1' (21#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized2' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized2' (22#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized3' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized3' (22#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized4' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized4' (22#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized5' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized5' (23#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized6' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized6' (23#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized7' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized7' (23#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized8' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized8' (24#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized9' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized9' (24#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized10' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized10' (24#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized11' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized11' (24#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized12' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized12' (24#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized13' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOHead__parameterized13' (24#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_dma_fifo_64x512_wrap' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/dma_bram_wrap.sv:177]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_dma_bram_wrap__parameterized0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/dma_bram_wrap.sv:63]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_dma_bram_wrap__parameterized0' (25#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/dma_bram_wrap.sv:63]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_dma_bram_wrap__parameterized1' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/dma_bram_wrap.sv:63]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_dma_bram_wrap__parameterized1' (25#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/dma_bram_wrap.sv:63]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_dma_bram_wrap__parameterized2' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/dma_bram_wrap.sv:63]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_dma_bram_wrap__parameterized2' (25#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/dma_bram_wrap.sv:63]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_dma_bram_wrap__parameterized3' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/dma_bram_wrap.sv:63]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_dma_bram_wrap__parameterized3' (25#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/dma_bram_wrap.sv:63]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_dma_fifo_64x512_wrap' (26#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/dma_bram_wrap.sv:177]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_fifo_wrap' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/dma_fifo_wrap.v:56]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_fifo_generator_64_parity_ult' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_2/synth/xcl_design_dma_pcie_0_fifo_generator_64_parity_ult.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_fifo_generator_64_parity_ult' (41#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_2/synth/xcl_design_dma_pcie_0_fifo_generator_64_parity_ult.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_fifo_wrap' (42#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/dma_fifo_wrap.v:56]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFO__parameterized1' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFO__parameterized1' (44#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFO__parameterized2' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFO__parameterized2' (44#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOAsync__parameterized1' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:571]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOAsync__parameterized1' (44#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:571]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOAsync__parameterized2' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:571]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOAsync__parameterized2' (44#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:571]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFO__parameterized3' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFO__parameterized3' (44#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFOHead2' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:926]
+ARead Node size: 325, nWords: 1, wSize: 325, memSize: 325
+AWrite Node size: 325, nWords: 1, wSize: 325, memSize: 325
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFOHead2' (45#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:926]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_mem_simple_dport_bram' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/dma_bram_wrap.sv:389]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_mem_simple_dport_bram' (47#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/dma_bram_wrap.sv:389]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFO__parameterized4' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFO__parameterized4' (51#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_0_1_GenericFIFO__parameterized5' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_0_1_GenericFIFO__parameterized5' (51#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/be6f/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-638] synthesizing module 'xpm_cdc_array_single' [C:/Xilinx/SDx/2016.4/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:721]
+INFO: [Synth 8-638] synthesizing module 'xpm_cdc_single' [C:/Xilinx/SDx/2016.4/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:99]
+INFO: [Synth 8-256] done synthesizing module 'xpm_cdc_single' (56#1) [C:/Xilinx/SDx/2016.4/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:99]
+INFO: [Synth 8-256] done synthesizing module 'xpm_cdc_array_single' (57#1) [C:/Xilinx/SDx/2016.4/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:721]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/synth/xcl_design_dma_pcie_0_pcie3_ip.v:76]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_pcie3_uscale_core_top' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_pcie3_uscale_core_top.v:61]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_wrapper' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_wrapper.v:132]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_txeq' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_txeq.v:72]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell' (61#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync' (62#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized0' (62#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized1' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized1' (62#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_txeq' (63#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_txeq.v:72]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_rxeq' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_rxeq.v:70]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized2' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized2' (63#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized3' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized3' (63#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized4' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized4' (63#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized5' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized5' (63#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_rxeq' (64#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_rxeq.v:70]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_gtwizard_top' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_gtwizard_top.v:69]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_gt' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/ip_0/synth/xcl_design_dma_pcie_0_pcie3_ip_gt.v:62]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_gt_gtwizard_top' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/ip_0/synth/xcl_design_dma_pcie_0_pcie3_ip_gt_gtwizard_top.v:170]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_gt_gtwizard_gthe3' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/ip_0/synth/xcl_design_dma_pcie_0_pcie3_ip_gt_gtwizard_gthe3.v:138]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_gt_gthe3_common_wrapper' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/ip_0/synth/xcl_design_dma_pcie_0_pcie3_ip_gt_gthe3_common_wrapper.v:56]
+INFO: [Synth 8-638] synthesizing module 'gtwizard_ultrascale_v1_5_4_gthe3_common' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/ip_0/synth/gtwizard_ultrascale_v1_5_gthe3_common.v:55]
+INFO: [Synth 8-638] synthesizing module 'GTHE3_COMMON' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:6827]
+INFO: [Synth 8-256] done synthesizing module 'GTHE3_COMMON' (65#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:6827]
+INFO: [Synth 8-256] done synthesizing module 'gtwizard_ultrascale_v1_5_4_gthe3_common' (66#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/ip_0/synth/gtwizard_ultrascale_v1_5_gthe3_common.v:55]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_gt_gthe3_common_wrapper' (67#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/ip_0/synth/xcl_design_dma_pcie_0_pcie3_ip_gt_gthe3_common_wrapper.v:56]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_gt_gthe3_channel_wrapper' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/ip_0/synth/xcl_design_dma_pcie_0_pcie3_ip_gt_gthe3_channel_wrapper.v:56]
+INFO: [Synth 8-638] synthesizing module 'gtwizard_ultrascale_v1_5_4_gthe3_channel' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/ip_0/synth/gtwizard_ultrascale_v1_5_gthe3_channel.v:55]
+INFO: [Synth 8-638] synthesizing module 'GTHE3_CHANNEL' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:5775]
+INFO: [Synth 8-256] done synthesizing module 'GTHE3_CHANNEL' (68#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:5775]
+INFO: [Synth 8-256] done synthesizing module 'gtwizard_ultrascale_v1_5_4_gthe3_channel' (69#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/ip_0/synth/gtwizard_ultrascale_v1_5_gthe3_channel.v:55]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_gt_gthe3_channel_wrapper' (70#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/ip_0/synth/xcl_design_dma_pcie_0_pcie3_ip_gt_gthe3_channel_wrapper.v:56]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_gt_gtwizard_gthe3' (71#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/ip_0/synth/xcl_design_dma_pcie_0_pcie3_ip_gt_gtwizard_gthe3.v:138]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_gt_gtwizard_top' (72#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/ip_0/synth/xcl_design_dma_pcie_0_pcie3_ip_gt_gtwizard_top.v:170]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_gt' (73#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/ip_0/synth/xcl_design_dma_pcie_0_pcie3_ip_gt.v:62]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_gtwizard_top' (74#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_gtwizard_top.v:69]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_clk' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_clk.v:71]
+INFO: [Synth 8-638] synthesizing module 'BUFG_GT' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:760]
+INFO: [Synth 8-256] done synthesizing module 'BUFG_GT' (75#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:760]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_clk' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_clk.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_rst' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_rst.v:67]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized6' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized0' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized1' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized1' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized2' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized2' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized3' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized3' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized4' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized4' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized5' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized5' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized6' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized6' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized7' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized7' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized6' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized7' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized8' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized8' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized9' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized9' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized10' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized10' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized11' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized11' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized12' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized12' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized13' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized13' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized14' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized14' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized15' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized15' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized7' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized8' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized16' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized16' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized17' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized17' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized8' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized9' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized18' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized18' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized19' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized19' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized9' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized10' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized20' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized20' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized21' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized21' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized22' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized22' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized23' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized23' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized24' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized24' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized25' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized25' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized26' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized26' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized27' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized27' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized10' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized11' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized28' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized28' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized29' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized29' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized30' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized30' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized31' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized31' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized32' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized32' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized33' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized33' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized34' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized34' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized35' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized35' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized11' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized12' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized36' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized36' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized37' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized37' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized38' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized38' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized39' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized39' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized40' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized40' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized41' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized41' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized42' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized42' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized43' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized43' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized12' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized13' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized44' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized44' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized45' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized45' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized46' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized46' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized47' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized47' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized48' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized48' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized49' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized49' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized50' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized50' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized51' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized51' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized13' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized14' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized52' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized52' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized53' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized53' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized54' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized54' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized55' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized55' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized56' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized56' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized57' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized57' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized58' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized58' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized59' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized59' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized14' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized15' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized60' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized60' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized15' (76#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_rst' (77#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_rst.v:67]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_wrapper' (78#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_wrapper.v:132]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_pcie3_uscale_top' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_pcie3_uscale_top.v:60]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_init_ctrl' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_init_ctrl.v:58]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_init_ctrl' (79#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_init_ctrl.v:58]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_tph_tbl' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_tph_tbl.v:60]
+INFO: [Synth 8-638] synthesizing module 'RAMB36E2' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:42388]
+INFO: [Synth 8-256] done synthesizing module 'RAMB36E2' (80#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:42388]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_tph_tbl' (81#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_tph_tbl.v:60]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_pipe_pipeline' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_pipe_pipeline.v:60]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_pipe_lane' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_pipe_lane.v:61]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_pipe_lane' (82#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_pipe_lane.v:61]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_pipe_misc' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_pipe_misc.v:61]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_pipe_misc' (83#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_pipe_misc.v:61]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_pipe_pipeline' (84#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_pipe_pipeline.v:60]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_pcie3_uscale_wrapper' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_pcie3_uscale_wrapper.v:60]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_bram' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_bram.v:60]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_bram_rep' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_bram_rep.v:60]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_bram_rep_8k' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_bram_rep_8k.v:60]
+INFO: [Synth 8-638] synthesizing module 'RAMB36E2__parameterized0' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:42388]
+INFO: [Synth 8-256] done synthesizing module 'RAMB36E2__parameterized0' (84#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:42388]
+INFO: [Synth 8-638] synthesizing module 'RAMB36E2__parameterized1' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:42388]
+INFO: [Synth 8-256] done synthesizing module 'RAMB36E2__parameterized1' (84#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:42388]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_bram_rep_8k' (85#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_bram_rep_8k.v:60]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_bram_rep' (86#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_bram_rep.v:60]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_bram_req' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_bram_req.v:60]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_bram_req_8k' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_bram_req_8k.v:60]
+INFO: [Synth 8-638] synthesizing module 'RAMB18E2' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-256] done synthesizing module 'RAMB18E2' (87#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_bram_req_8k' (88#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_bram_req_8k.v:60]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_bram_req' (89#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_bram_req.v:60]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_bram_cpl' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_bram_cpl.v:60]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_bram_16k' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_bram_16k.v:60]
+INFO: [Synth 8-638] synthesizing module 'RAMB18E2__parameterized0' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-256] done synthesizing module 'RAMB18E2__parameterized0' (89#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-638] synthesizing module 'RAMB18E2__parameterized1' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-256] done synthesizing module 'RAMB18E2__parameterized1' (89#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-638] synthesizing module 'RAMB18E2__parameterized2' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-256] done synthesizing module 'RAMB18E2__parameterized2' (89#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-638] synthesizing module 'RAMB18E2__parameterized3' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-256] done synthesizing module 'RAMB18E2__parameterized3' (89#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-638] synthesizing module 'RAMB18E2__parameterized4' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-256] done synthesizing module 'RAMB18E2__parameterized4' (89#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-638] synthesizing module 'RAMB18E2__parameterized5' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-256] done synthesizing module 'RAMB18E2__parameterized5' (89#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-638] synthesizing module 'RAMB18E2__parameterized6' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-256] done synthesizing module 'RAMB18E2__parameterized6' (89#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-638] synthesizing module 'RAMB18E2__parameterized7' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-256] done synthesizing module 'RAMB18E2__parameterized7' (89#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:41626]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_bram_16k' (90#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_bram_16k.v:60]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_bram_cpl' (91#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_bram_cpl.v:60]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_bram' (92#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_bram.v:60]
+INFO: [Synth 8-638] synthesizing module 'PCIE_3_1' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:30485]
+INFO: [Synth 8-256] done synthesizing module 'PCIE_3_1' (93#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:30485]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_pcie3_uscale_wrapper' (94#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_pcie3_uscale_wrapper.v:60]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_pcie3_uscale_top' (95#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_pcie3_uscale_top.v:60]
+INFO: [Synth 8-638] synthesizing module 'BUFG_GT_SYNC' [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:780]
+INFO: [Synth 8-256] done synthesizing module 'BUFG_GT_SYNC' (96#1) [C:/Xilinx/SDx/2016.4/Vivado/scripts/rt/data/unisim_comp.v:780]
+INFO: [Synth 8-638] synthesizing module 'xpm_cdc_async_rst' [C:/Xilinx/SDx/2016.4/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:884]
+INFO: [Synth 8-256] done synthesizing module 'xpm_cdc_async_rst' (97#1) [C:/Xilinx/SDx/2016.4/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:884]
+INFO: [Synth 8-638] synthesizing module 'xpm_cdc_async_rst__parameterized0' [C:/Xilinx/SDx/2016.4/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:884]
+INFO: [Synth 8-256] done synthesizing module 'xpm_cdc_async_rst__parameterized0' (97#1) [C:/Xilinx/SDx/2016.4/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:884]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_rxcdrhold' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_rxcdrhold.v:57]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized16' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized61' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell__parameterized61' (97#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync_cell.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_phy_sync__parameterized16' (97#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_phy_sync.v:71]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_rxcdrhold' (98#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_rxcdrhold.v:57]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip_pcie3_uscale_core_top' (99#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/source/xcl_design_dma_pcie_0_pcie3_ip_pcie3_uscale_core_top.v:61]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_pcie3_ip' (100#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/ip_0/synth/xcl_design_dma_pcie_0_pcie3_ip.v:76]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0_core_top' (101#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/xdma_v3_0/hdl/verilog/xcl_design_dma_pcie_0_core_top.sv:60]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_dma_pcie_0' (102#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_dma_pcie_0/synth/xcl_design_dma_pcie_0.v:64]
+Finished RTL Elaboration : Time (s): cpu = 00:02:40 ; elapsed = 00:02:46 . Memory (MB): peak = 1878.250 ; gain = 1668.797
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:44 ; elapsed = 00:02:51 . Memory (MB): peak = 1878.250 ; gain = 1668.797
+INFO: [Device 21-403] Loading part xcku115-flvb2104-2-e
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.250 . Memory (MB): peak = 2091.270 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:03:39 ; elapsed = 00:03:46 . Memory (MB): peak = 2091.270 ; gain = 1881.816
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:04:12 ; elapsed = 00:04:20 . Memory (MB): peak = 2091.270 ; gain = 1881.816
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:06:11 ; elapsed = 00:06:36 . Memory (MB): peak = 2091.270 ; gain = 1881.816
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping  Report (see note below)
++--------------------------------------------+------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                                 | RTL Object                   | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++--------------------------------------------+------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|xdma_v3_0_1_vul_rdwr_eng                    | rrq_wadr_nn1_reg             | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|xdma_v3_0_1_vul_rdwr_eng                    | rrq_wadr_nn1_reg             | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|xdma_v3_0_1_vul_rdwr_eng                    | rrq_wadr_nn1_reg             | 32 x 64(READ_FIRST)    | W |   | 32 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|xdma_v3_0_1_vul_rdwr_eng                    | rrq_wadr_nn1_reg             | 32 x 64(READ_FIRST)    | W |   | 32 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|xdma_v3_0_1_mem_simple_dport_bram           | the_bram_reg                 | 512 x 331(READ_FIRST)  | W |   | 512 x 331(WRITE_FIRST) |   | R | Port A and B     | 0      | 5      | 
+|xdma_v3_0_1_pcie_userapp_tgt_reg_space_msix | msix_ram_gen[1].msix_ram_reg | 512 x 32(READ_FIRST)   | W | R | 512 x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 
++--------------------------------------------+------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++----------------------------------------+-----------------------------------------------------------------------------+----------------+----------------------+-----------------+
+|Module Name                             | RTL Object                                                                  | Inference      | Size (Depth x Width) | Primitives      | 
++----------------------------------------+-----------------------------------------------------------------------------+----------------+----------------------+-----------------+
+|xdma_v3_0_1_GenericFIFOHead             | MemArray_reg                                                                | User Attribute | 8 x 163              |                 | 
+|xdma_v3_0_1_GenericFIFOHead             | MemArray_reg                                                                | User Attribute | 4 x 111              |                 | 
+|xdma_v3_0_1_GenericFIFOHead             | MemArray_reg                                                                | User Attribute | 4 x 111              |                 | 
+|xdma_v3_0_1_vul_rdwr_eng                | rcp_rcv_amt_101_reg                                                         | Implied        | 16 x 8               | RAM16X1D x 8    | 
+|xdma_v3_0_1_vul_rdwr_eng                | rrq_len_nn1_reg                                                             | Implied        | 16 x 13              |                 | 
+|xdma_v3_0_1_vul_rdwr_eng                | rrq_wfba_nn1_reg                                                            | Implied        | 16 x 5               |                 | 
+|xdma_v3_0_1_vul_rdwr_eng                | rcp_rcv_lba_101_reg                                                         | Implied        | 16 x 5               |                 | 
+|xdma_v3_0_1_vul_rdwr_eng                | rrq_bt_len_nn1_reg                                                          | Implied        | 16 x 8               |                 | 
+|xdma_v3_0_1_GenericFIFOHead             | MemArray_reg                                                                | User Attribute | 8 x 163              |                 | 
+|xdma_v3_0_1_GenericFIFOHead             | MemArray_reg                                                                | User Attribute | 4 x 111              |                 | 
+|xdma_v3_0_1_GenericFIFOHead             | MemArray_reg                                                                | User Attribute | 4 x 111              |                 | 
+|xdma_v3_0_1_vul_rdwr_eng                | rcp_rcv_amt_101_reg                                                         | Implied        | 16 x 8               | RAM16X1D x 8    | 
+|xdma_v3_0_1_vul_rdwr_eng                | rrq_len_nn1_reg                                                             | Implied        | 16 x 13              |                 | 
+|xdma_v3_0_1_vul_rdwr_eng                | rrq_wfba_nn1_reg                                                            | Implied        | 16 x 5               |                 | 
+|xdma_v3_0_1_vul_rdwr_eng                | rcp_rcv_lba_101_reg                                                         | Implied        | 16 x 5               |                 | 
+|xdma_v3_0_1_vul_rdwr_eng                | rrq_bt_len_nn1_reg                                                          | Implied        | 16 x 8               |                 | 
+|xdma_v3_0_1_GenericFIFOHead             | MemArray_reg                                                                | User Attribute | 8 x 163              |                 | 
+|xdma_v3_0_1_GenericFIFOHead             | MemArray_reg                                                                | User Attribute | 4 x 111              |                 | 
+|xdma_v3_0_1_GenericFIFOHead             | MemArray_reg                                                                | User Attribute | 4 x 111              |                 | 
+|xdma_v3_0_1_vul_rdwr_eng                | rcp_rcv_amt_101_reg                                                         | Implied        | 32 x 8               | RAM32X1D x 8    | 
+|xdma_v3_0_1_vul_rdwr_eng                | rrq_len_nn1_reg                                                             | Implied        | 32 x 13              |                 | 
+|xdma_v3_0_1_vul_rdwr_eng                | rrq_wfba_nn1_reg                                                            | Implied        | 32 x 5               |                 | 
+|xdma_v3_0_1_vul_rdwr_eng                | rcp_rcv_lba_101_reg                                                         | Implied        | 32 x 5               |                 | 
+|xdma_v3_0_1_vul_rdwr_eng                | rrq_bt_len_nn1_reg                                                          | Implied        | 32 x 8               |                 | 
+|xdma_v3_0_1_GenericFIFOHead             | MemArray_reg                                                                | User Attribute | 8 x 163              |                 | 
+|xdma_v3_0_1_GenericFIFOHead             | MemArray_reg                                                                | User Attribute | 4 x 111              |                 | 
+|xdma_v3_0_1_GenericFIFOHead             | MemArray_reg                                                                | User Attribute | 4 x 111              |                 | 
+|xdma_v3_0_1_vul_rdwr_eng                | rcp_rcv_amt_101_reg                                                         | Implied        | 32 x 8               | RAM32X1D x 8    | 
+|xdma_v3_0_1_vul_rdwr_eng                | rrq_len_nn1_reg                                                             | Implied        | 32 x 13              |                 | 
+|xdma_v3_0_1_vul_rdwr_eng                | rrq_wfba_nn1_reg                                                            | Implied        | 32 x 5               |                 | 
+|xdma_v3_0_1_vul_rdwr_eng                | rcp_rcv_lba_101_reg                                                         | Implied        | 32 x 5               |                 | 
+|xdma_v3_0_1_vul_rdwr_eng                | rrq_bt_len_nn1_reg                                                          | Implied        | 32 x 8               |                 | 
+|xdma_v3_0_1_GenericFIFOHead             | MemArray_reg                                                                | User Attribute | 4 x 111              |                 | 
+|xdma_v3_0_1_dma_rc_mem_pfch             | genblk_buf_dist_ram.pfch_dt_buf_reg                                         | User Attribute | 4 x 331              |                 | 
+|xdma_v3_0_1_dma_pcie_rc                 | tag_rrq_chn_info_mem_odd_reg                                                | Implied        | 32 x 16              |                 | 
+|xdma_v3_0_1_dma_pcie_rc                 | tag_rrq_chn_info_mem_even_reg                                               | Implied        | 32 x 16              |                 | 
+|xdma_v3_0_1_dma_pcie_rc                 | tag_did_conti_val_reg                                                       | Implied        | 64 x 9               | RAM64X1S x 9    | 
+|xdma_v3_0_1_GenericFIFO                 | MemArray_reg                                                                | User Attribute | 8 x 288              |                 | 
+|xdma_v3_0_1_GenericFIFO                 | MemArray_reg                                                                | User Attribute | 8 x 100              |                 | 
+|xdma_v3_0_1_dma_pcie_rq                 | wcp_chn_q_reg                                                               | Implied        | 16 x 2               | RAM16X1D x 2    | 
+|xdma_v3_0_1_dma_pcie_rq                 | wcp_eor_q_reg                                                               | Implied        | 16 x 1               | RAM16X1D x 1    | 
+|xdma_v3_0_1_dma_pcie_rq                 | wcp_rid_q_reg                                                               | Implied        | 16 x 5               |                 | 
+|xdma_v3_0_1_dma_top                     | axidma_rrq_arb/fifoInfo/MemArray_reg                                        | User Attribute | 4 x 113              |                 | 
+|xdma_v3_0_1_dma_top                     | axidma_wrq_arb/fifoInfo/MemArray_reg                                        | User Attribute | 4 x 113              |                 | 
+|xdma_v3_0_1_dma_top                     | TAG_FIFO_ODD/MemArray_reg                                                   | User Attribute | 32 x 5               |                 | 
+|xdma_v3_0_1_dma_top                     | TAG_FIFO_EVEN/MemArray_reg                                                  | User Attribute | 32 x 5               |                 | 
+|xdma_v3_0_1_dma_top__GCB0               | dma_enable.aximm.dma_aximm/axidma_rrq_arb/fifoInfo/MemArray_reg             | User Attribute | 4 x 112              |                 | 
+|xdma_v3_0_1_dma_top__GCB0               | dma_enable.aximm.dma_aximm/axi4mm_axi_mm_master_rd/rdDataBuf_ff_reg         | Implied        | 8 x 256              |                 | 
+|xdma_v3_0_1_dma_top__GCB0               | dma_enable.aximm.dma_aximm/axi4mm_axi_mm_master_rd/rdreqIdq_ff_reg          | Implied        | 2 x 5                | RAM16X1S x 5    | 
+|xdma_v3_0_1_dma_top__GCB0               | dma_enable.aximm.dma_aximm/axi4mm_axi_mm_master_rd/rrsp_ChnlIdq_reg         | User Attribute | 16 x 1               | RAM16X1D x 1    | 
+|xdma_v3_0_1_dma_top__GCB0               | dma_enable.aximm.dma_aximm/axi4mm_axi_mm_master_rd/m_axi_archnlIdIssueq_reg | User Attribute | 16 x 1               | RAM16X1D x 1    | 
+|xdma_v3_0_1_dma_top__GCB0               | dma_enable.aximm.dma_aximm/axi4mm_axi_mm_master_rd/m_axi_araddrissueq_reg   | User Attribute | 16 x 64              |                 | 
+|xdma_v3_0_1_dma_top__GCB0               | dma_enable.aximm.dma_aximm/axi4mm_axi_mm_master_rd/m_axi_arlenissueq_reg    | User Attribute | 16 x 8               |                 | 
+|xdma_v3_0_1_dma_top__GCB0               | dma_enable.aximm.dma_aximm/axi4mm_axi_mm_master_rd/m_axi_arsizeissueq_reg   | User Attribute | 16 x 3               |                 | 
+|xdma_v3_0_1_dma_top__GCB0               | dma_enable.aximm.dma_aximm/axi4mm_axi_mm_master_rd/m_axi_arprotissueq_reg   | User Attribute | 16 x 3               |                 | 
+|xdma_v3_0_1_dma_top__GCB0               | dma_enable.aximm.dma_aximm/axi4mm_axi_mm_master_rd/rdreqRunBufAddrq_ff_reg  | Implied        | 2 x 9                | RAM16X1S x 9    | 
+|xdma_v3_0_1_dma_top__GCB0               | dma_enable.aximm.dma_aximm/axidma_wrq_arb/fifoInfo/MemArray_reg             | User Attribute | 4 x 112              |                 | 
+|xdma_v3_0_1_GenericFIFOHead             | MemArray_reg                                                                | User Attribute | 16 x 32              |                 | 
+|xdma_v3_0_1_GenericFIFO                 | MemArray_reg                                                                | User Attribute | 8 x 288              |                 | 
+|xdma_v3_0_1_axi_mm_master_omulti_wr_v   | m_axi_awlenq_reg                                                            | Implied        | 16 x 8               |                 | 
+|xdma_v3_0_1_axi_mm_master_omulti_wr_v   | brespLastq_ff_reg                                                           | Implied        | 2 x 16               | RAM16X1D x 16   | 
+|xdma_v3_0_1_axi_mm_master_omulti_wr_v   | wrrsp_ChnlIdq_reg                                                           | User Attribute | 16 x 1               |                 | 
+|xdma_v3_0_1_axi_mm_master_omulti_wr_v   | m_axi_awaddrq_reg                                                           | User Attribute | 16 x 64              |                 | 
+|xdma_v3_0_1_axi_mm_master_omulti_wr_v   | m_axi_ChnlIdq_reg                                                           | User Attribute | 16 x 1               | RAM16X1D x 2    | 
+|xdma_v3_0_1_axi_mm_master_omulti_wr_v   | m_axi_awsizeq_reg                                                           | User Attribute | 16 x 3               |                 | 
+|xdma_v3_0_1_axi_mm_master_omulti_wr_v   | m_axi_awprotq_reg                                                           | User Attribute | 16 x 3               |                 | 
+|xdma_v3_0_1_axi_mm_master_omulti_wr_v   | m_axi_wlenq_reg                                                             | Implied        | 16 x 8               |                 | 
+|xdma_v3_0_1_axi_mm_master_omulti_wr_v   | m_axi_waddrlastq_reg                                                        | User Attribute | 16 x 6               |                 | 
+|xdma_v3_0_1_axi_mm_master_omulti_wr_v   | m_axi_waddrfirstq_reg                                                       | User Attribute | 16 x 6               |                 | 
+|xdma_v3_0_1_axi_str_masterbr_rdtlp_br_v | rdtlplengthq_reg                                                            | Implied        | 16 x 10              |                 | 
+|xdma_v3_0_1_axi_str_masterbr_rdtlp_br_v | rdtlpfbeq_reg                                                               | Implied        | 16 x 4               |                 | 
+|xdma_v3_0_1_axi_str_masterbr_rdtlp_br_v | rdtlpaddrretlq_reg                                                          | Implied        | 16 x 12              |                 | 
+|xdma_v3_0_1_axi_str_masterbr_rdtlp_br_v | rdtlpstatuscodeq_reg                                                        | User Attribute | 16 x 3               |                 | 
+|xdma_v3_0_1_axi_str_masterbr_rdtlp_br_v | rdtlplbeq_reg                                                               | Implied        | 16 x 4               |                 | 
+|xdma_v3_0_1_axi_str_masterbr_rdtlp_br_v | rdtlplengthmsbq_reg                                                         | Implied        | 16 x 1               | RAM16X1D x 1    | 
+|xdma_v3_0_1_axi_str_masterbr_rdtlp_br_v | rdtlpreqidq_reg                                                             | Implied        | 16 x 16              |                 | 
+|xdma_v3_0_1_axi_str_masterbr_rdtlp_br_v | rdtlptagq_reg                                                               | Implied        | 16 x 8               |                 | 
+|xdma_v3_0_1_axi_str_masterbr_rdtlp_br_v | rdtlpfuncq_reg                                                              | Implied        | 16 x 8               |                 | 
+|xdma_v3_0_1_axi_str_masterbr_rdtlp_br_v | rdtlptcq_reg                                                                | Implied        | 16 x 3               |                 | 
+|xdma_v3_0_1_axi_str_masterbr_rdtlp_br_v | rdtlpattrq_reg                                                              | Implied        | 16 x 3               |                 | 
+|xdma_v3_0_1_axi_mm_master_wr_br_v       | m_axi_awdwlenq_reg                                                          | Implied        | 8 x 10               |                 | 
+|xdma_v3_0_1_axi_mm_master_wr_br_v       | m_axi_bardecq_reg                                                           | Implied        | 8 x 2                | RAM16X1D x 4    | 
+|xdma_v3_0_1_axi_mm_master_wr_br_v       | m_axi_awaddrq_reg                                                           | Implied        | 8 x 64               |                 | 
+|xdma_v3_0_1_axi_mm_master_wr_br_v       | m_axi_funcq_reg                                                             | Implied        | 8 x 8                |                 | 
+|xdma_v3_0_1_axi_mm_master_wr_br_v       | m_axi_awsizeq_reg                                                           | Implied        | 8 x 3                |                 | 
+|xdma_v3_0_1_axi_mm_master_wr_br_v       | m_axi_awprotq_reg                                                           | Implied        | 8 x 3                |                 | 
+|xdma_v3_0_1_axi_mm_master_wr_br_v       | m_axi_awfirstdwbestq_reg                                                    | Implied        | 8 x 4                |                 | 
+|xdma_v3_0_1_axi_mm_master_wr_br_v       | m_axi_awlastdwbestq_reg                                                     | Implied        | 8 x 4                |                 | 
+|xdma_v3_0_1_axi_mm_master_wr_br_v       | m_axi_awdwlenstq_reg                                                        | Implied        | 8 x 8                |                 | 
+|xdma_v3_0_1_axi_mm_master_wr_br_v       | m_axi_awaddrlststq_reg                                                      | Implied        | 8 x 4                |                 | 
+|xdma_v3_0_1_axi_mm_master_wr_br_v       | m_axi_awaddrstq_reg                                                         | Implied        | 8 x 4                |                 | 
+|xdma_v3_0_1_axi_mm_master_rd_br_v       | m_axi_bardecq_reg                                                           | Implied        | 2 x 2                | RAM16X1D x 4    | 
+|xdma_v3_0_1_axi_mm_master_rd_br_v       | m_axi_ardwlenissueq_reg                                                     | User Attribute | 2 x 10               |                 | 
+|xdma_v3_0_1_axi_mm_master_rd_br_v       | m_axi_araddrissueq_reg                                                      | User Attribute | 2 x 64               |                 | 
+|xdma_v3_0_1_axi_mm_master_rd_br_v       | m_axi_funcq_reg                                                             | User Attribute | 2 x 8                |                 | 
+|xdma_v3_0_1_axi_mm_master_rd_br_v       | m_axi_arsizeissueq_reg                                                      | User Attribute | 2 x 3                |                 | 
+|xdma_v3_0_1_axi_mm_master_rd_br_v       | m_axi_arprotissueq_reg                                                      | User Attribute | 2 x 3                |                 | 
+|xdma_v3_0_1_dma_top__GCB1               | dma_enable.wb_eng.dma_pcie_wb_eng/axidma_wb_arb/fifoInfo/MemArray_reg       | User Attribute | 4 x 34               |                 | 
+|xdma_v3_0_1_dma_top__GCB1               | dma_enable.wb_eng.dma_pcie_wb_eng/WB_CHNL_FIFO/MemArray_reg                 | User Attribute | 4 x 2                | RAM16X1D x 2    | 
+|xdma_v3_0_1_dma_top__GCB1               | dma_enable.wb_eng.dma_pcie_wb_eng/WB_DAT_FIFO/MemArray_reg                  | User Attribute | 4 x 32               |                 | 
+|xdma_v3_0_1_dma_top__GCB2               | base/usr_axilt_slv/REQ_FIFO/MemArray_reg                                    | User Attribute | 4 x 33               |                 | 
+|xdma_v3_0_1_dma_top__GCB2               | base/cq_axilt_slv/REQ_FIFO/MemArray_reg                                     | User Attribute | 4 x 33               |                 | 
+|xdma_v3_0_1_dma_top__GCB2               | base/usr_axilt_slv/DAT_FIFO/MemArray_reg                                    | User Attribute | 4 x 36               |                 | 
+|xdma_v3_0_1_dma_top__GCB2               | base/cq_axilt_slv/DAT_FIFO/MemArray_reg                                     | User Attribute | 4 x 36               |                 | 
++----------------------------------------+-----------------------------------------------------------------------------+----------------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:06:41 ; elapsed = 00:07:06 . Memory (MB): peak = 2616.012 ; gain = 2406.559
+Finished Timing Optimization : Time (s): cpu = 00:07:30 ; elapsed = 00:07:57 . Memory (MB): peak = 2813.160 ; gain = 2603.707
+Finished Technology Mapping : Time (s): cpu = 00:08:02 ; elapsed = 00:08:29 . Memory (MB): peak = 2813.160 ; gain = 2603.707
+Finished IO Insertion : Time (s): cpu = 00:08:29 ; elapsed = 00:08:57 . Memory (MB): peak = 2813.160 ; gain = 2603.707
+Finished Renaming Generated Instances : Time (s): cpu = 00:08:30 ; elapsed = 00:08:58 . Memory (MB): peak = 2813.160 ; gain = 2603.707
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:08:45 ; elapsed = 00:09:13 . Memory (MB): peak = 2813.160 ; gain = 2603.707
+Finished Renaming Generated Ports : Time (s): cpu = 00:08:47 ; elapsed = 00:09:15 . Memory (MB): peak = 2813.160 ; gain = 2603.707
+Finished Handling Custom Attributes : Time (s): cpu = 00:08:52 ; elapsed = 00:09:20 . Memory (MB): peak = 2813.160 ; gain = 2603.707
+Finished Renaming Generated Nets : Time (s): cpu = 00:08:53 ; elapsed = 00:09:20 . Memory (MB): peak = 2813.160 ; gain = 2603.707
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |BUFG_GT       |     5|
+|2     |BUFG_GT_SYNC  |     1|
+|3     |CARRY8        |   456|
+|4     |FIFO36E2      |     8|
+|5     |GTHE3_CHANNEL |     8|
+|6     |GTHE3_COMMON  |     2|
+|7     |LUT1          |  2107|
+|8     |LUT2          |  2351|
+|9     |LUT3          |  6479|
+|10    |LUT4          |  4315|
+|11    |LUT5          |  4787|
+|12    |LUT6          | 11222|
+|13    |MUXF7         |   470|
+|14    |MUXF8         |    32|
+|15    |PCIE_3_1      |     1|
+|16    |RAM16X1D      |    48|
+|17    |RAM16X1S      |    13|
+|18    |RAM32M16      |   339|
+|19    |RAM32X1D      |    16|
+|20    |RAM64X1S      |     9|
+|21    |RAMB18E2      |     4|
+|22    |RAMB18E2_1    |     8|
+|23    |RAMB36E2      |     4|
+|24    |RAMB36E2_1    |    20|
+|25    |RAMB36E2_2    |     1|
+|26    |RAMB36E2_3    |     1|
+|27    |RAMB36E2_4    |     2|
+|28    |RAMB36E2_6    |     5|
+|29    |SRL16E        |    12|
+|30    |FDCE          |  2530|
+|31    |FDPE          |     6|
+|32    |FDRE          | 23599|
+|33    |FDSE          |   363|
++------+--------------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:08:53 ; elapsed = 00:09:20 . Memory (MB): peak = 2813.160 ; gain = 2603.707
+synth_design: Time (s): cpu = 00:09:35 ; elapsed = 00:09:54 . Memory (MB): peak = 2827.668 ; gain = 2440.164
+write_checkpoint: Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 2827.668 ; gain = 0.000
+write_verilog: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2827.668 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2827.668 ; gain = 0.000
