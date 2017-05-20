@@ -1,0 +1,62 @@
+
+*** Running vivado
+    with args -log xcl_design_xilmonitor_subset0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source xcl_design_xilmonitor_subset0_0.tcl
+
+
+
+****** Vivado v2016.4_sdx (64-bit)
+  **** SW Build 1806307 on Thu Mar  9 15:24:31 MST 2017
+  **** IP Build 1759159 on Thu Jan 26 07:31:30 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Xilinx/SDx/2016.4/Vivado/scripts/init.tcl'
+16 Beta devices matching pattern found, 16 enabled.
+Loaded SDSoC Platform Tcl Library
+source xcl_design_xilmonitor_subset0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 418.617 ; gain = 209.004
+INFO: [Synth 8-638] synthesizing module 'xcl_design_xilmonitor_subset0_0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/synth/xcl_design_xilmonitor_subset0_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'top_xcl_design_xilmonitor_subset0_0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/hdl/top_xcl_design_xilmonitor_subset0_0.v:60]
+INFO: [Synth 8-638] synthesizing module 'axis_subset_converter_v1_1_11_core' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/8a5f/hdl/axis_subset_converter_v1_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axis_subset_converter_v1_1_11_core' (1#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ipshared/8a5f/hdl/axis_subset_converter_v1_1_vl_rfs.v:62]
+INFO: [Synth 8-638] synthesizing module 'tdata_xcl_design_xilmonitor_subset0_0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/hdl/tdata_xcl_design_xilmonitor_subset0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tdata_xcl_design_xilmonitor_subset0_0' (2#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/hdl/tdata_xcl_design_xilmonitor_subset0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tuser_xcl_design_xilmonitor_subset0_0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/hdl/tuser_xcl_design_xilmonitor_subset0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tuser_xcl_design_xilmonitor_subset0_0' (3#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/hdl/tuser_xcl_design_xilmonitor_subset0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tid_xcl_design_xilmonitor_subset0_0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/hdl/tid_xcl_design_xilmonitor_subset0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tid_xcl_design_xilmonitor_subset0_0' (4#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/hdl/tid_xcl_design_xilmonitor_subset0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tdest_xcl_design_xilmonitor_subset0_0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/hdl/tdest_xcl_design_xilmonitor_subset0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tdest_xcl_design_xilmonitor_subset0_0' (5#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/hdl/tdest_xcl_design_xilmonitor_subset0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tstrb_xcl_design_xilmonitor_subset0_0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/hdl/tstrb_xcl_design_xilmonitor_subset0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tstrb_xcl_design_xilmonitor_subset0_0' (6#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/hdl/tstrb_xcl_design_xilmonitor_subset0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tkeep_xcl_design_xilmonitor_subset0_0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/hdl/tkeep_xcl_design_xilmonitor_subset0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tkeep_xcl_design_xilmonitor_subset0_0' (7#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/hdl/tkeep_xcl_design_xilmonitor_subset0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tlast_xcl_design_xilmonitor_subset0_0' [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/hdl/tlast_xcl_design_xilmonitor_subset0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tlast_xcl_design_xilmonitor_subset0_0' (8#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/hdl/tlast_xcl_design_xilmonitor_subset0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'top_xcl_design_xilmonitor_subset0_0' (9#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/hdl/top_xcl_design_xilmonitor_subset0_0.v:60]
+INFO: [Synth 8-256] done synthesizing module 'xcl_design_xilmonitor_subset0_0' (10#1) [c:/Sim/sdaccelku/xcl_design/xcl_design.srcs/sources_1/bd/xcl_design/ip/xcl_design_xilmonitor_subset0_0/synth/xcl_design_xilmonitor_subset0_0.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 456.117 ; gain = 246.504
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 456.117 ; gain = 246.504
+INFO: [Device 21-403] Loading part xcku115-flvb2104-2-e
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1002.086 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:39 ; elapsed = 00:00:49 . Memory (MB): peak = 1002.086 ; gain = 792.473
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:39 ; elapsed = 00:00:49 . Memory (MB): peak = 1002.086 ; gain = 792.473
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:49 . Memory (MB): peak = 1002.086 ; gain = 792.473
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:39 ; elapsed = 00:00:49 . Memory (MB): peak = 1002.086 ; gain = 792.473
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:49 . Memory (MB): peak = 1002.086 ; gain = 792.473
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:00 ; elapsed = 00:01:12 . Memory (MB): peak = 1237.816 ; gain = 1028.203
+Finished Timing Optimization : Time (s): cpu = 00:01:00 ; elapsed = 00:01:12 . Memory (MB): peak = 1237.816 ; gain = 1028.203
+Finished Technology Mapping : Time (s): cpu = 00:01:00 ; elapsed = 00:01:12 . Memory (MB): peak = 1248.402 ; gain = 1038.789
+Finished IO Insertion : Time (s): cpu = 00:01:01 ; elapsed = 00:01:13 . Memory (MB): peak = 1248.402 ; gain = 1038.789
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:01 ; elapsed = 00:01:13 . Memory (MB): peak = 1248.402 ; gain = 1038.789
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:01 ; elapsed = 00:01:13 . Memory (MB): peak = 1248.402 ; gain = 1038.789
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:01 ; elapsed = 00:01:13 . Memory (MB): peak = 1248.402 ; gain = 1038.789
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:01 ; elapsed = 00:01:13 . Memory (MB): peak = 1248.402 ; gain = 1038.789
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:01 ; elapsed = 00:01:13 . Memory (MB): peak = 1248.402 ; gain = 1038.789
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:01 ; elapsed = 00:01:13 . Memory (MB): peak = 1248.402 ; gain = 1038.789
+synth_design: Time (s): cpu = 00:00:59 ; elapsed = 00:01:11 . Memory (MB): peak = 1332.203 ; gain = 988.227
